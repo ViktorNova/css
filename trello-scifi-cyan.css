@@ -203,6 +203,7 @@ span.header-btn-text.js-member-name {
 
 img.member-avatar {
     border-radius: 3px;
+    background-color: #000000;
 }
 
 a.list-card-title.clear.js-card-name {
@@ -271,5 +272,46 @@ input.list-name-input {
     border-right-width: 0;
     border-bottom-width: 3px;
     border-top-width: 0;
+}
+
+span.badge-icon.icon-sm.icon-comment {
+    color: #000000;
+}
+
+div.window {
+    background-color: rgba(0,0,0,0.78);
+    border-radius: 16px;
+    color: #00ffff;
+}
+
+div.card-detail-data.gutter.clearfix {
+    background: #00ffff;
+    padding: .5em;
+    border-radius: 10px;
+    border-color: #0080ff;
+}
+
+div.action-comment.markeddown {
+    border-radius: 10px;
+    background: #000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+div.phenom.phenom-action.clearfix.phenom-comment {
+    border-color: #000000;
+    border-bottom-width: 5px;
+}
+
+div.current-comment p a {
+    color: #0080ff;
+}
+
+textarea.new-comment-input.js-new-comment-input {
+    background-color: #000000;
+    color: #0080ff;
+    font-family: 'Enter Sansman';
+    border-style: none;
+    border-color: border-color: #0080ff;;
 }
 
