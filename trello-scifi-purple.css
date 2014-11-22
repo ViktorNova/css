@@ -240,3 +240,7 @@ a.open-card-composer.js-open-card-composer {
     border-radius: 0 0  10px  10px;
 }
 
+span.badge-icon.icon-sm.icon-comment {
+    color: #000000;
+}
+
