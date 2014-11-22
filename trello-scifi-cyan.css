@@ -1,0 +1,275 @@
+h2.list-header-name.hide-on-edit.js-list-name {
+    font-family: 'Enter Sansman';
+    font-size: 1.6em;
+    color: #00bbff;
+}
+
+body {
+    font-family: 'Enter Sansman';
+}
+
+span.badge-icon.icon-sm.icon-desc {
+    color: #000000;
+}
+
+span.badge-icon.icon-sm.icon-checklist {
+    color: #000000;
+}
+
+span.badge-text {
+    color: #00ffff;
+    background-color: #000000;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+}
+
+div.badges {
+    float: right;
+}
+
+div.list {
+    background-color: #000000;
+    color: #00ffff;
+    border-style: solid;
+    box-shadow: 0 0 20px #000000,0 0 30px #000000;
+    border-color: #00ffff;
+    border-width: 9px;
+    border-radius: 20px;
+}
+
+div.list-card.js-member-droppable.ui-droppable {
+    background: none;
+    border: none;
+}
+
+div.list-card-details.clearfix {
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 16px;
+}
+
+span.card-label.card-label-red {
+    width: 102%;
+    height: 8px;
+    margin-left: -6px;
+    background: none;
+    border-radius: 16px 16px 0 0;
+    border-top-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 0;
+    border-style: solid;
+    border-color: #ff00ff;
+    margin-bottom: -15px;
+}
+
+span.card-label {
+    width: 102%;
+    height: 8px;
+    margin-left: -6px;
+    background: none;
+    border-radius: 16px 16px 0 0;
+    border-top-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 0;
+    border-style: solid;
+    margin-bottom: -15px;
+}
+
+span.card-label.card-label-yellow {
+    border-color: #d0ff00;
+}
+
+div.board-header.clearfix.js-board-header {
+    background-color: #00ffff;
+    color: #000000;
+    height: auto;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+#header {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+span.header-btn-icon.icon-lg.icon-board.light {
+    color: #000000;
+}
+
+span.header-btn-text {
+    background-color: #000000;
+    border-radius: 10px;
+    color: #00ffff;
+}
+
+span.header-btn-icon.icon-lg.icon-add.light {
+    color: #000000;
+}
+
+span.header-btn-icon.icon-lg.icon-notification.light {
+    color: #000000;
+}
+
+a.sidebar-show-btn.dark-hover {
+    transition: 1s;
+    background: none;
+    margin-right: -100px;
+}
+
+a.sidebar-show-btn.dark-hover:hover {
+    margin-right: 20px;
+}
+
+span.text {
+    width: 14em;
+    height: 2.2em;
+    color: #00ffff;
+    background-color: rgba(0,0,0,0.6);
+    padding-left: 16px;
+    border-radius: 10px 0 0 10px ;
+    margin-top: -1px;
+}
+
+div.board-wrapper.disabled-all-widgets {
+    background-color: #000000;
+}
+
+a.board-header-btn.board-header-btn-name.js-rename-board {
+    color: #000000;
+    float: left;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 4em;
+    font-size: 2em;
+}
+
+a.header-btn.header-boards.js-boards-menu {
+    border-style: solid;
+    border-color: #000000;
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 16px;
+}
+
+input.header-search-input.js-search-input.js-disable-on-dialog.disabled-for-dialog {
+    border-style: dashed;
+    border-color: #000000;
+    border-radius: 16px;
+}
+
+span.header-search-icon.icon-lg.icon-search.light.js-search-icon.js-search-focus {
+    color: #000000;
+}
+
+a.board-header-btn.perms-btn.js-change-vis {
+    color: #000000;
+}
+
+span.board-header-btn-icon.icon-sm.icon-star {
+    color: #000000;
+}
+
+span.board-header-btn-icon.icon-sm.icon-private {
+    color: #000000;
+}
+
+span.icon-sm.icon-leftarrow {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.list-header.js-list-header.non-empty.clearfix.editable {
+    background-color: #00ffff;
+    margin-left: -4px;
+    margin-right: -4px;
+    margin-top: -5px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+h2.list-header-name.hide-on-edit.js-list-name.current {
+    color: #000000;
+}
+
+span.header-btn-text.js-member-name {
+    margin-left: 7px;
+}
+
+img.member-avatar {
+    border-radius: 3px;
+}
+
+a.list-card-title.clear.js-card-name {
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+span.list-card-operation.icon-sm.icon-edit.dark-hover.js-open-quick-card-editor.js-card-menu {
+    background-color: rgba(0,0,0,0.4);
+    border-bottom-left-radius: 10px;
+    color: #000000;
+}
+
+a.list-header-menu-icon.icon-sm.icon-menu.dark-hover.js-open-list-menu {
+    color: #000000;
+}
+
+div.board-wrapper {
+    background-color: #000000;
+}
+
+div.list-card.js-composer {
+    background-color: #000000;
+    border-style: none;
+}
+
+textarea.list-card-composer-textarea.js-card-title {
+    font-family: 'Enter Sansman';
+    font-style: italic;
+    color: #000000;
+}
+
+div.fancy-scrollbar.js-no-higher-edits.js-list-sortable.ui-sortable {
+    background: #000000 url('http://images8.alphacoders.com/403/403441.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+div.list.add-list.idle {
+    border-color: #303030;
+}
+
+textarea.field.single-line {
+    font-family: 'Enter Sansman';
+    color: #000000;
+    font-size: 1.7em;
+    border-style: dashed;
+    border-color: #000000;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+}
+
+span.placeholder.js-open-add-list {
+    color: #303030;
+}
+
+input.list-name-input {
+    font-family: 'Enter Sansman';
+    color: #00ffff;
+    font-size: 1.7em;
+    border-style: dashed;
+    border-color: #00ffff;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+}
+
