@@ -315,3 +315,12 @@ textarea.new-comment-input.js-new-comment-input {
     border-color: border-color: #0080ff;;
 }
 
+a.open-card-composer.js-open-card-composer {
+    border-radius: 0 0 10px 10px;
+}
+
+a.open-card-composer.js-open-card-composer:hover {
+    background-color: #0080ff;
+    color: #000000;
+}
+
