@@ -1,5 +1,5 @@
 div.fancy-scrollbar.js-no-higher-edits.js-list-sortable.ui-sortable {
-    background: url('http://images8.alphacoders.com/403/403441.gif');
+    background: #000000 url('http://images8.alphacoders.com/403/403441.gif');
     background-size: cover;
     background-position: center;
 }
@@ -224,5 +224,9 @@ span.list-card-operation.icon-sm.icon-edit.dark-hover.js-open-quick-card-editor.
 
 a.list-header-menu-icon.icon-sm.icon-menu.dark-hover.js-open-list-menu {
     color: #000000;
+}
+
+div.board-wrapper {
+    background-color: #000000;
 }
 
