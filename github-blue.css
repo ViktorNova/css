@@ -67,14 +67,6 @@ a {
     color: cyan;
 }
 
-a.tabnav-tab.preview-tab.js-preview-tab {
-    background-color: #4a4a4a;
-}
-
-a.tabnav-tab.write-tab.js-write-tab.selected {
-    background-color: #4a4a4a;
-}
-
 article.markdown-body.entry-content h3 code {
     background-color: #3b3b3b;
 }
@@ -102,7 +94,7 @@ div.comment-body.markdown-body.js-comment-body p code {
 }
 
 div.form-actions {
-    background-color: #4c4c4c;
+    background-color: #000396;
 }
 
 div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.preview-selected {
@@ -110,7 +102,7 @@ div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.
 }
 
 div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.write-selected {
-    background-color: #4c4c4c;
+    background-color: #000396;
 }
 
 div.preview-content {
@@ -144,6 +136,7 @@ html, body {
 
 div.branch-infobar.clearfix {
     background-color: #00aaff;
+    border-color: #00aaff;
 }
 
 div.branch-infobar.clearfix p {
@@ -351,11 +344,6 @@ a.button-link {
 
 span.octicon.octicon-issue-closed.closed {
     color: #00ff73;
-}
-
-span.octicon.octicon-issue-opened {
-    color: #e00070;
-    text-shadow: 0 0 2px #000000;
 }
 
 span.octicon.octicon-check {
@@ -604,5 +592,51 @@ span.sha {
 
 span.text-emphasized {
     color: #000396;
+}
+
+div.comment.timeline-comment.js-comment.js-task-list-container.owner-comment {
+    border-color: #000396;
+}
+
+div.timeline-comment {
+    border-color: #000396;
+}
+
+div.write-content.js-write-bucket.js-uploadable-container.js-upload-markdown-image.upload-enabled.is-default {
+    background-color: #000396;
+}
+
+p.drag-and-drop {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-milestone {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-assignee {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-notifications {
+    border-color: #000396;
+}
+
+p.reason {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.js-socket-channel.js-updatable-content {
+    border-color: #000396;
+}
+
+div.state.state-open {
+    background-color: #a6ff00;
+    color: #000000;
+}
+
+span.octicon.octicon-issue-opened {
+    color: #e00070;
+    text-shadow: 0 0 3px #000000;
 }
 
