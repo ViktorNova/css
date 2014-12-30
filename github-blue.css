@@ -433,24 +433,14 @@ div.blankslate.spacious.large-format.capped {
     border-color: #000396;
 }
 
-a.js-selected-navigation-item.sunken-menu-item {
-    border-color: #000396;
-}
-
 a.social-count {
     border-color: #000396;
-}
-
-nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loaders {
-    border-color: #000396;
-    background: #000000;
 }
 
 .sunken-menu {
     box-shadow: none;
     padding-top: 0;
     padding-bottom: 0;
-    position: absolute;
 }
 
 .sunken-menu:before {
@@ -597,5 +587,22 @@ div.left.text-muted {
 
 div.commit-form {
     border-color: #000396;
+}
+
+nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loaders {
+    border-color: #000396;
+    background: #000000;
+}
+
+a.js-selected-navigation-item.sunken-menu-item {
+    border-color: #000396;
+}
+
+span.sha {
+    color: #000396;
+}
+
+span.text-emphasized {
+    color: #000396;
 }
 
