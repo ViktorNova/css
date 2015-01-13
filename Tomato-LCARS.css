@@ -3,7 +3,6 @@
 body, html, .noTransition {
     background: #000000;
     font-family: 'Six Caps', Impact, fantasy, sans-serif;
-    font-size: 1em;
     font-weight: regular;
     text-transform: lowercase;
 }
@@ -40,10 +39,6 @@ table.fields.noTransition {
     color: #000000;
 }
 
-#container {
-    background: none;
-}
-
 #content td small a {
     color: #000000;
     padding-left: 10px;
@@ -69,6 +64,11 @@ div.section-title.noTransition {
     font-weight: normal;
     text-transform: lowercase;
     padding-left: .3em;
+    border-style: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 15pxpxpx;
 }
 
 input[type=checkbox].noTransition {
@@ -126,11 +126,6 @@ div.title.noTransition {
     background: none;
 }
 
-div#ident.noTransition {
-    margin-top: -30px;
-    border-top-left-radius: 30px;
-}
-
 td.noTransition {
     background: #ffcd57;
     border: none;
@@ -143,5 +138,33 @@ td.noTransition {
     text-align: right;
     width: 50%;
     right: 0;
+}
+
+div#ident.noTransition {
+    margin-top: -30px;
+    border-top-left-radius: 60px;
+}
+
+#container {
+    background: none;
+}
+
+div.section.noTransition {
+    border-color: #000000;
+    border-style: solid;
+    border-left-width: 16px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+td#content div.section-title.noTransition {
+    background: none;
+    border-color: #000000;
+    border-style: solid;
+    border-left-width: 16px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
 }
 
