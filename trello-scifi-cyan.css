@@ -341,13 +341,6 @@ a.card-detail-item-add-button.dark-hover.js-details-edit-labels {
     margin-top: -6px;
 }
 
-div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
-    border-color: #004a4a;
-    background-color: #000000;
-    border-width: 3px;
-    margin-top: 5px;
-}
-
 span.window-module-title-icon.icon-lg.icon-checklist {
     color: #004a4a;
 }
@@ -402,10 +395,6 @@ div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc blockquote {
     border-color: #004a4a;
 }
 
-p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
-    color: #4400ff;
-}
-
 span.window-module-title-icon.icon-lg.icon-activity {
     color: #004a4a;
 }
@@ -442,4 +431,28 @@ a.js-open-move-from-header strong {
     color: #004a4a;
     text-decoration: none;
     border-color: #004a4a;
+}
+
+div.card-detail-data.gutter.u-clearfix {
+    margin-left: 4px;
+}
+
+div.card-detail-item.card-detail-item-block.clear.u-clearfix.editable {
+    padding: 10px;
+    background-color: #001f1f;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+}
+
+div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
+    border-color: #004a4a;
+    background-color: #000000;
+    border-width: 3px;
+    margin-top: 4px;
+}
+
+p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
+    display: block;
+    color: #4400ff;
 }
