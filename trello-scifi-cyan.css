@@ -345,16 +345,13 @@ span.window-module-title-icon.icon-lg.icon-checklist {
     color: #004a4a;
 }
 
-div.checklist-progress-bar {
-    background-color: #004a4a;
-}
-
 span.checklist-progress-percentage.js-checklist-progress-percent {
     color: #00ffff;
 }
 
 a.hide-on-edit.quiet.js-confirm-delete {
     color: #004a4a;
+    font-size: .8em;
 }
 
 a.hide-on-edit.quiet.js-hide-checked-items-button.js-hide-checked-items {
@@ -379,10 +376,6 @@ h3.card-detail-item-header {
 
 a.card-detail-item-header-edit.hide-on-edit.js-show-with-desc.js-edit-desc {
     color: #004a4a;
-}
-
-div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc p a {
-    color: #4400ff;
 }
 
 span.window-header-icon.icon-lg.icon-card {
@@ -445,6 +438,33 @@ div.card-detail-item.card-detail-item-block.clear.u-clearfix.editable {
     border-radius: 10px;
 }
 
+p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
+    display: block;
+    color: #4400ff;
+}
+
+textarea.field.full.single-line.js-checkitem-input {
+    background-color: #004a4a;
+    font-size: 1em;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+}
+
+a.icon-lg.icon-close.dark-hover.cancel.js-cancel-edit {
+    color: #004a4a;
+}
+
+span.js-checked-items-count {
+    color: #004a4a;
+}
+
+a.hide-on-edit.quiet.js-show-checked-items-button.js-show-checked-items {
+    color: #00ffff;
+    font-size: .8em;
+}
+
 div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
     border-color: #004a4a;
     background-color: #000000;
@@ -452,7 +472,30 @@ div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
     margin-top: 4px;
 }
 
-p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
-    display: block;
+div.checklist-progress-bar-current.js-checklist-progress-bar.checklist-progress-bar-current-complete {
+    background-color: #ff037d;
+}
+
+div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc p a {
     color: #4400ff;
+}
+
+div.checklist-progress-bar-current.js-checklist-progress-bar {
+    background-color: #4400ff;
+}
+
+div.checklist-progress-bar {
+    background-color: #004a4a;
+    border-radius: 0 0 16px 0;
+    height: 16px;
+}
+
+div.window-module-title.window-module-title-no-divider.u-clearfix.ed.grab {
+    background-color: #00ffff;
+    padding-left: 1em;
+    border-radius: 0 16px 0 0;
+    color: #000000;
+    padding-right: 1em;
+    margin-bottom: 3px;
+    height: auto;
 }
