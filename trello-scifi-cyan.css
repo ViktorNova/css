@@ -49,11 +49,6 @@ div.list-card-details.clearfix {
     border-radius: 16px;
 }
 
-span.card-label {
-    height: 10px;
-    border-radius: 5px;
-}
-
 div.board-header.clearfix.js-board-header {
     background-color: #00ffff;
     color: #000000;
@@ -139,15 +134,11 @@ span.header-search-icon.icon-lg.icon-search.light.js-search-icon.js-search-focus
 }
 
 a.board-header-btn.perms-btn.js-change-vis {
-    color: #000000;
-}
-
-span.board-header-btn-icon.icon-sm.icon-star {
-    color: #000000;
+    color: #004a4a;
 }
 
 span.board-header-btn-icon.icon-sm.icon-private {
-    color: #000000;
+    color: #004a4a;
 }
 
 span.icon-sm.icon-leftarrow {
@@ -246,12 +237,6 @@ span.badge-icon.icon-sm.icon-comment {
     color: #000000;
 }
 
-div.window {
-    background-color: rgba(0,0,0,0.78);
-    border-radius: 16px;
-    color: #00ffff;
-}
-
 div.card-detail-data.gutter.clearfix {
     background: #00ffff;
     padding: .5em;
@@ -277,7 +262,6 @@ div.current-comment p a {
 
 textarea.new-comment-input.js-new-comment-input {
     background-color: #000000;
-    color: #0080ff;
     font-family: 'Enter Sansman';
     border-style: none;
     border-color: border-color: #0080ff;
@@ -291,11 +275,6 @@ a.open-card-composer.js-open-card-composer {
 a.open-card-composer.js-open-card-composer:hover {
     color: #000000;
     background-color: #00ffff;
-}
-
-div.list-card-details.u-clearfix {
-    background-color: #00ffff;
-    border-radius: 10px;
 }
 
 a.list-header-menu-icon.icon-sm.icon-menu.dark-hover.js-open-list-menu {
@@ -315,4 +294,152 @@ div.list-card-cover.js-card-cover {
     margin-right: 0;
     margin-bottom: -15px;
     margin-left: 0;
+}
+
+div.window-overlay {
+    background-color: rgba(0,0,0,.92);
+}
+
+div.window {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 16px;
+    color: #00ffff;
+    border-color: #00ffff;
+    border-style: solid;
+    border-width: 10px;
+}
+
+span.board-header-btn-icon.icon-sm.icon-star {
+    color: #004a4a;
+}
+
+span.board-header-btn-text {
+    color: #00ffff;
+}
+
+div.list-card-details.u-clearfix {
+    background-color: #00ffff;
+    border-radius: 10px;
+}
+
+span.card-label {
+    border-radius: 5px;
+    height: 1em;
+    width: auto;
+    line-height: 1em;
+    text-shadow: none;
+    color: #000000;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    box-shadow: 2px 4px 8px #000000;
+}
+
+a.card-detail-item-add-button.dark-hover.js-details-edit-labels {
+    background-color: #000000;
+    margin-top: -6px;
+}
+
+div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
+    border-color: #004a4a;
+    background-color: #000000;
+    border-width: 3px;
+    margin-top: 5px;
+}
+
+span.window-module-title-icon.icon-lg.icon-checklist {
+    color: #004a4a;
+}
+
+div.checklist-progress-bar {
+    background-color: #004a4a;
+}
+
+span.checklist-progress-percentage.js-checklist-progress-percent {
+    color: #00ffff;
+}
+
+a.hide-on-edit.quiet.js-confirm-delete {
+    color: #004a4a;
+}
+
+a.hide-on-edit.quiet.js-hide-checked-items-button.js-hide-checked-items {
+    color: #004a4a;
+}
+
+p.checklist-item-details-text.hide-on-edit.markeddown.js-checkitem-name {
+    color: #004a4a;
+}
+
+p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name {
+    color: #00ffff;
+}
+
+p.inline-block.bottom {
+    color: #004a4a;
+}
+
+h3.card-detail-item-header {
+    color: #004a4a;
+}
+
+a.card-detail-item-header-edit.hide-on-edit.js-show-with-desc.js-edit-desc {
+    color: #004a4a;
+}
+
+div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc p a {
+    color: #4400ff;
+}
+
+span.window-header-icon.icon-lg.icon-card {
+    color: #004a4a;
+}
+
+div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc blockquote {
+    background-color: #00ffff;
+    color: #000000;
+    border-color: #004a4a;
+}
+
+p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
+    color: #4400ff;
+}
+
+span.window-module-title-icon.icon-lg.icon-activity {
+    color: #004a4a;
+}
+
+a.inline-object.js-show-mem-menu {
+    color: #004a4a;
+}
+
+span.date.js-hide-on-sending {
+    color: #004a4a;
+}
+
+a.js-edit-action {
+    color: #004a4a;
+}
+
+a.js-confirm-delete-action {
+    color: #004a4a;
+}
+
+span.js-hide-on-sending {
+    color: #004a4a;
+}
+
+div.phenom.phenom-action.u-clearfix.phenom-other {
+    border-color: #004a4a;
+}
+
+div.phenom.phenom-action.u-clearfix.phenom-comment {
+    border-color: #004a4a;
+}
+
+a.js-open-move-from-header strong {
+    color: #004a4a;
+    text-decoration: none;
+    border-color: #004a4a;
 }
