@@ -493,10 +493,6 @@ span.issue-meta-section.opened-by {
     color: #000396;
 }
 
-span.mail-status.unread {
-    border-color: #000396;
-}
-
 span.mega-octicon {
     color: #00aaff;
 }
@@ -755,7 +751,51 @@ span.gap {
     color: #000396;
 }
 
-.select-menu-header {
-    background: #00aaff;
-    background-color: #00aaff;
+div.file-history-tease-header {
+    border-color: #000396;
 }
+
+div.commit.file-history-tease {
+    border-color: #000396;
+}
+
+div.participation {
+    border-color: #000396;
+}
+
+input.filename.js-blob-filename.js-breadcrumb-nav {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+select.js-code-indent-mode {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+select.js-code-indent-width {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+select.js-code-wrap-mode {
+    background-color: #00aaff;
+    color: #000000;
+    border-color: #000396;
+}
+
+a.button.danger.cancel {
+    border-color: #000396;
+}
+
+span.separator {
+    color: #00aaff;
+}
+
+span.mail-status.unread {
+    border-color: #000396;
+    background: #00ffff;
+}
+
