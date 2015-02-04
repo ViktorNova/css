@@ -1,11 +1,7 @@
 h2.list-header-name.hide-on-edit.js-list-name {
-    font-family: 'Enter Sansman';
+font-family: Consolas, 'Enter Sansman', monospace;
     font-size: 1.6em;
     color: #00bbff;
-}
-
-body {
-    font-family: 'Enter Sansman';
 }
 
 span.badge-icon.icon-sm.icon-desc {
@@ -156,10 +152,6 @@ div.list-header.js-list-header.non-empty.clearfix.editable {
     margin-bottom: 5px;
 }
 
-h2.list-header-name.hide-on-edit.js-list-name.current {
-    color: #00ffff;
-}
-
 span.header-btn-text.js-member-name {
     margin-left: 7px;
 }
@@ -190,8 +182,8 @@ div.list-card.js-composer {
 }
 
 textarea.list-card-composer-textarea.js-card-title {
-    font-family: 'Enter Sansman';
-    font-style: italic;
+font-family: Consolas, 'Enter Sansman', monospace;
+   font-style: italic;
     color: #000000;
 }
 
@@ -499,3 +491,12 @@ div.window-module-title.window-module-title-no-divider.u-clearfix.ed.grab {
     margin-bottom: 3px;
     height: auto;
 }
+
+body {
+    font-family: Consolas, 'Enter Sansman', monospace;
+}
+
+h2.list-header-name.hide-on-edit.js-list-name.current {
+    color: #00ffff;
+}
+
