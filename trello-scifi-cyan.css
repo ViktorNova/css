@@ -1,5 +1,5 @@
 h2.list-header-name.hide-on-edit.js-list-name {
-font-family: Consolas, 'Enter Sansman', monospace;
+    font-family: 'Enter Sansman';
     font-size: 1.6em;
     color: #00bbff;
 }
@@ -51,11 +51,6 @@ div.board-header.clearfix.js-board-header {
     height: auto;
     padding: 0;
     margin-bottom: 1em;
-}
-
-#header {
-    background-color: #00ffff;
-    color: #000000;
 }
 
 span.header-btn-icon.icon-lg.icon-board.light {
@@ -182,8 +177,8 @@ div.list-card.js-composer {
 }
 
 textarea.list-card-composer-textarea.js-card-title {
-font-family: Consolas, 'Enter Sansman', monospace;
-   font-style: italic;
+    font-family: 'Enter Sansman';
+    font-style: italic;
     color: #000000;
 }
 
@@ -309,11 +304,6 @@ span.board-header-btn-text {
     color: #00ffff;
 }
 
-div.list-card-details.u-clearfix {
-    background-color: #00ffff;
-    border-radius: 10px;
-}
-
 span.card-label {
     border-radius: 5px;
     height: 1em;
@@ -422,14 +412,6 @@ div.card-detail-data.gutter.u-clearfix {
     margin-left: 4px;
 }
 
-div.card-detail-item.card-detail-item-block.clear.u-clearfix.editable {
-    padding: 10px;
-    background-color: #001f1f;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-radius: 10px;
-}
-
 p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
     display: block;
     color: #4400ff;
@@ -498,5 +480,80 @@ body {
 
 h2.list-header-name.hide-on-edit.js-list-name.current {
     color: #00ffff;
+}
+
+table.calendar-table {
+    background-color: #000000;
+    border-width: 0;
+}
+
+div.calendar-day-spacer-div {
+    background: none;
+    border: none;
+}
+
+h2.calendar-header-toolbar-title.js-calendar-header {
+    color: #00ffff;
+}
+
+div.calendar-header-toolbar {
+    background-color: #000000;
+}
+
+div.calendar-wrapper {
+    background-color: #000000;
+}
+
+#header {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+div.calendar-day.js-expand-day.today {
+    border-style: solid;
+}
+
+td.day-cell {
+    background-color: #000000;
+}
+
+div.card-detail-item.card-detail-item-block.clear.u-clearfix.editable {
+    padding: 10px;
+    background-color: #001f1f;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+}
+
+div.quiet {
+    background-color: #00ffff;
+    color: #000000;
+    border-width: 1;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 1em;
+}
+
+div.calendar-day.js-expand-day {
+    background-color: #001f1f;
+    margin: 12px;
+    border-style: none;
+}
+
+div.calendar-day.js-expand-day.active {
+    background-color: rgba(0,0,0,0.6);
+    border-style: solid;
+    border-color: #00ffff;
+    border-radius: 1em;
+    border-width: .6em;
+}
+
+div.day-date-header {
+    color: #00ffff;
+}
+
+div.list-card-details.u-clearfix {
+    background-color: #00ffff;
+    border-radius: 10px;
 }
 
