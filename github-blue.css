@@ -898,3 +898,182 @@ a.preview.tabnav-tab .octicon {
     color: #000396;
 }
 
+
+.ace-github-light {
+    background-color: #000000;
+    color: inherit;
+}
+
+.ace_gutter-cell {
+    background: #000000;
+}
+
+.file .meta {
+}
+
+.meta .clearfix {
+    background: #000000;
+}
+
+.js-code-editor,.container-preview,.show-code {
+    border-color: #000396;
+    background: #000000;
+}
+
+div.meta.clearfix {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+a.code.selected.tabnav-tab {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+input.filename.js-blob-filename.js-breadcrumb-nav {
+    border-color: #000396;
+}
+
+button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
+    background: #00aaff;
+    color: #000000;
+    text-shadow: none;
+    border-color: #000396;
+}
+
+button .octicon, .minibutton .octicon {
+    color: #000000;
+}
+
+/* Line devider for social count buttons */
+
+.social-count,.social-count.js-social-count {
+    border-left-color: #000000;
+    border-left-width: 1px;
+    border-style: solid;
+}
+
+div.scope-badge {
+    border: none;
+    background-color: #000396;
+    border-style: none;
+    color: #000000;
+}
+
+span.mega-octicon.octicon-repo {
+    color: #00aaff;
+}
+
+a.url.fn span {
+    color: #00aaff;
+}
+
+span.path-divider {
+    color: #000396;
+}
+
+div.flash {
+    border-color: #000396;
+}
+
+div.ace_content {
+    border-color: #000396;
+}
+
+div.ace_gutter-cell {
+    border-color: #000396;
+    color: #00aaff;
+}
+
+div.ace_gutter {
+    border-color: #000396;
+}
+
+a.preview.tabnav-tab {
+    color: #000396;
+}
+
+a.preview.tabnav-tab .octicon {
+    color: #000396;
+}
+
+article.markdown-body.entry-content {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+div.boxed-group.flush.clearfix.announce.instapaper_body.md octicon {
+    color: #000000;
+}
+
+a.message {
+    color: #000396;
+    border-style: none;
+}
+
+div.authorship {
+    color: #000396;
+}
+
+span.author-name a {
+    color: #00aaff;
+}
+
+a.js-details-target {
+    background-color: #000396;
+    color: #000000;
+}
+
+div.commit-meta {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.repository-description {
+    color: #00aaff;
+}
+
+div.repository-website p a {
+    color: #00ffff;
+}
+
+td.icon {
+    border-color: #000396;
+}
+
+td.message {
+    border-color: #000396;
+}
+
+td.content {
+    border-color: #000396;
+}
+
+span.css-truncate.css-truncate-target {
+    border-style: none;
+}
+
+td.age {
+    border-color: #000396;
+}
+
+span.edit-link.js-details-target {
+    color: #000396;
+}
+
+span.edit-link.js-details-target a {
+    color: #000396;
+}
+
+ul.numbers-summary li a {
+    color: #000396;
+}
+
+span.num.text-emphasized {
+    color: #00aaff;
+}
