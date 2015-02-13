@@ -344,3 +344,149 @@ li.repo-list-item.public.fork {
     border-color: #000966;
 }
 
+span.label {
+    text-transform: lowercase;
+    font-weight: normal;
+    text-shadow: none ;
+    box-shadow: none ;
+    padding-bottom: 1px;
+}
+
+a, div, span, li {
+    text-shadow: none ;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.pagination span, .pagination a {
+    border: 0px;
+    background: none;
+}
+
+.minibutton {
+    border-width: 0;
+    background: transparent;
+}
+
+.minibutton:hover {
+    background: #F3F3F3;
+}
+
+a.social-count {
+    border: 1px solid #DFDFDF;
+    padding-top: 1px;
+    line-height: 2em;
+    border-color: #00aaff;
+}
+
+.list-group-item .minibutton {
+    background-color: transparent;
+    line-height: 2em;
+}
+
+.issues-list-options {
+    margin-bottom: 5px;
+}
+
+.tabnav {
+    margin-bottom: 5px;
+}
+
+ul.filter-list .filter-item.selected {
+    color: #4183c4;
+    background: white;
+}
+
+span.current {
+    color: #4183c4;
+}
+
+.primary, .minibutton.primary {
+    background: #60b044;
+    font-weight: 400;
+}
+
+.primary:hover, .minibutton.primary:hover {
+    background: #569e3d;
+}
+
+div.capped-box.overall-summary {
+    border-width: 0;
+}
+
+div.capped-box.overall-summary.without-lang-stats {
+    border-bottom: 1px solid #ddd;
+}
+
+div.clearfix.announce.instapaper_body.md {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.bubble {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.file-navigation.in-mid-page {
+    padding: 0 3px 0 5px;
+}
+
+.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
+    float: right;
+    margin-top: 1px;
+}
+
+div.commit-form {
+    border-color: #000966;
+}
+
+div.scope-badge {
+    background-color: #000966;
+    color: #000000;
+}
+
+span.mega-octicon.octicon-mark-github {
+    color: #00aaff;
+}
+
+span.mega-octicon.octicon-repo {
+    color: #00aaff;
+}
+
+a.selected.js-selected-navigation-item.sunken-menu-item {
+    background-color: #00aaff;
+}
+
+a.sunken-menu-item .octicon {
+    color: #00aaff;
+}
+
+a.selected.js-selected-navigation-item.sunken-menu-item .octicon {
+    color: #000000;
+}
+
+button.minibutton.with-count.js-toggler-target {
+    background-color: #00aaff;
+}
+
+a.minibutton.with-count.js-toggler-target.tooltipped-n {
+    background-color: #00aaff;
+    margin-right: 1px;
+}
+
+a.social-count.js-social-count {
+    border-color: #00aaff;
+    margin-left: 1px;
+}
+
+a.minibutton.select-menu-button.with-count.js-menu-target {
+    background-color: #00aaff;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-right-width: 2px;
+}
+
