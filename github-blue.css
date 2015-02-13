@@ -693,3 +693,69 @@ button.js-zeroclipboard.minibutton.zeroclipboard-button .octicon {
     background-color: #00ffff;
 }
 
+
+article.markdown-body.js-file {
+    background-color: #000000;
+}
+
+article.markdown-body.js-file pre {
+    background-color: #000966;
+}
+
+div.comment-form-head.tabnav {
+    background-color: #000000;
+}
+
+div.write-content.js-write-bucket {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.previewable-comment-form.write-selected {
+    background-color: #000000;
+}
+
+a.tabnav-tab.preview-tab.js-preview-tab {
+    color: #000966;
+}
+
+a.tabnav-tab.write-tab.js-write-tab.selected {
+    background-color: #00aaff;
+    border-color: #000966;
+}
+
+a.sunken-menu-item.selected {
+    background-color: #00aaff;
+    color: #000000;
+    text-shadow: none;
+}
+
+a.sunken-menu-item {
+    background-color: #00aaff;
+    color: #000000;
+    text-shadow: none;
+}
+
+div.sunken-menu-contents {
+    background-color: #000000;
+}
+
+div.embed-url.open h3 strong {
+    color: #000966;
+}
+
+div.embed-url.open h3 {
+    color: #000966;
+}
+
+div.clone-url.open h3 {
+    color: #000966;
+}
+
+div.clone-url.open h3 strong {
+    color: #000966;
+}
+
+p.clone-options {
+    color: #000966;
+}
+
