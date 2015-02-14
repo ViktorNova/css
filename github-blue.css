@@ -1,55 +1,129 @@
-.ace-github-light {
-    background-color: #000000;
-    color: inherit;
+.highlight .err {
+    background-color: #1c2d2d;
+    color: #59e8e8;
 }
 
-.ace_gutter-cell {
-    background: #000000;
+.highlight .gr, .highlight .gt {
+    color: #55ffff;
 }
 
-.file .meta {
+.highlight .gu, .highlight .ni {
+    color: #7fff7f;
 }
 
-.js-code-editor,.container-preview,.show-code {
-    background: #000000;
-    border-color: #000396;
+.highlight .kt, .highlight .nc {
+    color: #bbaa77;
 }
 
-.meta .clearfix {
-    background: #000000;
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
+    color: #ff6666;
 }
 
-.social-count,.social-count.js-social-count {
-    border-left-color: #000000;
-    border-left-width: 1px;
-    border-style: solid;
+.highlight .na, .highlight .no, .highlight .nv, .highlight .vg, .highlight .vi, .highlight .vc {
+    color: #ff7f7f;
 }
 
-a.code.selected.tabnav-tab {
-    background-color: #000000;
-    color: #00aaff;
+.highlight .nb {
+    color: #ff794c;
 }
 
-a.js-details-target {
-    background-color: #000396;
+.highlight .ne, .highlight .nf {
+    color: #66ffff;
+}
+
+.highlight .nt {
+    color: #ffff7f;
+}
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .si, .highlight .sx, .highlight .s1 {
+    color: #2ebfff;
+}
+
+.highlight .sr {
+    color: #ff66d9;
+}
+
+.highlight .w {
+    color: #444444;
+}
+
+.js-current-repository {
+    color: #00ffff;
+}
+
+.markdown-body a.anchor {
+    padding-left: 24px;
+}
+
+.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
+    padding-left: 8px;
+}
+
+.message, .message * {
+    background-color: #111122   ;
+}
+
+.sunken-menu {
+    box-shadow: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.sunken-menu:before {
+    background: none;
+}
+
+.sunken-menu:before, .sunken-menu:after {
+    background: none;
+}
+
+a {
+    color: cyan;
+}
+
+a.button-link {
+    background-color: #00aaff;
     color: #000000;
 }
 
-a.message {
-    border-style: none;
-    color: #000396;
+a.button.primary.right {
+    border-color: #73ff00;
 }
 
-a.preview.tabnav-tab {
-    color: #000396;
+a.js-selected-navigation-item.menu-item {
+    border-color: #000396;
 }
 
-a.preview.tabnav-tab .octicon {
-    color: #000396;
+a.js-selected-navigation-item.subnav-item {
+    border-color: #000396;
 }
 
-a.url.fn span {
-    color: #00aaff;
+a.js-selected-navigation-item.sunken-menu-item {
+    border-color: #000396;
+}
+
+a.mini-repo-list-item.css-truncate {
+    border-color: #000396;
+}
+
+a.minibutton {
+    border-color: #000396;
+}
+
+a.social-count {
+    border-color: #000396;
+}
+
+a.social-count.js-social-count {
+    border-color: #000396;
+}
+
+a.tabnav-tab {
+    border-color: #000396;
+}
+
+a.tabnav-tab.selected {
+    border-color: #00ffff;
 }
 
 article.markdown-body.entry-content {
@@ -57,104 +131,429 @@ article.markdown-body.entry-content {
     border-color: #000396;
 }
 
-button .octicon, .minibutton .octicon {
-    color: #000000;
+article.markdown-body.entry-content h1 {
+    border-color: #000396;
 }
 
-button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
-    background: #00aaff;
-    border-color: #000396;
-    color: #000000;
+article.markdown-body.entry-content h3 code {
+    background-color: #3b3b3b;
+}
+
+article.markdown-body.entry-content p code {
+    background-color: #3b3b3b;
+}
+
+body, a, button, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, il, li, table, th, tr, td, p, strong, pre, .announce, .name, .num, .bubble, .commit, .container, .divider-vertical, .authorship, .octofication, .commit-meta, .box, .box-header, .box-small, .box-title, .box-body, .col, .grid, .filter-bar, .js-notice, .news, .flash, .dashboard, .dashboard-sidebar, .header, .highlight, .message, .repo-nav-contents, .tab-content, .contributions-tab, .last, .site, .pagehead, .participation, .meta, .line, .plain {
+    background-attachment: scroll;
+    background-color: black;
+    background-image: none;
+    background-position: top left;
+    background-repeat: repeat;
+    color: #00aaff;
     text-shadow: none;
 }
 
-/* Line devider for social count buttons */
-
-div.ace_content {
+button {
     border-color: #000396;
 }
 
-div.ace_gutter {
+div.alert.issues_closed {
     border-color: #000396;
 }
 
-div.ace_gutter-cell {
+div.alert.issues_opened {
     border-color: #000396;
-    color: #00aaff;
 }
 
-div.authorship {
-    color: #000396;
+div.alert.push {
+    border-color: #000396;
+}
+
+div.blankslate {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.blankslate.spacious.large-format {
+    background-color: #000000;
+}
+
+div.blankslate.spacious.large-format.capped {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.boxed-group-inner {
+    border-color: #000396;
+}
+
+div.boxed-group.flush h3 {
+    border-color: #000396;
 }
 
 div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
+    border-color: #000396;
+}
+
+div.boxed-group.flush.js-notifications-browser h3 {
+    border-color: #000396;
+}
+
+div.branch-infobar.clearfix {
     background-color: #00aaff;
+    border-color: #00aaff;
+}
+
+div.branch-infobar.clearfix p {
+    background-color: transparent;
     color: #000000;
 }
 
-div.boxed-group.flush.clearfix.announce.instapaper_body.md octicon {
-    color: #000000;
+div.column.one-fourth hr {
+    border-color: #000396;
+}
+
+div.comment-body.markdown-body.js-comment-body p a {
+    color: #aca6ff;
+}
+
+div.comment-body.markdown-body.js-comment-body p code {
+    background-color: #5e5e5e;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.comment-form-head.tabnav {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.comment.timeline-comment.js-comment.js-task-list-container.owner-comment {
+    border-color: #000396;
+}
+
+div.commit-form {
+    border-color: #000396;
 }
 
 div.commit-meta {
+    border-color: #000396;
+}
+
+div.commit.commit-tease.js-details-container {
+    border-color: #000396;
+}
+
+div.contrib-column.contrib-column-first.table-column {
+    background-color: #000000;
+}
+
+div.contrib-column.table-column {
+    background-color: #000000;
+}
+
+div.contrib-footer.clearfix {
+    background-color: #000000;
+}
+
+div.dashboard-notice.js-notice {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.js-socket-channel.js-updatable-content {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-assignee {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-milestone {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-notifications {
+    border-color: #000396;
+}
+
+div.discussion-timeline-actions {
     background-color: #000000;
     border-color: #000396;
 }
 
-div.flash {
+div.divider-vertical {
     border-color: #000396;
 }
 
-div.meta.clearfix {
-    background-color: #000000;
+div.file {
     border-color: #000396;
+}
+
+div.file-wrap {
+    border-color: #000396;
+}
+
+div.filter-repos.filter-bar {
+    border-color: #000396;
+}
+
+div.flex-table.gh-header-meta {
+    border-color: #000396;
+}
+
+div.form-actions {
+    background-color: #000396;
+}
+
+div.header.header-logged-in {
+    border-color: #000396;
+}
+
+div.js-calendar-graph.is-graph-loading.graph-canvas.calendar-graph {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.preview-selected {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.write-selected {
+    background-color: #000396;
+}
+
+div.left.text-muted {
+    color: #000396;
+}
+
+div.meta {
+    border-color: #000396;
+}
+
+div.name {
+    border-color: #000396;
+}
+
+div.overall-summary.overall-summary-bottomless {
+    border-color: #000396;
+}
+
+div.pagehead {
+    border-color: #000396;
+}
+
+div.pagehead.repohead {
+    border-color: #000396;
+}
+
+div.pagination a {
+    border-color: #000396;
+}
+
+div.preview-content {
+    background-color: #000000;
+}
+
+div.protip.protip-callout {
+    border-color: #000396;
+    color: #000396;
 }
 
 div.repository-description {
     color: #00aaff;
 }
 
-div.repository-website p a {
-    color: #00ffff;
-}
-
-div.scope-badge {
-    background-color: #000396;
-    border: none;
-    border-style: none;
-    color: #000000;
-}
-
-input.filename.js-blob-filename.js-breadcrumb-nav {
+div.site-footer {
     border-color: #000396;
 }
 
-span.author-name a {
+div.state.state-open {
+    background-color: #a6ff00;
+    color: #000000;
+}
+
+div.sunken-menu-separator {
+    background: none;
+    border-color: #000396;
+}
+
+div.sunken-menu-separator:before {
+    display: none;
+}
+
+div.table-list-cell.issue-comments {
+    border-color: #000396;
+}
+
+div.table-list-cell.issue-title {
+    border-color: #000396;
+}
+
+div.table-list-cell.table-list-cell-avatar {
+    border-color: #000396;
+}
+
+div.table-list-cell.table-list-cell-type {
+    border-color: #000396;
+}
+
+div.table-list-header {
+    background-color: #00aaff;
+    border-color: #000396;
+}
+
+div.tabnav {
+    border-color: #000396;
+}
+
+div.timeline-comment {
+    border-color: #000396;
+}
+
+div.timeline-comment-header {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.timeline-comment-header-text {
+    background-color: #000000;
+}
+
+div.timeline-comment-wrapper.js-comment-container {
+    border-color: #000396;
+}
+
+div.vcard-stats {
+    border-color: #000396;
+}
+
+div.write-content.js-write-bucket.js-uploadable-container.js-upload-markdown-image.upload-enabled.is-default {
+    background-color: #000396;
+}
+
+em.current {
+    border-color: #000396;
+    color: #000000
+;
+}
+
+form.subnav-search.subnav-divider-right.left {
+    border-color: #000396;
+}
+
+html, body {
+    color: #00a6ff;
+}
+
+input {
+    border-color: #000396;
+}
+
+input.subnav-search-input.input-contrast {
+    border-color: #000396;
+}
+
+li {
+    border-color: #000396;
+}
+
+li.list-group-item.js-notification.js-navigation-item.unread.pull-request-notification.navigation-focus {
+    border-color: #000396;
+}
+
+nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loaders {
+    background: #000000;
+    border-color: #000396;
+}
+
+p.drag-and-drop {
+    border-color: #000396;
+}
+
+p.reason {
+    border-color: #000396;
+}
+
+span a span {
+    color: #00ffff;
+}
+
+span.button-link.select-menu-button.js-menu-target {
+    color: #000000;
+}
+
+span.contrib-number {
     color: #00aaff;
+    font-weight: bold;
 }
 
-span.css-truncate.css-truncate-target {
-    border-style: none;
-}
-
-span.edit-link.js-details-target {
+span.issue-meta-section.opened-by {
     color: #000396;
 }
 
-span.edit-link.js-details-target a {
-    color: #000396;
+span.mega-octicon {
+    color: #00aaff;
 }
 
 span.mega-octicon.octicon-repo {
     color: #00aaff;
 }
 
-span.num.text-emphasized {
+span.n {
+    color: #e0e0e0;
+}
+
+span.octicon {
     color: #00aaff;
 }
 
-span.path-divider {
+span.octicon.octicon-check {
+    color: #00ff73;
+    text-shadow: 0 0 2px #000000;
+}
+
+span.octicon.octicon-git-compare {
+    color: #00ffff;
+}
+
+span.octicon.octicon-issue-closed.closed {
+    color: #00ff73;
+}
+
+span.octicon.octicon-issue-opened.open {
+    color: #e00070;
+}
+
+span.octicon.octicon-link {
+    color: #00aaff;
+}
+
+span.octicon.octicon-x {
+    background-color: #000396;
+}
+
+span.previous_page.disabled {
+    background: #000000;
+    border-color: #000396;
     color: #000396;
+}
+
+span.sha {
+    color: #000396;
+}
+
+span.ss {
+    color: #e897e8;
+}
+
+span.text-emphasized {
+    color: #000396;
+}
+
+span.text-muted {
+    color: #00aaff;
 }
 
 td.age {
@@ -173,589 +572,423 @@ td.message {
     border-color: #000396;
 }
 
-ul.numbers-summary li a {
-    color: #000396;
+textarea {
+    border-color: #000396;
 }
 
-article.markdown-body.js-file {
+textarea.file-contents.js-file-edit.js-code-editor {
+    border-color: #000396;
+}
+
+textarea.input-contrast.comment-form-textarea.js-comment-field.js-quick-submit.js-size-to-fit.js-quote-selection-target.js-session-resumable.js-suggester-field {
     background-color: #000000;
-}
-
-p.clone-options {
-    color: #000966;
-    background-color: #000000;
-}
-
-div.sunken-menu-contents:after {
-    background: none;
-    background-color: #000000;
-}
-
-div.sunken-menu-contents:before {
-    background: none;
-    background-color: #000000;
-    border-color: #000000;
-}
-
-article.markdown-body.js-file pre {
-    background-color: #000966;
-}
-
-div.gist-description div {
     color: #00aaff;
 }
 
-b.octicon.octicon-gist {
-    color: #00aaff;
+u2500.highlight .c, .highlight.cm, .highlight.c1 {
+    color: #666677;
 }
 
-span.octicon {
-    color: #00aaff;
+ul.boxed-group-inner.list-group.notifications {
+    border-color: #000396;
 }
 
-div.comment-body.markdown-body.js-comment-body {
-    background-color: #000000;
+ul.boxed-group-inner.mini-repo-list {
+    border-color: #000396;
 }
 
-div.comment-body.markdown-body.js-comment-body pre {
-    background-color: #000966;
+ul.lightweight-actions {
+    border-radius: 10px;
 }
 
-div.comment-form-head.tabnav {
-    background-color: #000000;
+ul.lightweight-actions li a {
+    padding-right: 7px;
 }
 
-div.write-content.js-write-bucket {
-    background-color: #000000;
-}
-
-div.js-previewable-comment-form.previewable-comment-form.write-selected {
-    background-color: #000000;
-}
-
-span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
-}
-
-span.disabled {
-    background-color: #00aaff;
-    text-shadow: none;
-    color: #000000;
-    border: none;
-}
-
-a.link-overlay {
-    background-color: rgba(0,0,0,.7);
-}
-
-h1.avatared em {
-    color: #00aaff;
-}
-
-a.tooltipped {
-    color: #00aaff;
-}
-
-a.tooltipped:hover {
-    background: #000000;
-    color: #00ffff;
-}
-
-a.tooltipped:hover .octicons {
-    color: #00aaff;
-}
-
-a.sunken-menu-item {
-    text-shadow: none;
-}
-
-div.sunken-menu-contents {
-    background-color: #000000;
-}
-
-a.name img {
-    border: none;
-}
-
-a.sunken-menu-item.selected {
-    background-color: #00aaff;
-    color: #000000;
-    text-shadow: none;
-    border: none;
-}
-
-span.link {
-    color: #00aaff;
-}
-
-div.boxed-group.flush h3 {
-    background-color: #00aaff;
-    color: #000000;
-}
-
-a.tabnav-tab.selected {
-    background-color: #00aaff;
-    color: #000000;
-    border-color: #000966;
-}
-
-a.tabnav-tab.selected .octicon {
-    color: #000000;
-}
-
-div.contribution-activity-listing {
+ul.menu {
+    border-color: #000396;
     border-style: none;
 }
 
-div.inner {
+ul.task-list li code {
+    background-color: #575757;
+}
+
+ul.vcard-details {
+    border-color: #000396;
+}
+
+input.filter-input.js-filterable-field {
     background-color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -2px;
+    border-radius: 0 20px 20px 0;
+    border-color: #000396;
     color: #00aaff;
 }
 
-span.repo-description.css-truncate-target {
-    color: #000966;
+div.body {
+    border-color: #000396;
 }
 
-span.stars {
-    color: #000966;
+div.alert.issues_comment {
+    border-color: #000396;
 }
 
-div.filter-bar {
+div.alert.fork.simple {
+    border-color: #000396;
+}
+
+div.message.markdown-body blockquote {
+    background-color: #000396;
+}
+
+form.js-site-search-form input {
     background-color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -2px;
+    border-radius: 0 20px 20px 0;
+    border-color: #000396;
+    color: #00aaff;
 }
 
-p.repo-list-description {
-    color: #000966;
+input.input-block.js-search-query {
+    background-color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -2px;
+    border-radius: 0 20px 20px 0;
+    border-color: #000396;
+    color: #00aaff;
 }
 
-p.repo-list-info {
-    color: #000966;
+nav.menu {
+    border: none;
+    background: none;
+}
+
+a.menu-item {
+    background-color: #000396;
+    border-style: none;
+    border-width: 5px;
+    margin-top: 5px;
+    border-radius: 20px 0 0 20px;
+    color: #000000;
+}
+
+span.octicon.octicon-issue-opened {
+    color: #e00070;
+    text-shadow: 0 0 3px #000000;
+}
+
+.menu-item.selected:before {
+    background: none;
+}
+
+.menu-item.selected {
+    background-color: #00aaff;
+}
+
+.menu-item {
+    text-align: right;
 }
 
 li.repo-list-item.public.source {
-    border-color: #000966;
+    border-color: #000396;
 }
 
-p.repo-list-meta {
-    color: #000966;
+div.sort-bar {
+    border-color: #000396;
 }
 
-li.repo-list-item.public.fork {
-    border-color: #000966;
+ul.filter-list.small {
+    border-color: #000396;
 }
 
-span.label {
-    text-transform: lowercase;
-    font-weight: normal;
-    text-shadow: none ;
-    box-shadow: none ;
-    padding-bottom: 1px;
+a.menu-item.selected span.counter {
+    background-color: #000000;
+    color: #00aaff;
 }
 
-a, div, span, li {
-    text-shadow: none ;
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0px;
-}
-
-.pagination span, .pagination a {
-    border: 0px;
-    background: none;
-}
-
-.minibutton {
-    border-width: 0;
-    background: transparent;
-}
-
-.minibutton:hover {
-    background: #F3F3F3;
-}
-
-a.social-count {
-    border: 1px solid #DFDFDF;
-    padding-top: 1px;
-    line-height: 2em;
-    border-color: #00aaff;
-}
-
-.list-group-item .minibutton {
-    background-color: transparent;
-    line-height: 2em;
-}
-
-.issues-list-options {
-    margin-bottom: 5px;
-}
-
-.tabnav {
-    margin-bottom: 5px;
-}
-
-ul.filter-list .filter-item.selected {
-    color: #4183c4;
-    background: white;
-}
-
-span.current {
-    color: #4183c4;
-}
-
-.primary, .minibutton.primary {
-    background: #60b044;
-    font-weight: 400;
-}
-
-.primary:hover, .minibutton.primary:hover {
-    background: #569e3d;
-}
-
-div.capped-box.overall-summary {
-    border-width: 0;
-}
-
-div.capped-box.overall-summary.without-lang-stats {
-    border-bottom: 1px solid #ddd;
-}
-
-div.clearfix.announce.instapaper_body.md {
-    border-width: 0;
-    background-color: transparent;
-}
-
-.bubble {
-    background-color: transparent;
-    border-width: 0;
-}
-
-.file-navigation.in-mid-page {
-    padding: 0 3px 0 5px;
-}
-
-.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
-    float: right;
-    margin-top: 1px;
-}
-
-div.commit-form {
-    border-color: #000966;
-}
-
-div.scope-badge {
-    background-color: #000966;
+span.counter {
+    background-color: #00aaff;
     color: #000000;
+    width: 6em;
+    margin-top: 2px;
+    margin-left: 11px;
+    text-align: center;
 }
 
-span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
+td.blob-num {
+    border-color: #000396;
 }
 
-span.mega-octicon.octicon-repo {
-    color: #00aaff;
+div.file-box.blob-wrapper {
+    border-color: #000396;
 }
 
-a.selected.js-selected-navigation-item.sunken-menu-item {
-    background-color: #00aaff;
+div.code-list-item.code-list-item-public {
+    border-color: #000396;
 }
 
-a.sunken-menu-item .octicon {
-    color: #00aaff;
+span.match-count {
+    color: #000396;
 }
 
-a.selected.js-selected-navigation-item.sunken-menu-item .octicon {
-    color: #000000;
+span.updated-at {
+    color: #000396;
 }
 
-button.minibutton.with-count.js-toggler-target {
-    background-color: #00aaff;
+span.language {
+    color: #000396;
 }
 
-a.minibutton.with-count.js-toggler-target.tooltipped-n {
-    background-color: #00aaff;
-    margin-right: 1px;
+span.gap {
+    background-color: #000000;
+    border-color: #000396;
+    color: #000396;
 }
 
-a.social-count.js-social-count {
-    border-color: #00aaff;
-    margin-left: 1px;
+div.file-history-tease-header {
+    border-color: #000396;
 }
 
-a.minibutton.select-menu-button.with-count.js-menu-target {
-    background-color: #00aaff;
-    margin-left: 1px;
-    margin-right: 1px;
-    border-color: #000000;
-    border-style: solid;
-    border-right-width: 2px;
-}
-
-
-span.label {
-    text-transform: lowercase;
-    font-weight: normal;
-    text-shadow: none ;
-    box-shadow: none ;
-    padding-bottom: 1px;
-}
-
-a, div, span, li {
-    text-shadow: none ;
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0px;
-}
-
-.pagination span, .pagination a {
-    border: 0px;
-    background: none;
-}
-
-.minibutton {
-    border-width: 0;
-    background: transparent;
-}
-
-.minibutton:hover {
-    background: #F3F3F3;
-}
-
-a.social-count {
-    border: 1px solid #DFDFDF;
-    padding-top: 1px;
-    line-height: 2em;
-    border-color: #00aaff;
-}
-
-.list-group-item .minibutton {
-    background-color: transparent;
-    line-height: 2em;
-}
-
-.issues-list-options {
-    margin-bottom: 5px;
-}
-
-.tabnav {
-    margin-bottom: 5px;
-}
-
-ul.filter-list .filter-item.selected {
-    color: #4183c4;
-    background: white;
-}
-
-span.current {
-    color: #4183c4;
-}
-
-.primary, .minibutton.primary {
-    background: #60b044;
-    font-weight: 400;
-}
-
-.primary:hover, .minibutton.primary:hover {
-    background: #569e3d;
-}
-
-div.capped-box.overall-summary {
-    border-width: 0;
-}
-
-div.capped-box.overall-summary.without-lang-stats {
-    border-bottom: 1px solid #ddd;
-}
-
-div.clearfix.announce.instapaper_body.md {
-    border-width: 0;
-    background-color: transparent;
-}
-
-.bubble {
-    background-color: transparent;
-    border-width: 0;
-}
-
-.file-navigation.in-mid-page {
-    padding: 0 3px 0 5px;
-}
-
-.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
-    float: right;
-    margin-top: 1px;
-}
-
-div.commit-form {
-    border-color: #000966;
-}
-
-div.scope-badge {
-    background-color: #000966;
-    color: #000000;
-}
-
-span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
-}
-
-span.mega-octicon.octicon-repo {
-    color: #00aaff;
-}
-
-a.selected.js-selected-navigation-item.sunken-menu-item {
-    background-color: #00aaff;
-}
-
-a.sunken-menu-item .octicon {
-    color: #00aaff;
-}
-
-a.selected.js-selected-navigation-item.sunken-menu-item .octicon {
-    color: #000000;
-}
-
-button.minibutton.with-count.js-toggler-target {
-    background-color: #00aaff;
-}
-
-a.minibutton.with-count.js-toggler-target.tooltipped-n {
-    background-color: #00aaff;
-    margin-right: 1px;
-}
-
-a.social-count.js-social-count {
-    border-color: #00aaff;
-    margin-left: 1px;
-}
-
-a.minibutton.select-menu-button.with-count.js-menu-target {
-    background-color: #00aaff;
-    margin-left: 1px;
-    margin-right: 1px;
-    border-color: #000000;
-    border-style: solid;
-    border-right-width: 2px;
-}
-
-p.quickstat a strong {
-    color: #00aaff;
-}
-
-p.quickstat a {
-    color: #000966;
+div.commit.file-history-tease {
+    border-color: #000396;
 }
 
 div.participation {
-    background-color: #000000;
-    border-color: #000966;
+    border-color: #000396;
 }
 
-a.header-nav-link {
-    color: #000966;
+input.filename.js-blob-filename.js-breadcrumb-nav {
+    border-color: #000396;
 }
 
-span.author a {
-    color: #00aaff;
-}
-
-a.message {
-    color: #000966;
-}
-
-div.file-navigation.js-zeroclipboard-container {
-    color: #ff05ff;
-    border-color: #000966;
-}
-
-span.octicon.octicon-list-unordered {
-    color: #00aaff;
-}
-
-a.js-show-file-finder.minibutton.empty-icon.tooltipped.tooltipped-s {
-    background-color: #000000;
-    border-color: #000966;
-}
-
-button.js-zeroclipboard.minibutton.zeroclipboard-button.zeroclipboard-is-hover {
-    color: #00aaff;
-    border-color: #000966;
-}
-
-button.js-zeroclipboard.minibutton.zeroclipboard-button.zeroclipboard-is-hover .octicon {
-    color: #00ffff;
-}
-
-button.js-zeroclipboard.minibutton.zeroclipboard-button .octicon {
-    color: #00aaff;
-}
-
-#global-zeroclipboard-flash-bridge {
-    background-color: #00ffff;
-}
-
-
-article.markdown-body.js-file {
-    background-color: #000000;
-}
-
-article.markdown-body.js-file pre {
-    background-color: #000966;
-}
-
-div.comment-form-head.tabnav {
-    background-color: #000000;
-}
-
-div.write-content.js-write-bucket {
-    background-color: #000000;
-}
-
-div.js-previewable-comment-form.previewable-comment-form.write-selected {
-    background-color: #000000;
-}
-
-a.tabnav-tab.preview-tab.js-preview-tab {
-    color: #000966;
-}
-
-a.tabnav-tab.write-tab.js-write-tab.selected {
+select.js-code-indent-mode {
     background-color: #00aaff;
-    border-color: #000966;
+    border-color: #000396;
+    color: #000000;
 }
 
-a.sunken-menu-item.selected {
+select.js-code-indent-width {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+select.js-code-wrap-mode {
     background-color: #00aaff;
     color: #000000;
-    text-shadow: none;
+    border-color: #000396;
 }
 
-a.sunken-menu-item {
-    background-color: #00aaff;
+a.button.danger.cancel {
+    border-color: #000396;
+}
+
+span.separator {
+    color: #00aaff;
+}
+
+span.mail-status.unread {
+    border-color: #000396;
+    background: #00ffff;
+}
+
+.ace-github-light {
+    background-color: #000000;
+    color: inherit;
+}
+
+.ace_gutter-cell {
+    background: #000000;
+}
+
+.file .meta {
+}
+
+.meta .clearfix {
+    background: #000000;
+}
+
+.js-code-editor,.container-preview,.show-code {
+    border-color: #000396;
+    background: #000000;
+}
+
+div.meta.clearfix {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+a.code.selected.tabnav-tab {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
+    background: #00aaff;
     color: #000000;
     text-shadow: none;
+    border-color: #000396;
 }
 
-div.sunken-menu-contents {
-    background-color: #000000;
+button .octicon, .minibutton .octicon {
+    color: #000000;
 }
 
-div.embed-url.open h3 strong {
-    color: #000966;
+/* Line devider for social count buttons */
+
+.social-count,.social-count.js-social-count {
+    border-left-color: #000000;
+    border-left-width: 1px;
+    border-style: solid;
 }
 
-div.embed-url.open h3 {
-    color: #000966;
+div.scope-badge {
+    border: none;
+    background-color: #000396;
+    border-style: none;
+    color: #000000;
 }
 
-div.clone-url.open h3 {
-    color: #000966;
+a.url.fn span {
+    color: #00aaff;
 }
 
-div.clone-url.open h3 strong {
-    color: #000966;
+span.path-divider {
+    color: #000396;
 }
 
-p.clone-options {
-    color: #000966;
+div.flash {
+    border-color: #000396;
+}
+
+div.ace_content {
+    border-color: #000396;
+}
+
+div.ace_gutter-cell {
+    border-color: #000396;
+    color: #00aaff;
+}
+
+div.ace_gutter {
+    border-color: #000396;
+}
+
+a.preview.tabnav-tab {
+    color: #000396;
+}
+
+a.preview.tabnav-tab .octicon {
+    color: #000396;
+}
+
+span.label {
+    text-transform: lowercase;
+    font-weight: normal;
+    text-shadow: none ;
+    box-shadow: none ;
+    padding-bottom: 1px;
+}
+
+a, div, span, li {
+    text-shadow: none ;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.pagination span, .pagination a {
+    border: 0px;
+    background: none;
+}
+
+.minibutton {
+    border-width: 0;
+    background: transparent;
+}
+
+.minibutton:hover {
+    background: #F3F3F3;
+}
+
+.list-group-item .minibutton {
+    background-color: transparent;
+    line-height: 2em;
+}
+
+.issues-list-options {
+    margin-bottom: 5px;
+}
+
+.tabnav {
+    margin-bottom: 5px;
+}
+
+ul.filter-list .filter-item.selected {
+    color: #4183c4;
+    background: white;
+}
+
+span.current {
+    color: #4183c4;
+}
+
+.primary, .minibutton.primary {
+    background: #60b044;
+    font-weight: 400;
+}
+
+.primary:hover, .minibutton.primary:hover {
+    background: #569e3d;
+}
+
+div.capped-box.overall-summary {
+    border-width: 0;
+}
+
+div.capped-box.overall-summary.without-lang-stats {
+    border-bottom: 1px solid #ddd;
+}
+
+div.clearfix.announce.instapaper_body.md {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.bubble {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.file-navigation.in-mid-page {
+    padding: 0 3px 0 5px;
+}
+
+.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
+    float: right;
+    margin-top: 1px;
+}
+
+button.minibutton.with-count.js-toggler-target {
+    background-color: #00aaff;
+}
+
+a.minibutton.with-count.js-toggler-target.tooltipped-n {
+    color: #000000;
+    background-color: #00aaff;
+}
+
+div.recently-touched-branches ul li {
+    border-color: #00aaff;
+}
+
+form.js-blob-form {
+    border-color: #000000;
 }
 
