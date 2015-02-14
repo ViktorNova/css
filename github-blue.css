@@ -1,877 +1,858 @@
 .ace-github-light {
-    background-color: #000000;
-    color: inherit;
+    background-color:#000;
+    color:inherit
 }
 
 .ace_gutter-cell {
-    background: #000000;
-}
-
-.file .meta {
+    background:#000
 }
 
 .js-code-editor,.container-preview,.show-code {
-    background: #000000;
-    border-color: #000396;
+    background:#000;
+    border-color:#000396
 }
 
 .meta .clearfix {
-    background: #000000;
+    background:#000
 }
 
 .social-count,.social-count.js-social-count {
-    border-left-color: #000000;
-    border-left-width: 1px;
-    border-style: solid;
+    border-left-color:#000;
+    border-left-width:1px;
+    border-style:solid
 }
 
 a.code.selected.tabnav-tab {
-    background-color: #000000;
-    color: #00aaff;
+    background-color:#000;
+    color:#0af
 }
 
 a.js-details-target {
-    background-color: #000396;
-    color: #000000;
+    background-color:#000396;
+    color:#000
 }
 
 a.message {
-    border-style: none;
-    color: #000396;
+    border-style:none;
+    color:#000396
 }
 
 a.preview.tabnav-tab {
-    color: #000396;
+    color:#000396
 }
 
 a.preview.tabnav-tab .octicon {
-    color: #000396;
+    color:#000396
 }
 
 a.url.fn span {
-    color: #00aaff;
+    color:#0af
 }
 
 article.markdown-body.entry-content {
-    background-color: #000000;
-    border-color: #000396;
+    background-color:#000;
+    border-color:#000396;
 }
 
-button .octicon, .minibutton .octicon {
-    color: #000000;
+button .octicon,.minibutton .octicon {
+    color:#000
 }
 
-button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
-    background: #00aaff;
-    border-color: #000396;
-    color: #000000;
-    text-shadow: none;
+button,input,.js-select-button,.select-menu,.js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
+    background:#0af;
+    border-color:#000396;
+    color:#000;
+    text-shadow:none
 }
 
 /* Line devider for social count buttons */
-
 div.ace_content {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 div.ace_gutter {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 div.ace_gutter-cell {
-    border-color: #000396;
-    color: #00aaff;
+    border-color:#000396;
+    color:#0af
 }
 
 div.authorship {
-    color: #000396;
+    color:#000396;
 }
 
 div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
-    background-color: #00aaff;
-    color: #000000;
+    background-color:#0af;
+    color:#000
 }
 
 div.boxed-group.flush.clearfix.announce.instapaper_body.md octicon {
-    color: #000000;
+    color:#000
 }
 
 div.commit-meta {
-    background-color: #000000;
-    border-color: #000396;
+    background-color:#000;
+    border-color:#000396
 }
 
 div.flash {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 div.meta.clearfix {
-    background-color: #000000;
-    border-color: #000396;
+    background-color:#000;
+    border-color:#000396
 }
 
 div.repository-description {
-    color: #00aaff;
+    color:#0af
 }
 
 div.repository-website p a {
-    color: #00ffff;
+    color:#0ff
 }
 
 div.scope-badge {
-    background-color: #000396;
-    border: none;
-    border-style: none;
-    color: #000000;
+    background-color:#000396;
+    border:none;
+    border-style:none;
+    color:#000
 }
 
 input.filename.js-blob-filename.js-breadcrumb-nav {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 span.author-name a {
-    color: #00aaff;
+    color:#0af;
 }
 
 span.css-truncate.css-truncate-target {
-    border-style: none;
+    border-style:none;
 }
 
 span.edit-link.js-details-target {
-    color: #000396;
+    color:#000396
 }
 
 span.edit-link.js-details-target a {
-    color: #000396;
+    color:#000396
 }
 
 span.mega-octicon.octicon-repo {
-    color: #00aaff;
+    color:#0af
 }
 
 span.num.text-emphasized {
-    color: #00aaff;
+    color:#0af;
 }
 
 span.path-divider {
-    color: #000396;
+    color:#000396;
 }
 
 td.age {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 td.content {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 td.icon {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 td.message {
-    border-color: #000396;
+    border-color:#000396;
 }
 
 ul.numbers-summary li a {
-    color: #000396;
+    color:#000396;
 }
 
 article.markdown-body.js-file {
-    background-color: #000000;
+    background-color:#000;
 }
 
 p.clone-options {
-    color: #000966;
-    background-color: #000000;
+    color:#000966;
+    background-color:#000;
 }
 
 div.sunken-menu-contents:after {
-    background: none;
-    background-color: #000000;
+    background:none;
+    background-color:#000;
 }
 
 div.sunken-menu-contents:before {
-    background: none;
-    background-color: #000000;
-    border-color: #000000;
+    background:none;
+    background-color:#000;
+    border-color:#000;
 }
 
 article.markdown-body.js-file pre {
-    background-color: #000966;
+    background-color:#000966;
 }
 
 div.gist-description div {
-    color: #00aaff;
+    color:#0af;
 }
 
 b.octicon.octicon-gist {
-    color: #00aaff;
+    color:#0af;
 }
 
 span.octicon {
-    color: #00aaff;
+    color:#0af;
 }
 
 div.comment-body.markdown-body.js-comment-body {
-    background-color: #000000;
+    background-color:#000;
 }
 
 div.comment-body.markdown-body.js-comment-body pre {
-    background-color: #000966;
+    background-color:#000966;
 }
 
 div.comment-form-head.tabnav {
-    background-color: #000000;
+    background-color:#000;
 }
 
 div.write-content.js-write-bucket {
-    background-color: #000000;
+    background-color:#000;
 }
 
 div.js-previewable-comment-form.previewable-comment-form.write-selected {
-    background-color: #000000;
+    background-color:#000;
 }
 
 span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
+    color:#0af;
 }
 
 span.disabled {
-    background-color: #00aaff;
-    text-shadow: none;
-    color: #000000;
-    border: none;
+    background-color:#0af;
+    text-shadow:none;
+    color:#000;
+    border:none;
 }
 
 a.link-overlay {
-    background-color: rgba(0,0,0,.7);
+    background-color:rgba(0,0,0,.7);
 }
 
 h1.avatared em {
-    color: #00aaff;
+    color:#0af;
 }
 
 a.tooltipped {
-    color: #00aaff;
+    color:#0af;
 }
 
 a.tooltipped:hover {
-    background: #000000;
-    color: #00ffff;
+    background:#000;
+    color:#0ff;
 }
 
 a.tooltipped:hover .octicons {
-    color: #00aaff;
+    color:#0af;
 }
 
 a.sunken-menu-item {
-    text-shadow: none;
+    text-shadow:none;
 }
 
 div.sunken-menu-contents {
-    background-color: #000000;
+    background-color:#000;
 }
 
 a.name img {
-    border: none;
+    border:none;
 }
 
 a.sunken-menu-item.selected {
-    background-color: #00aaff;
-    color: #000000;
-    text-shadow: none;
-    border: none;
+    background-color:#0af;
+    color:#000;
+    text-shadow:none;
+    border:none;
 }
 
 span.link {
-    color: #00aaff;
+    color:#0af;
 }
 
 div.boxed-group.flush h3 {
-    background-color: #00aaff;
-    color: #000000;
+    background-color:#0af;
+    color:#000;
 }
 
 a.tabnav-tab.selected {
-    background-color: #00aaff;
-    color: #000000;
-    border-color: #000966;
+    background-color:#0af;
+    color:#000;
+    border-color:#000966;
 }
 
 a.tabnav-tab.selected .octicon {
-    color: #000000;
+    color:#000;
 }
 
 div.contribution-activity-listing {
-    border-style: none;
+    border-style:none;
 }
 
 div.inner {
-    background-color: #000000;
-    color: #00aaff;
+    background-color:#000;
+    color:#0af;
 }
 
 span.repo-description.css-truncate-target {
-    color: #000966;
+    color:#000966;
 }
 
 span.stars {
-    color: #000966;
+    color:#000966;
 }
 
 div.filter-bar {
-    background-color: #000000;
+    background-color:#000;
 }
 
 p.repo-list-description {
-    color: #000966;
+    color:#000966;
 }
 
 p.repo-list-info {
-    color: #000966;
+    color:#000966;
 }
 
 li.repo-list-item.public.source {
-    border-color: #000966;
+    border-color:#000966;
 }
 
 p.repo-list-meta {
-    color: #000966;
+    color:#000966;
 }
 
 li.repo-list-item.public.fork {
-    border-color: #000966;
+    border-color:#000966;
 }
 
 span.label {
-    text-transform: lowercase;
-    font-weight: normal;
-    text-shadow: none ;
-    box-shadow: none ;
-    padding-bottom: 1px;
+    text-transform:lowercase;
+    font-weight:400;
+    text-shadow:none;
+    box-shadow:none;
+    padding-bottom:1px
 }
 
-a, div, span, li {
-    text-shadow: none ;
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0px;
+a,div,span,li {
+    text-shadow:none;
+    background-image:none;
+    box-shadow:none;
+    border-radius:0
 }
 
-.pagination span, .pagination a {
-    border: 0px;
-    background: none;
+.pagination span,.pagination a {
+    border:0;
+    background:none
 }
 
 .minibutton {
-    border-width: 0;
-    background: transparent;
+    border-width:0;
+    background:transparent
 }
 
 a.social-count {
-    padding-top: 1px;
-    line-height: 2em;
-    border-color: #00aaff;
+    padding-top:1px;
+    line-height:2em;
+    border-color:#0af
 }
 
 .list-group-item .minibutton {
-    background-color: transparent;
-    line-height: 2em;
+    background-color:transparent;
+    line-height:2em
 }
 
 .issues-list-options {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
 
 .tabnav {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
-
 
 span.current {
-    color: #4183c4;
+    color:#4183c4
 }
 
-.primary, .minibutton.primary {
-    background: #60b044;
-    font-weight: 400;
+.primary,.minibutton.primary {
+    background:#60b044;
+    font-weight:400
 }
 
-.primary:hover, .minibutton.primary:hover {
-    background: #569e3d;
+.primary:hover,.minibutton.primary:hover {
+    background:#569e3d
 }
 
 div.capped-box.overall-summary {
-    border-width: 0;
+    border-width:0
 }
 
 div.capped-box.overall-summary.without-lang-stats {
-    border-bottom: 1px solid #ddd;
+    border-bottom:1px solid #ddd
 }
 
 div.clearfix.announce.instapaper_body.md {
-    border-width: 0;
-    background-color: transparent;
+    border-width:0;
+    background-color:transparent
 }
 
 .bubble {
-    background-color: transparent;
-    border-width: 0;
+    background-color:transparent;
+    border-width:0
 }
 
 .file-navigation.in-mid-page {
-    padding: 0 3px 0 5px;
+    padding:0 3px 0 5px
 }
 
-.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
-    float: right;
-    margin-top: 1px;
+.file-navigation.in-mid-page .minibutton,.file-navigation.in-mid-page .select-menu {
+    float:right;
+    margin-top:1px
 }
 
 div.commit-form {
-    border-color: #000966;
+    border-color:#000966
 }
 
 div.scope-badge {
-    background-color: #000966;
-    color: #000000;
+    background-color:#000966;
+    color:#000
 }
 
 span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
+    color:#0af
 }
 
 span.mega-octicon.octicon-repo {
-    color: #00aaff;
+    color:#0af
 }
 
 a.selected.js-selected-navigation-item.sunken-menu-item {
-    background-color: #00aaff;
+    background-color:#0af
 }
 
 a.sunken-menu-item .octicon {
-    color: #00aaff;
+    color:#0af
 }
 
 a.selected.js-selected-navigation-item.sunken-menu-item .octicon {
-    color: #000000;
+    color:#000
 }
 
 button.minibutton.with-count.js-toggler-target {
-    background-color: #00aaff;
+    background-color:#0af
 }
 
 a.minibutton.with-count.js-toggler-target.tooltipped-n {
-    background-color: #00aaff;
-    margin-right: 1px;
+    background-color:#0af;
+    margin-right:1px
 }
 
 a.social-count.js-social-count {
-    border-color: #00aaff;
-    margin-left: 1px;
+    border-color:#0af;
+    margin-left:1px
 }
 
 a.minibutton.select-menu-button.with-count.js-menu-target {
-    background-color: #00aaff;
-    margin-left: 1px;
-    margin-right: 1px;
-    border-color: #000000;
-    border-style: solid;
-    border-right-width: 2px;
+    background-color:#0af;
+    margin-left:1px;
+    margin-right:1px;
+    border-color:#000;
+    border-style:solid;
+    border-right-width:2px
 }
-
 
 span.label {
-    text-transform: lowercase;
-    font-weight: normal;
-    text-shadow: none ;
-    box-shadow: none ;
-    padding-bottom: 1px;
+    text-transform:lowercase;
+    font-weight:400;
+    text-shadow:none;
+    box-shadow:none;
+    padding-bottom:1px
 }
 
-a, div, span, li {
-    text-shadow: none ;
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0px;
+a,div,span,li {
+    text-shadow:none;
+    background-image:none;
+    box-shadow:none;
+    border-radius:0
 }
 
-.pagination span, .pagination a {
-    border: 0px;
-    background: none;
+.pagination span,.pagination a {
+    border:0;
+    background:none
 }
 
 .minibutton {
-    border-width: 0;
-    background: transparent;
+    border-width:0;
+    background:transparent
 }
 
 a.social-count {
-    border: 1px solid #DFDFDF;
-    padding-top: 1px;
-    line-height: 2em;
-    border-color: #00aaff;
+    border:1px solid #DFDFDF;
+    padding-top:1px;
+    line-height:2em;
+    border-color:#0af
 }
 
 .list-group-item .minibutton {
-    background-color: transparent;
-    line-height: 2em;
+    background-color:transparent;
+    line-height:2em
 }
 
 .issues-list-options {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
 
 .tabnav {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
 
-
 div.capped-box.overall-summary {
-    border-width: 0;
+    border-width:0
 }
 
 div.capped-box.overall-summary.without-lang-stats {
-    border-bottom: 1px solid #ddd;
+    border-bottom:1px solid #ddd
 }
 
 div.clearfix.announce.instapaper_body.md {
-    border-width: 0;
-    background-color: transparent;
+    border-width:0;
+    background-color:transparent
 }
 
 .bubble {
-    background-color: transparent;
-    border-width: 0;
+    background-color:transparent;
+    border-width:0
 }
 
 .file-navigation.in-mid-page {
-    padding: 0 3px 0 5px;
+    padding:0 3px 0 5px
 }
 
-.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
-    float: right;
-    margin-top: 1px;
+.file-navigation.in-mid-page .minibutton,.file-navigation.in-mid-page .select-menu {
+    float:right;
+    margin-top:1px
 }
 
 div.commit-form {
-    border-color: #000966;
+    border-color:#000966
 }
 
 div.scope-badge {
-    background-color: #000966;
-    color: #000000;
+    background-color:#000966;
+    color:#000
 }
 
 span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
+    color:#0af
 }
 
 span.mega-octicon.octicon-repo {
-    color: #00aaff;
+    color:#0af
 }
 
 a.selected.js-selected-navigation-item.sunken-menu-item {
-    background-color: #00aaff;
+    background-color:#0af
 }
 
 a.sunken-menu-item .octicon {
-    color: #00aaff;
+    color:#0af
 }
 
 a.selected.js-selected-navigation-item.sunken-menu-item .octicon {
-    color: #000000;
+    color:#000
 }
 
 button.minibutton.with-count.js-toggler-target {
-    background-color: #00aaff;
+    background-color:#0af
 }
 
 a.minibutton.with-count.js-toggler-target.tooltipped-n {
-    background-color: #00aaff;
-    margin-right: 1px;
+    background-color:#0af;
+    margin-right:1px
 }
 
 a.social-count.js-social-count {
-    border-color: #00aaff;
-    margin-left: 1px;
+    border-color:#0af;
+    margin-left:1px
 }
 
 a.minibutton.select-menu-button.with-count.js-menu-target {
-    background-color: #00aaff;
-    margin-left: 1px;
-    margin-right: 1px;
-    border-color: #000000;
-    border-style: solid;
-    border-right-width: 2px;
+    background-color:#0af;
+    margin-left:1px;
+    margin-right:1px;
+    border-color:#000;
+    border-style:solid;
+    border-right-width:2px
 }
 
 p.quickstat a strong {
-    color: #00aaff;
+    color:#0af
 }
 
 p.quickstat a {
-    color: #000966;
+    color:#000966
 }
 
 div.participation {
-    background-color: #000000;
-    border-color: #000966;
+    background-color:#000;
+    border-color:#000966
 }
 
 a.header-nav-link {
-    color: #000966;
+    color:#000966
 }
 
 span.author a {
-    color: #00aaff;
+    color:#0af
 }
 
 a.message {
-    color: #000966;
+    color:#000966
 }
 
 div.file-navigation.js-zeroclipboard-container {
-    color: #00aaff;
-    border-color: #000966;
+    color:#0af;
+    border-color:#000966
 }
 
 span.octicon.octicon-list-unordered {
-    color: #00aaff;
+    color:#0af
 }
 
 a.js-show-file-finder.minibutton.empty-icon.tooltipped.tooltipped-s {
-    background-color: #000000;
-    border-color: #000966;
+    background-color:#000;
+    border-color:#000966
 }
 
 button.js-zeroclipboard.minibutton.zeroclipboard-button.zeroclipboard-is-hover {
-    color: #00aaff;
-    border-color: #000966;
+    color:#0af;
+    border-color:#000966
 }
 
 button.js-zeroclipboard.minibutton.zeroclipboard-button.zeroclipboard-is-hover .octicon {
-    color: #00ffff;
+    color:#0ff
 }
 
 button.js-zeroclipboard.minibutton.zeroclipboard-button .octicon {
-    color: #00aaff;
+    color:#0af
 }
 
 #global-zeroclipboard-flash-bridge {
-    background-color: #00ffff;
+    background-color:#0ff
 }
 
-
 article.markdown-body.js-file {
-    background-color: #000000;
+    background-color:#000
 }
 
 article.markdown-body.js-file pre {
-    background-color: #000966;
+    background-color:#000966
 }
 
 div.comment-form-head.tabnav {
-    background-color: #000000;
+    background-color:#000
 }
 
 div.write-content.js-write-bucket {
-    background-color: #000000;
+    background-color:#000
 }
 
 div.js-previewable-comment-form.previewable-comment-form.write-selected {
-    background-color: #000000;
+    background-color:#000
 }
 
 a.tabnav-tab.preview-tab.js-preview-tab {
-    color: #000966;
+    color:#000966
 }
 
 a.tabnav-tab.write-tab.js-write-tab.selected {
-    background-color: #00aaff;
-    border-color: #000966;
+    background-color:#0af;
+    border-color:#000966
 }
 
 a.sunken-menu-item.selected {
-    background-color: #00aaff;
-    color: #000000;
-    text-shadow: none;
+    background-color:#0af;
+    color:#000;
+    text-shadow:none
 }
 
 a.sunken-menu-item {
-    background-color: #00aaff;
-    color: #000000;
-    text-shadow: none;
+    background-color:#0af;
+    color:#000;
+    text-shadow:none
 }
 
 div.sunken-menu-contents {
-    background-color: #000000;
+    background-color:#000
 }
 
 div.embed-url.open h3 strong {
-    color: #000966;
+    color:#000966
 }
 
 div.embed-url.open h3 {
-    color: #000966;
+    color:#000966
 }
 
 div.clone-url.open h3 {
-    color: #000966;
+    color:#000966
 }
 
 div.clone-url.open h3 strong {
-    color: #000966;
+    color:#000966
 }
 
 p.clone-options {
-    color: #ffffff;
+    color:#fff
 }
-
-
-
-
-
-
 
 span.label {
-    text-transform: lowercase;
-    font-weight: normal;
-    text-shadow: none ;
-    box-shadow: none ;
-    padding-bottom: 1px;
+    text-transform:lowercase;
+    font-weight:400;
+    text-shadow:none;
+    box-shadow:none;
+    padding-bottom:1px
 }
 
-a, div, span, li {
-    text-shadow: none ;
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0px;
+a,div,span,li {
+    text-shadow:none;
+    background-image:none;
+    box-shadow:none;
+    border-radius:0
 }
 
-.pagination span, .pagination a {
-    border: 0px;
-    background: none;
+.pagination span,.pagination a {
+    border:0;
+    background:none
 }
 
 .minibutton {
-    border-width: 0;
-    background: transparent;
+    border-width:0;
+    background:transparent
 }
 
 a.social-count {
-    border-color: #000000;
-    margin-top: -1px;
+    border-color:#000;
+    margin-top:-1px
 }
 
 .list-group-item .minibutton {
-    background-color: transparent;
-    line-height: 2em;
+    background-color:transparent;
+    line-height:2em
 }
 
 .issues-list-options {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
 
 .tabnav {
-    margin-bottom: 5px;
+    margin-bottom:5px
 }
-
-
 
 span.current {
-    color: #4183c4;
+    color:#4183c4
 }
 
-.primary, .minibutton.primary {
-    background: #60b044;
-    font-weight: 400;
+.primary,.minibutton.primary {
+    background:#60b044;
+    font-weight:400
 }
 
-.primary:hover, .minibutton.primary:hover {
-    background: #569e3d;
+.primary:hover,.minibutton.primary:hover {
+    background:#569e3d
 }
 
 div.capped-box.overall-summary {
-    border-width: 0;
+    border-width:0
 }
 
 div.capped-box.overall-summary.without-lang-stats {
-    border-bottom: 1px solid #ddd;
+    border-bottom:1px solid #ddd
 }
 
 div.clearfix.announce.instapaper_body.md {
-    border-width: 0;
-    background-color: transparent;
+    border-width:0;
+    background-color:transparent
 }
 
 .bubble {
-    background-color: transparent;
-    border-width: 0;
+    background-color:transparent;
+    border-width:0
 }
 
 .file-navigation.in-mid-page {
-    padding: 0 3px 0 5px;
+    padding:0 3px 0 5px
 }
 
-.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
-    float: right;
-    margin-top: 1px;
+.file-navigation.in-mid-page .minibutton,.file-navigation.in-mid-page .select-menu {
+    float:right;
+    margin-top:1px
 }
 
 a.minibutton,button.minibutton,button.minibutton.with-count {
-    background-color: #00aaff;
-    margin-left: 1px;
-    margin-right: 1px;
-    border: none;
+    background-color:#0af;
+    margin-left:1px;
+    margin-right:1px;
+    border:none
 }
 
 .js-selected-navigation-item.selected {
-    background-color: #00aaff;
+    background-color:#0af
 }
 
 .commit .commit-meta {
-    background-color: #000000;
-    border-color: #000996;
-    color: #00aaff
-
-;
+    background-color:#000;
+    border-color:#000996;
+    color:#0af
 }
 
 td.age {
-    border-style: none;
+    border-style:none
 }
 
 td.message {
-    border-color: #000966;
+    border-color:#000966
 }
 
 td.content {
-    border-color: #000966;
+    border-color:#000966
 }
 
 td.icon {
-    border-color: #000966;
+    border-color:#000966
 }
 
 a.minibutton.primary.tooltipped.tooltipped-s.left.compare-button {
-    color: #000000;
+    color:#000
 }
 
 a.js-selected-navigation-item.sunken-menu-item .octicon {
-    color: #00aaff;
+    color:#0af
 }
 
 a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
-    color: #000000;
+    color:#000
 }
 
 div.file-navigation.in-mid-page a .octicon {
-    color: #000000;
+    color:#000
 }
 
 span.mega-octicon.octicon-mark-github {
-    color: #00aaff;
+    color:#0af
 }
-
