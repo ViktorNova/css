@@ -369,12 +369,7 @@ a, div, span, li {
     background: transparent;
 }
 
-.minibutton:hover {
-    background: #F3F3F3;
-}
-
 a.social-count {
-    border: 1px solid #DFDFDF;
     padding-top: 1px;
     line-height: 2em;
     border-color: #00aaff;
@@ -393,10 +388,6 @@ a.social-count {
     margin-bottom: 5px;
 }
 
-ul.filter-list .filter-item.selected {
-    color: #4183c4;
-    background: white;
-}
 
 span.current {
     color: #4183c4;
@@ -516,10 +507,6 @@ a, div, span, li {
     background: transparent;
 }
 
-.minibutton:hover {
-    background: #F3F3F3;
-}
-
 a.social-count {
     border: 1px solid #DFDFDF;
     padding-top: 1px;
@@ -540,23 +527,6 @@ a.social-count {
     margin-bottom: 5px;
 }
 
-ul.filter-list .filter-item.selected {
-    color: #4183c4;
-    background: white;
-}
-
-span.current {
-    color: #4183c4;
-}
-
-.primary, .minibutton.primary {
-    background: #60b044;
-    font-weight: 400;
-}
-
-.primary:hover, .minibutton.primary:hover {
-    background: #569e3d;
-}
 
 div.capped-box.overall-summary {
     border-width: 0;
@@ -663,7 +633,7 @@ a.message {
 }
 
 div.file-navigation.js-zeroclipboard-container {
-    color: #ff05ff;
+    color: #00aaff;
     border-color: #000966;
 }
 
@@ -756,6 +726,152 @@ div.clone-url.open h3 strong {
 }
 
 p.clone-options {
-    color: #000966;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+span.label {
+    text-transform: lowercase;
+    font-weight: normal;
+    text-shadow: none ;
+    box-shadow: none ;
+    padding-bottom: 1px;
+}
+
+a, div, span, li {
+    text-shadow: none ;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.pagination span, .pagination a {
+    border: 0px;
+    background: none;
+}
+
+.minibutton {
+    border-width: 0;
+    background: transparent;
+}
+
+a.social-count {
+    border-color: #000000;
+    margin-top: -1px;
+}
+
+.list-group-item .minibutton {
+    background-color: transparent;
+    line-height: 2em;
+}
+
+.issues-list-options {
+    margin-bottom: 5px;
+}
+
+.tabnav {
+    margin-bottom: 5px;
+}
+
+
+
+span.current {
+    color: #4183c4;
+}
+
+.primary, .minibutton.primary {
+    background: #60b044;
+    font-weight: 400;
+}
+
+.primary:hover, .minibutton.primary:hover {
+    background: #569e3d;
+}
+
+div.capped-box.overall-summary {
+    border-width: 0;
+}
+
+div.capped-box.overall-summary.without-lang-stats {
+    border-bottom: 1px solid #ddd;
+}
+
+div.clearfix.announce.instapaper_body.md {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.bubble {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.file-navigation.in-mid-page {
+    padding: 0 3px 0 5px;
+}
+
+.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
+    float: right;
+    margin-top: 1px;
+}
+
+a.minibutton,button.minibutton,button.minibutton.with-count {
+    background-color: #00aaff;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: none;
+}
+
+.js-selected-navigation-item.selected {
+    background-color: #00aaff;
+}
+
+.commit .commit-meta {
+    background-color: #000000;
+    border-color: #000996;
+    color: #00aaff
+
+;
+}
+
+td.age {
+    border-style: none;
+}
+
+td.message {
+    border-color: #000966;
+}
+
+td.content {
+    border-color: #000966;
+}
+
+td.icon {
+    border-color: #000966;
+}
+
+a.minibutton.primary.tooltipped.tooltipped-s.left.compare-button {
+    color: #000000;
+}
+
+a.js-selected-navigation-item.sunken-menu-item .octicon {
+    color: #00aaff;
+}
+
+a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
+    color: #000000;
+}
+
+div.file-navigation.in-mid-page a .octicon {
+    color: #000000;
+}
+
+span.mega-octicon.octicon-mark-github {
+    color: #00aaff;
 }
 
