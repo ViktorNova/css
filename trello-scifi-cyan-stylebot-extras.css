@@ -1,0 +1,129 @@
+/*  By Viktor Nova
+    The classes in this file don't work in Stylebot by simply 
+    @importing the stylesheet straight from GitHub like the main
+    file does, so I've split those problematic ones into their own
+    stylesheet.
+    
+    Note to self: Everything in here must be added to the actual Stylebot theme every time I update it!
+    
+*/
+    
+#header {
+    background-color: #00ffff;
+    padding-bottom: 9px;
+}
+
+.header-search-input {
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding-bottom: 27px;
+}
+
+span.header-logo-default {
+    border-color: #000000;
+}
+
+p.inline-block.bottom {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+textarea.field.single-line {
+    color: #00ffff;
+    font-style: italic;
+    height: auto;
+}
+
+textarea.checklist-new-item-text.js-new-checklist-item-input {
+    background: #000000;
+}
+
+a.button-link {
+    background: #001f1f;
+    border-color: #000000;
+    border-style: none;
+    color: #000000;
+    background-color: #004a4a;
+}
+
+a.button-link span.icon-sm {
+    color: #000000;
+}
+
+a.button-link:hover {
+    background: #00ffff;
+}
+
+div.boards-drawer.show {
+    background-color: #000000;
+}
+
+p.sidebar-section-header.quiet.js-sidebar-section-header.bold {
+    color: #00ffff;
+}
+
+div.board-drawer-content.u-fancy-scrollbar span.icon-sm {
+    color: #00ffff;
+}
+
+span.details {
+    background-color: #000d0d;
+    color: #00ffff;
+}
+
+input.js-search-boards {
+    background-color: #000d0d;
+    color: #00ffff;
+    border-radius: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-color: #00ffff;
+}
+
+a.quiet-button.js-add-board-with-name {
+    background-color: #000000;
+    color: #00ffff;
+}
+
+a.quiet-button.js-add-board-with-name:hover {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+span.board-header-btn-icon.icon-sm.icon-cal {
+    color: #00ffff;
+}
+
+div.calendar-day.js-expand-day {
+    background-color: #004a4a;
+}
+
+div.quiet.num-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.clearfix {
+    background-color: #000000;
+}
+
+div.window-module {
+    color: #00ffff;
+}
+
+span.icon-lg.window-module-title-icon {
+    color: #00ffff;
+}
+
+a.inline-block.quiet.dark-hover.js-view-org-profile {
+    color: #004a4a;
+}
+
+span.member-boards-list-ad.business-class-ad.window-title-extra--bc-pitch {
+    display: none ;
+}
+
+a.inline-block.quiet.dark-hover.js-view-org-profile span.icon-sm {
+    padding-right: 5px;
+    color: #00ffff;
+}
