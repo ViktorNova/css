@@ -10,7 +10,7 @@
 */
 
 h2.list-header-name.hide-on-edit.js-list-name {
-    font-family: 'Share Tech Mono',monospace;
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
     font-size: 1.6em;
     color: #00bbff;
 }
@@ -188,7 +188,7 @@ div.list-card.js-composer {
 }
 
 textarea.list-card-composer-textarea.js-card-title {
-    font-family: 'Enter Sansman';
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
     font-style: italic;
     color: #000000;
 }
@@ -204,7 +204,7 @@ div.list.add-list.idle {
 }
 
 textarea.field.single-line {
-    font-family: 'Enter Sansman';
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
     color: #000000;
     font-size: 1.7em;
     border-style: dashed;
@@ -220,7 +220,7 @@ span.placeholder.js-open-add-list {
 }
 
 input.list-name-input {
-    font-family: 'Enter Sansman';
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
     color: #00ffff;
     font-size: 1.7em;
     border-style: dashed;
@@ -260,7 +260,7 @@ div.current-comment p a {
 
 textarea.new-comment-input.js-new-comment-input {
     background-color: #000000;
-    font-family: 'Enter Sansman';
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
     border-style: none;
     border-color: border-color: #0080ff;
 }
@@ -486,7 +486,7 @@ div.window-module-title.window-module-title-no-divider.u-clearfix.ed.grab {
 }
 
 body {
-    font-family: Consolas, 'Enter Sansman', monospace;
+    font-family: 'Share Tech Mono', 'Consolas', monospace;
 }
 
 h2.list-header-name.hide-on-edit.js-list-name.current {
