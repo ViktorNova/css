@@ -1,5 +1,16 @@
+/*  SciFi Dark Trello - Cyanova
+    By Viktor Nova
+    https://github.com/ViktorNova/css
+    
+    To install this theme Stylebot, go here: http://stylebot.me/styles/8281
+    The Stylebot style self-updates straight from Github (for the most part)
+    
+    Note: There is a second stylesheet that goes along with this one to complete the theme:
+    https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-stylebot-extras.css
+*/
+
 h2.list-header-name.hide-on-edit.js-list-name {
-    font-family: 'Enter Sansman';
+    font-family: 'Share Tech Mono',monospace;
     font-size: 1.6em;
     color: #00bbff;
 }
@@ -559,3 +570,4 @@ div.list-card-details.u-clearfix {
 
 /* --------------------------------------------------------------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=PT+Mono|Share+Tech+Mono);
