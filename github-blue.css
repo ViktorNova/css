@@ -992,3 +992,1013 @@ form.js-blob-form {
     border-color: #000000;
 }
 
+.bubble {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.file-navigation.in-mid-page {
+    padding: 0 3px 0 5px;
+}
+
+.file-navigation.in-mid-page .minibutton, .file-navigation.in-mid-page .select-menu {
+    float: right;
+    margin-top: 1px;
+}
+
+.issues-list-options {
+    margin-bottom: 5px;
+}
+
+.list-group-item .minibutton {
+    background-color: transparent;
+    line-height: 2em;
+}
+
+.minibutton {
+    background: transparent;
+    border-width: 0;
+}
+
+.minibutton:hover {
+    background: #F3F3F3;
+}
+
+.pagination span, .pagination a {
+    background: none;
+    border: 0px;
+}
+
+.primary, .minibutton.primary {
+    background: #60b044;
+    font-weight: 400;
+}
+
+.primary:hover, .minibutton.primary:hover {
+    background: #569e3d;
+}
+
+.tabnav {
+    margin-bottom: 5px;
+}
+
+a, div, span, li {
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none ;
+}
+
+a.social-count {
+    border: 1px solid #DFDFDF;
+    line-height: 2em;
+    padding-top: 1px;
+}
+
+div.capped-box.overall-summary {
+    border-width: 0;
+}
+
+div.capped-box.overall-summary.without-lang-stats {
+    border-bottom: 1px solid #ddd;
+}
+
+div.clearfix.announce.instapaper_body.md {
+    background-color: transparent;
+    border-width: 0;
+}
+
+span.current {
+    color: #4183c4;
+}
+
+span.label {
+    box-shadow: none ;
+    font-weight: normal;
+    padding-bottom: 1px;
+    text-shadow: none ;
+    text-transform: lowercase;
+}
+
+ul.filter-list .filter-item.selected {
+    background: white;
+    color: #4183c4;
+}
+
+.ace-github-light {
+    background-color: #000000;
+    color: inherit;
+}
+
+.ace_gutter-cell {
+    background: #000000;
+}
+
+.file .meta {
+}
+
+.highlight .err {
+    background-color: #1c2d2d;
+    color: #59e8e8;
+}
+
+.highlight .gr, .highlight .gt {
+    color: #55ffff;
+}
+
+.highlight .gu, .highlight .ni {
+    color: #7fff7f;
+}
+
+.highlight .kt, .highlight .nc {
+    color: #bbaa77;
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
+    color: #ff6666;
+}
+
+.highlight .na, .highlight .no, .highlight .nv, .highlight .vg, .highlight .vi, .highlight .vc {
+    color: #ff7f7f;
+}
+
+.highlight .nb {
+    color: #ff794c;
+}
+
+.highlight .ne, .highlight .nf {
+    color: #66ffff;
+}
+
+.highlight .nt {
+    color: #ffff7f;
+}
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .si, .highlight .sx, .highlight .s1 {
+    color: #2ebfff;
+}
+
+.highlight .sr {
+    color: #ff66d9;
+}
+
+.highlight .w {
+    color: #444444;
+}
+
+.js-code-editor,.container-preview,.show-code {
+    background: #000000;
+    border-color: #000396;
+}
+
+.js-current-repository {
+    color: #00ffff;
+}
+
+.markdown-body a.anchor {
+    padding-left: 24px;
+}
+
+.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
+    padding-left: 8px;
+}
+
+.menu-item {
+    text-align: right;
+}
+
+.menu-item.selected {
+    background-color: #00aaff;
+}
+
+.menu-item.selected:before {
+    background: none;
+}
+
+.message, .message * {
+    background-color: #111122   ;
+}
+
+.meta .clearfix {
+    background: #000000;
+}
+
+.social-count,.social-count.js-social-count {
+    border-left-color: #000000;
+    border-left-width: 1px;
+    border-style: solid;
+}
+
+.sunken-menu {
+    box-shadow: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.sunken-menu:before {
+    background: none;
+}
+
+.sunken-menu:before, .sunken-menu:after {
+    background: none;
+}
+
+a {
+    color: cyan;
+}
+
+a.button-link {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.button.danger.cancel {
+    border-color: #000396;
+}
+
+a.button.primary.right {
+    border-color: #73ff00;
+}
+
+a.code.selected.tabnav-tab {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+a.js-selected-navigation-item.menu-item {
+    border-color: #000396;
+}
+
+a.js-selected-navigation-item.subnav-item {
+    border-color: #000396;
+}
+
+a.js-selected-navigation-item.sunken-menu-item {
+    border-color: #000396;
+}
+
+a.menu-item {
+    background-color: #000396;
+    border-radius: 20px 0 0 20px;
+    border-style: none;
+    border-width: 5px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+a.menu-item.selected span.counter {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+a.mini-repo-list-item.css-truncate {
+    border-color: #000396;
+}
+
+a.minibutton {
+    border-color: #000396;
+}
+
+a.minibutton.with-count.js-toggler-target.tooltipped-n {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.preview.tabnav-tab {
+    color: #000396;
+}
+
+a.preview.tabnav-tab .octicon {
+    color: #000396;
+}
+
+a.social-count.js-social-count {
+    border-color: #000396;
+}
+
+a.tabnav-tab {
+    border-color: #000396;
+}
+
+a.tabnav-tab.selected {
+    border-color: #00ffff;
+}
+
+a.url.fn span {
+    color: #00aaff;
+}
+
+article.markdown-body.entry-content {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+article.markdown-body.entry-content h1 {
+    border-color: #000396;
+}
+
+article.markdown-body.entry-content h3 code {
+    background-color: #3b3b3b;
+}
+
+article.markdown-body.entry-content p code {
+    background-color: #3b3b3b;
+}
+
+body, a, button, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, il, li, table, th, tr, td, p, strong, pre, .announce, .name, .num, .bubble, .commit, .container, .divider-vertical, .authorship, .octofication, .commit-meta, .box, .box-header, .box-small, .box-title, .box-body, .col, .grid, .filter-bar, .js-notice, .news, .flash, .dashboard, .dashboard-sidebar, .header, .highlight, .message, .repo-nav-contents, .tab-content, .contributions-tab, .last, .site, .pagehead, .participation, .meta, .line, .plain {
+    background-attachment: scroll;
+    background-color: black;
+    background-image: none;
+    background-position: top left;
+    background-repeat: repeat;
+    color: #00aaff;
+    text-shadow: none;
+}
+
+button {
+    border-color: #000396;
+}
+
+button .octicon, .minibutton .octicon {
+    color: #000000;
+}
+
+button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container a,#repository_id,.social-count,.minibutton {
+    background: #00aaff;
+    border-color: #000396;
+    color: #000000;
+    text-shadow: none;
+}
+
+button.minibutton, p button.minibutton {
+    color: #00aaff;
+}
+
+button.minibutton:hover, p button.minibutton:hover {
+    background: #00aaff;
+    color: #000000;
+}
+
+button.minibutton.with-count.js-toggler-target {
+    background-color: #00aaff;
+}
+
+/* Line devider for social count buttons */
+
+/*   EDITED 2-17 --- */
+
+div.ace_content {
+    border-color: #000396;
+}
+
+div.ace_gutter {
+    border-color: #000396;
+}
+
+div.ace_gutter-cell {
+    border-color: #000396;
+    color: #00aaff;
+}
+
+div.alert.fork.simple {
+    border-color: #000396;
+}
+
+div.alert.issues_closed {
+    border-color: #000396;
+}
+
+div.alert.issues_comment {
+    border-color: #000396;
+}
+
+div.alert.issues_opened {
+    border-color: #000396;
+}
+
+div.alert.push {
+    border-color: #000396;
+}
+
+div.blankslate {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.blankslate.spacious.large-format {
+    background-color: #000000;
+}
+
+div.blankslate.spacious.large-format.capped {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.body {
+    border-color: #000396;
+}
+
+div.boxed-group-inner {
+    border-color: #000396;
+}
+
+div.boxed-group.flush h3 {
+    border-color: #000396;
+}
+
+div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
+    border-color: #000396;
+}
+
+div.boxed-group.flush.js-notifications-browser h3 {
+    border-color: #000396;
+}
+
+div.branch-infobar.clearfix {
+    background-color: #00aaff;
+    border-color: #00aaff;
+}
+
+div.branch-infobar.clearfix p {
+    background-color: transparent;
+    color: #000000;
+}
+
+div.code-list-item.code-list-item-public {
+    border-color: #000396;
+}
+
+div.column.one-fourth hr {
+    border-color: #000396;
+}
+
+div.comment-body.markdown-body.js-comment-body p a {
+    color: #aca6ff;
+}
+
+div.comment-body.markdown-body.js-comment-body p code {
+    background-color: #5e5e5e;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.comment-form-head.tabnav {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.comment.timeline-comment.js-comment.js-task-list-container.owner-comment {
+    border-color: #000396;
+}
+
+div.commit-form {
+    border-color: #000396;
+}
+
+div.commit-meta {
+    border-color: #000396;
+}
+
+div.commit.commit-tease.js-details-container {
+    border-color: #000396;
+}
+
+div.commit.file-history-tease {
+    border-color: #000396;
+}
+
+div.contrib-column.contrib-column-first.table-column {
+    background-color: #000000;
+}
+
+div.contrib-column.table-column {
+    background-color: #000000;
+}
+
+div.contrib-footer.clearfix {
+    background-color: #000000;
+}
+
+div.dashboard-notice.js-notice {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.js-socket-channel.js-updatable-content {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-assignee {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-milestone {
+    border-color: #000396;
+}
+
+div.discussion-sidebar-item.sidebar-notifications {
+    border-color: #000396;
+}
+
+div.discussion-timeline-actions {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.divider-vertical {
+    border-color: #000396;
+}
+
+div.file {
+    border-color: #000396;
+}
+
+div.file-box.blob-wrapper {
+    border-color: #000396;
+}
+
+div.file-history-tease-header {
+    border-color: #000396;
+}
+
+div.file-wrap {
+    border-color: #000396;
+}
+
+div.filter-repos.filter-bar {
+    border-color: #000396;
+}
+
+div.flash {
+    border-color: #000396;
+}
+
+div.flex-table.gh-header-meta {
+    border-color: #000396;
+}
+
+div.form-actions {
+    background-color: #000396;
+}
+
+div.header.header-logged-in {
+    border-color: #000396;
+}
+
+div.js-calendar-graph.is-graph-loading.graph-canvas.calendar-graph {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.preview-selected {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.write-selected {
+    background-color: #000396;
+}
+
+div.left.text-muted {
+    color: #000396;
+}
+
+div.message.markdown-body blockquote {
+    background-color: #000396;
+}
+
+div.meta {
+    border-color: #000396;
+}
+
+div.meta.clearfix {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.name {
+    border-color: #000396;
+}
+
+div.overall-summary.overall-summary-bottomless {
+    border-color: #000396;
+}
+
+div.pagehead {
+    border-color: #000396;
+}
+
+div.pagehead.repohead {
+    border-color: #000396;
+}
+
+div.pagination a {
+    border-color: #000396;
+}
+
+div.participation {
+    border-color: #000396;
+}
+
+div.preview-content {
+    background-color: #000000;
+}
+
+div.protip.protip-callout {
+    border-color: #000396;
+    color: #000396;
+}
+
+div.recently-touched-branches ul li {
+    border-color: #00aaff;
+}
+
+div.repository-description {
+    color: #00aaff;
+}
+
+div.scope-badge {
+    background-color: #000396;
+    border: none;
+    border-style: none;
+    color: #000000;
+}
+
+div.site-footer {
+    border-color: #000396;
+}
+
+div.sort-bar {
+    border-color: #000396;
+}
+
+div.state.state-open {
+    background-color: #a6ff00;
+    color: #000000;
+}
+
+div.sunken-menu-separator {
+    background: none;
+    border-color: #000396;
+}
+
+div.sunken-menu-separator:before {
+    display: none;
+}
+
+div.table-list-cell.issue-comments {
+    border-color: #000396;
+}
+
+div.table-list-cell.issue-title {
+    border-color: #000396;
+}
+
+div.table-list-cell.table-list-cell-avatar {
+    border-color: #000396;
+}
+
+div.table-list-cell.table-list-cell-type {
+    border-color: #000396;
+}
+
+div.table-list-header {
+    background-color: #00aaff;
+    border-color: #000396;
+}
+
+div.tabnav {
+    border-color: #000396;
+}
+
+div.timeline-comment {
+    border-color: #000396;
+}
+
+div.timeline-comment-header {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+div.timeline-comment-header-text {
+    background-color: #000000;
+}
+
+div.timeline-comment-wrapper.js-comment-container {
+    border-color: #000396;
+}
+
+div.vcard-stats {
+    border-color: #000396;
+}
+
+div.write-content.js-write-bucket.js-uploadable-container.js-upload-markdown-image.upload-enabled.is-default {
+    background-color: #000396;
+}
+
+em.current {
+    border-color: #000396;
+    color: #000000
+;
+}
+
+form.js-blob-form {
+    border-color: #000000;
+}
+
+form.js-site-search-form input {
+    background-color: #000000;
+    border-color: #000396;
+    border-radius: 0 20px 20px 0;
+    border-style: solid;
+    border-width: 5px;
+    color: #00aaff;
+    margin-top: -2px;
+}
+
+form.subnav-search.subnav-divider-right.left {
+    border-color: #000396;
+}
+
+html, body {
+    color: #00a6ff;
+}
+
+input {
+    border-color: #000396;
+}
+
+input.filename.js-blob-filename.js-breadcrumb-nav {
+    border-color: #000396;
+}
+
+input.filter-input.js-filterable-field {
+    background-color: #000000;
+    border-color: #000396;
+    border-radius: 0 20px 20px 0;
+    border-style: solid;
+    border-width: 5px;
+    color: #00aaff;
+    margin-top: -2px;
+}
+
+input.input-block.js-search-query {
+    background-color: #000000;
+    border-color: #000396;
+    border-radius: 0 20px 20px 0;
+    border-style: solid;
+    border-width: 5px;
+    color: #00aaff;
+    margin-top: -2px;
+}
+
+input.subnav-search-input.input-contrast {
+    border-color: #000396;
+}
+
+li {
+    border-color: #000396;
+}
+
+li p code {
+    background-color: #000669;
+}
+
+li.list-group-item.js-notification.js-navigation-item.unread.pull-request-notification.navigation-focus {
+    border-color: #000396;
+}
+
+li.repo-list-item.public.source {
+    border-color: #000396;
+}
+
+nav.menu {
+    background: none;
+    border: none;
+}
+
+nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loaders {
+    background: #000000;
+    border-color: #000396;
+}
+
+p.drag-and-drop {
+    border-color: #000396;
+}
+
+p.reason {
+    border-color: #000396;
+}
+
+select.js-code-indent-mode {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+select.js-code-indent-width {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+select.js-code-wrap-mode {
+    background-color: #00aaff;
+    border-color: #000396;
+    color: #000000;
+}
+
+span a span {
+    color: #00ffff;
+}
+
+span.button-link.select-menu-button.js-menu-target {
+    color: #000000;
+}
+
+span.contrib-number {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+span.counter {
+    background-color: #00aaff;
+    color: #000000;
+    margin-left: 11px;
+    margin-top: 2px;
+    text-align: center;
+    width: 6em;
+}
+
+span.gap {
+    background-color: #000000;
+    border-color: #000396;
+    color: #000396;
+}
+
+span.issue-meta-section.opened-by {
+    color: #000396;
+}
+
+span.language {
+    color: #000396;
+}
+
+span.mail-status.unread {
+    background: #00ffff;
+    border-color: #000396;
+}
+
+span.match-count {
+    color: #000396;
+}
+
+span.mega-octicon {
+    color: #00aaff;
+}
+
+span.mega-octicon.octicon-repo {
+    color: #00aaff;
+}
+
+span.n {
+    color: #e0e0e0;
+}
+
+span.octicon {
+    color: #00aaff;
+}
+
+span.octicon.octicon-check {
+    color: #00ff73;
+    text-shadow: 0 0 2px #000000;
+}
+
+span.octicon.octicon-git-compare {
+    color: #00ffff;
+}
+
+span.octicon.octicon-issue-closed.closed {
+    color: #00ff73;
+}
+
+span.octicon.octicon-issue-opened {
+    color: #e00070;
+    text-shadow: 0 0 3px #000000;
+}
+
+span.octicon.octicon-issue-opened.open {
+    color: #e00070;
+}
+
+span.octicon.octicon-link {
+    color: #00aaff;
+}
+
+span.octicon.octicon-x {
+    background-color: #000396;
+}
+
+span.path-divider {
+    color: #000396;
+}
+
+span.previous_page.disabled {
+    background: #000000;
+    border-color: #000396;
+    color: #000396;
+}
+
+span.separator {
+    color: #00aaff;
+}
+
+span.sha {
+    color: #000396;
+}
+
+span.ss {
+    color: #e897e8;
+}
+
+span.text-emphasized {
+    color: #000396;
+}
+
+span.text-muted {
+    color: #00aaff;
+}
+
+span.updated-at {
+    color: #000396;
+}
+
+td.age {
+    border-color: #000396;
+}
+
+td.blob-num {
+    border-color: #000396;
+}
+
+td.content {
+    border-color: #000396;
+}
+
+td.icon {
+    border-color: #000396;
+}
+
+td.message {
+    border-color: #000396;
+}
+
+textarea {
+    border-color: #000396;
+}
+
+textarea.file-contents.js-file-edit.js-code-editor {
+    border-color: #000396;
+}
+
+textarea.input-contrast.comment-form-textarea.js-comment-field.js-quick-submit.js-size-to-fit.js-quote-selection-target.js-session-resumable.js-suggester-field {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+u2500.highlight .c, .highlight.cm, .highlight.c1 {
+    color: #666677;
+}
+
+ul.boxed-group-inner.list-group.notifications {
+    border-color: #000396;
+}
+
+ul.boxed-group-inner.mini-repo-list {
+    border-color: #000396;
+}
+
+ul.filter-list.small {
+    border-color: #000396;
+}
+
+ul.lightweight-actions {
+    border-radius: 10px;
+}
+
+ul.lightweight-actions li a {
+    padding-right: 7px;
+}
+
+ul.menu {
+    border-color: #000396;
+    border-style: none;
+}
+
+ul.task-list li code {
+    background-color: #575757;
+}
+
+ul.vcard-details {
+    border-color: #000396;
+}
