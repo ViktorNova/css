@@ -130,9 +130,39 @@ a.inline-block.quiet.dark-hover.js-view-org-profile span.icon-sm {
 
 /* --- END STYLEBOT STYLE ---*/
 
+/* ADDED 2015-02-17 */
 
 
+textarea.list-card-edit-title {
+    background-color: #000000;
+    color: #00ffff;
+    padding: .5em;
+    font-style: italic;
+}
+
+a.header-btn.header-boards.js-boards-menu {
+    padding-right: 7px;
+}
+
+.list-card {
+    background-color: inherit;
+    border: inherit;
+}
+
+.list-card-labels .card-label {
+    line-height: 1em;
+}
+
+span.card-label {
+    width: auto;
+    height: auto;
+    text-align: left;
+    vertical-align: top;
+    padding-top: .2em;
+    padding-right: .5em;
+    padding-bottom: .1em;
+    padding-left: .5em;
+    border-radius: 8px;
+}
 
 
-
-/* --- NEW STYLES STAGING AREA ---*/
