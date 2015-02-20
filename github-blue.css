@@ -969,6 +969,7 @@ div.clearfix.announce.instapaper_body.md {
 
 button.minibutton.with-count.js-toggler-target {
     background-color: #00aaff;
+    color: #000000;
 }
 
 a.minibutton.with-count.js-toggler-target.tooltipped-n {
@@ -1078,5 +1079,31 @@ a.tabnav-tab.selected .octicon {
 
 a.social-count {
     margin-top: -1px;
+}
+
+div.file-header {
+    background-color: #000000;
+    border-color: #000966;
+}
+
+span.minibutton.select-menu-button.js-menu-target.css-truncate:hover {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+span.js-select-button.css-truncate-target {
+    background-color: inherit;
+}
+
+a.minibutton.select-menu-button.with-count.js-menu-target {
+    background-color: #00aaff;
+}
+
+span.js-select-button {
+    background-color: inherit;
+}
+
+a.minibutton.select-menu-button.with-count.js-menu-target:hover {
+    background-color: #00ffff;
 }
 
