@@ -9,571 +9,330 @@
     https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-stylebot-extras.css
 */
 
-h2.list-header-name.hide-on-edit.js-list-name {
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
-    font-size: 1.6em;
-    color: #00bbff;
-}
+@import url("https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan.css");
 
-span.badge-icon.icon-sm.icon-desc {
-    color: #000000;
-}
-
-span.badge-icon.icon-sm.icon-checklist {
-    color: #000000;
-}
-
-span.badge-text {
-    color: #00ffff;
-    background-color: #000000;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 10px;
-}
-
-div.badges {
-    float: right;
-}
-
-div.list {
-    background-color: #000000;
-    border-style: solid;
-    box-shadow: 0 0 20px #000000,0 0 30px #000000;
-    border-color: #00ffff;
-    border-width: 9px;
-    border-radius: 20px;
-    color: #00ffff;
-}
-
-div.list-card.js-member-droppable.ui-droppable {
-    background: none;
-    border: none;
-}
-
-div.list-card-details.clearfix {
+#header {
     background-color: #00ffff;
-    color: #000000;
+    padding-bottom: 9px;
+}
+
+.header-search-input {
+    border: 1px solid #000000;
     border-radius: 16px;
+    padding-bottom: 27px;
 }
 
-div.board-header.clearfix.js-board-header {
+.list-card {
+    background-color: inherit;
+    border: inherit;
+}
+
+.list-card-labels .card-label {
+    line-height: 1em;
+}
+
+a.attachment-thumbnail-details-title.js-attachment-thumbnail-details {
+    color: #00ffff;
+}
+
+a.button-link {
+    background: #001f1f;
+    background-color: #004a4a;
+    border-color: #000000;
+    border-style: none;
+    color: #000000;
+}
+
+a.button-link span.icon-sm {
+    color: #000000;
+}
+
+a.button-link:hover {
+    background: #00ffff;
+}
+
+a.card-detail-item-add-button.dark-hover.js-details-edit-members {
+    background: #004a4a;
+}
+
+a.card-detail-item-add-button.dark-hover.js-details-edit-members:hover {
     background-color: #00ffff;
-    color: #000000;
-    height: auto;
-    padding: 0;
-    margin-bottom: 1em;
-}
-
-span.header-btn-icon.icon-lg.icon-board.light {
-    color: #000000;
-}
-
-span.header-btn-text {
-    background-color: #000000;
-    border-radius: 10px;
-    color: #00ffff;
-}
-
-span.header-btn-icon.icon-lg.icon-add.light {
-    color: #000000;
-}
-
-span.header-btn-icon.icon-lg.icon-notification.light {
-    color: #000000;
-}
-
-a.sidebar-show-btn.dark-hover {
-    transition: 1s;
-    background: none;
-    margin-right: -100px;
-}
-
-a.sidebar-show-btn.dark-hover:hover {
-    margin-right: 20px;
-}
-
-span.text {
-    width: 14em;
-    height: 2.2em;
-    color: #00ffff;
-    background-color: rgba(0,0,0,0.6);
-    padding-left: 16px;
-    border-radius: 10px 0 0 10px ;
-    margin-top: -1px;
-}
-
-div.board-wrapper.disabled-all-widgets {
-    background-color: #000000;
-}
-
-a.board-header-btn.board-header-btn-name.js-rename-board {
-    color: #000000;
-    float: left;
-    display: block;
-    position: absolute;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 4em;
-    font-size: 2em;
 }
 
 a.header-btn.header-boards.js-boards-menu {
-    border-style: solid;
-    border-color: #000000;
-    background-color: #00ffff;
-    color: #000000;
-    border-radius: 16px;
+    padding-right: 7px;
 }
 
-input.header-search-input.js-search-input.js-disable-on-dialog.disabled-for-dialog {
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 16px;
-}
-
-span.header-search-icon.icon-lg.icon-search.light.js-search-icon.js-search-focus {
-    color: #000000;
-}
-
-a.board-header-btn.perms-btn.js-change-vis {
+a.inline-block.quiet.dark-hover.js-view-org-profile {
     color: #004a4a;
 }
 
-span.board-header-btn-icon.icon-sm.icon-private {
+a.inline-block.quiet.dark-hover.js-view-org-profile span.icon-sm {
+    color: #00ffff;
+    padding-right: 5px;
+}
+
+a.js-open-delete-confirm {
     color: #004a4a;
 }
 
-span.icon-sm.icon-leftarrow {
+a.js-remove-cover {
+    color: #004a4a;
+}
+
+a.list-card-title.js-card-name {
     color: #000000;
-    font-size: 1em;
     font-weight: bold;
 }
 
-div.list-header.js-list-header.non-empty.clearfix.editable {
+a.quiet-button.js-add-board {
+    background-color: #004a4a;
+    color: #000000;
+}
+
+a.quiet-button.js-add-board-with-name {
+    background-color: #000000;
+    color: #00ffff;
+}
+
+a.quiet-button.js-add-board-with-name:hover {
     background-color: #00ffff;
-    margin-left: -4px;
-    margin-right: -4px;
-    margin-top: -5px;
     color: #000000;
-    margin-bottom: 5px;
 }
 
-span.header-btn-text.js-member-name {
-    margin-left: 7px;
+a.quiet-button.js-attach {
+    color: #004a4a;
 }
 
-img.member-avatar {
-    border-radius: 3px;
+a.quiet-button.js-more-menu {
+    background-color: #000000;
+    color: #004a4a;
+}
+
+a.quiet-button.js-open-closed-boards {
+    background-color: #004a4a;
+    color: #000000;
+}
+
+a.quiet-button.js-pin {
+    background-color: #004a4a;
+    color: #000000;
+}
+
+a.quiet-button.mod-with-image.hide-on-edit.js-edit-desc.js-hide-with-desc {
+    color: #004a4a;
+}
+
+a.quiet-button.mod-with-image.hide-on-edit.js-edit-desc.js-hide-with-desc:hover {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+/* ADDED 2015-02-17 */
+
+div.attachment-viewer-frame-details p {
+    color: #004a4a;
+}
+
+div.board-drawer-content.u-fancy-scrollbar span.icon-sm {
+    color: #00ffff;
+}
+
+div.boards-drawer.is-shown {
+    background-color: #000000;
+    border-color: #00ffff;
+    border-style: solid;
+}
+
+div.boards-drawer.show {
     background-color: #000000;
 }
 
-a.list-card-title.clear.js-card-name {
-    color: #000000;
-    margin-bottom: 1em;
+div.calendar-day.js-expand-day {
+    background-color: #004a4a;
 }
 
-span.list-card-operation.icon-sm.icon-edit.dark-hover.js-open-quick-card-editor.js-card-menu {
-    background-color: rgba(0,0,0,0.4);
-    border-bottom-left-radius: 10px;
-    color: #000000;
-}
-
-div.board-wrapper {
+div.clearfix {
     background-color: #000000;
 }
 
-div.list-card.js-composer {
-    background-color: #000000;
-    border-style: none;
-}
-
-textarea.list-card-composer-textarea.js-card-title {
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
-    font-style: italic;
-    color: #000000;
-}
-
-div.fancy-scrollbar.js-no-higher-edits.js-list-sortable.ui-sortable {
-    background: #000000 url('http://images8.alphacoders.com/403/403441.gif');
-    background-size: cover;
-    background-position: center;
+div.js-attachment-list attachment-thumbnail-details.js-open-viewer:hover {
+    border-style: solid;
 }
 
 div.list.add-list.idle {
-    border-color: #303030;
+    border-color: #004a4a;
 }
 
-textarea.field.single-line {
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
+div.quiet.num-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.u-clearfix hr {
+    background-color: #004a4a;
+}
+
+div.window-archive-banner.js-archive-banner {
+    background: none;
+    background-color: #004a4a;
     color: #000000;
-    font-size: 1.7em;
-    border-style: dashed;
-    border-color: #000000;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 3px;
-    border-top-width: 0;
 }
 
-span.placeholder.js-open-add-list {
-    color: #303030;
-}
-
-input.list-name-input {
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
+div.window-module {
     color: #00ffff;
-    font-size: 1.7em;
-    border-style: dashed;
+}
+
+h2.attachment-viewer-frame-details-title {
+    color: #00ffff;
+}
+
+input.js-search-boards {
+    background-color: #000d0d;
     border-color: #00ffff;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 3px;
-    border-top-width: 0;
-}
-
-span.badge-icon.icon-sm.icon-comment {
-    color: #000000;
-}
-
-div.card-detail-data.gutter.clearfix {
-    background: #00ffff;
-    padding: .5em;
-    border-radius: 10px;
-    border-color: #0080ff;
-}
-
-div.action-comment.markeddown {
-    border-radius: 10px;
-    background: #000000;
-    border-style: solid;
-    border-width: 2px;
-}
-
-div.phenom.phenom-action.clearfix.phenom-comment {
-    border-color: #000000;
-    border-bottom-width: 5px;
-}
-
-div.current-comment p a {
-    color: #0080ff;
-}
-
-textarea.new-comment-input.js-new-comment-input {
-    background-color: #000000;
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
-    border-style: none;
-    border-color: border-color: #0080ff;
-}
-
-a.open-card-composer.js-open-card-composer {
-    border-radius: 0 0 10px 10px;
-    color: #004a4a;
-}
-
-a.open-card-composer.js-open-card-composer:hover {
-    color: #000000;
-    background-color: #00ffff;
-}
-
-a.list-header-menu-icon.icon-sm.icon-menu.dark-hover.js-open-list-menu {
-    color: #004a4a;
-}
-
-#stylebot-page-live-preview {
-    margin-top: -20px;
-}
-
-div.list-card-cover.js-card-cover {
-    border-style: solid;
-    border-color: #00ffff;
-    border-width: 10px;
-    border-radius: 10px;
-    margin-top: 2px;
-    margin-right: 0;
-    margin-bottom: -15px;
-    margin-left: 0;
-}
-
-div.window-overlay {
-    background-color: rgba(0,0,0,.92);
-}
-
-div.window {
-    background-color: rgba(0,0,0,0.5);
     border-radius: 16px;
     color: #00ffff;
-    border-color: #00ffff;
-    border-style: solid;
-    border-width: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
-span.board-header-btn-icon.icon-sm.icon-star {
+p.attachment-thumbnail-details.js-open-viewer {
+    color: #000000;
+}
+
+p.attachment-thumbnail-details.js-open-viewer:hover {
+    background: none;
+    background-color: #000000;
+}
+
+p.inline-block.bottom {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+p.sidebar-section-header.quiet.js-sidebar-section-header.bold {
+    color: #00ffff;
+}
+
+p.u-inline-block.u-bottom {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span.attachment-thumbnail-details-options-item-text {
     color: #004a4a;
 }
 
-span.board-header-btn-text {
+span.board-header-btn-icon.icon-sm.icon-cal {
     color: #00ffff;
 }
 
 span.card-label {
-    border-radius: 5px;
-    height: 1em;
+    border-radius: 8px;
+    height: auto;
+    padding-bottom: .1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    text-align: left;
+    vertical-align: top;
     width: auto;
-    line-height: 1em;
-    text-shadow: none;
-    color: #000000;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 2px;
-    padding-bottom: 1px;
-    box-shadow: 2px 4px 8px #000000;
 }
 
-a.card-detail-item-add-button.dark-hover.js-details-edit-labels {
-    background-color: #000000;
-    margin-top: -6px;
-}
-
-span.window-module-title-icon.icon-lg.icon-checklist {
-    color: #004a4a;
-}
-
-span.checklist-progress-percentage.js-checklist-progress-percent {
+span.details {
+    background-color: #000d0d;
     color: #00ffff;
 }
 
-a.hide-on-edit.quiet.js-confirm-delete {
-    color: #004a4a;
-    font-size: .8em;
+span.header-logo-default {
+    border-color: #000000;
 }
 
-a.hide-on-edit.quiet.js-hide-checked-items-button.js-hide-checked-items {
-    color: #004a4a;
+span.icon-lg.icon-archive.window-archive-banner-icon {
+    color: #000000;
 }
 
-p.checklist-item-details-text.hide-on-edit.markeddown.js-checkitem-name {
-    color: #004a4a;
-}
-
-p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name {
+span.icon-lg.window-module-title-icon {
     color: #00ffff;
 }
 
-p.inline-block.bottom {
-    color: #004a4a;
-}
-
-h3.card-detail-item-header {
-    color: #004a4a;
-}
-
-a.card-detail-item-header-edit.hide-on-edit.js-show-with-desc.js-edit-desc {
-    color: #004a4a;
-}
-
-span.window-header-icon.icon-lg.icon-card {
-    color: #004a4a;
-}
-
-div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc blockquote {
-    background-color: #00ffff;
+span.icon-sm.icon-add {
     color: #000000;
-    border-color: #004a4a;
 }
 
-span.window-module-title-icon.icon-lg.icon-activity {
+span.icon-sm.icon-close.light.attachment-viewer-option-icon {
     color: #004a4a;
 }
 
-a.inline-object.js-show-mem-menu {
+span.icon-sm.icon-cover.light.attachment-viewer-option-icon {
     color: #004a4a;
 }
 
-span.date.js-hide-on-sending {
+span.icon-sm.icon-follow {
     color: #004a4a;
 }
 
-a.js-edit-action {
+span.icon-sm.icon-movedown.light.attachment-viewer-option-icon {
     color: #004a4a;
 }
 
-a.js-confirm-delete-action {
+span.js-meta a {
     color: #004a4a;
 }
 
-span.js-hide-on-sending {
+span.member-boards-list-ad.business-class-ad.window-title-extra--bc-pitch {
+    display: none ;
+}
+
+span.placeholder.js-open-add-list {
     color: #004a4a;
 }
 
-div.phenom.phenom-action.u-clearfix.phenom-other {
-    border-color: #004a4a;
-}
-
-div.phenom.phenom-action.u-clearfix.phenom-comment {
-    border-color: #004a4a;
-}
-
-a.js-open-move-from-header strong {
-    color: #004a4a;
-    text-decoration: none;
-    border-color: #004a4a;
-}
-
-div.card-detail-data.gutter.u-clearfix {
-    margin-left: 4px;
-}
-
-p.checklist-item-details-text.current.hide-on-edit.markeddown.js-checkitem-name a {
-    display: block;
-    color: #4400ff;
-}
-
-textarea.field.full.single-line.js-checkitem-input {
-    background-color: #004a4a;
-    font-size: 1em;
-    border-top-width: 3px;
-    border-left-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-}
-
-a.icon-lg.icon-close.dark-hover.cancel.js-cancel-edit {
-    color: #004a4a;
-}
-
-span.js-checked-items-count {
-    color: #004a4a;
-}
-
-a.hide-on-edit.quiet.js-show-checked-items-button.js-show-checked-items {
+span.placeholder.js-open-add-list a:hover {
     color: #00ffff;
-    font-size: .8em;
 }
 
-div.checklist-item-checkbox.enabled.js-toggle-checklist-item {
-    border-color: #004a4a;
-    background-color: #000000;
-    border-width: 3px;
-    margin-top: 4px;
+span.quiet-button-icon.icon-sm.icon-desc {
+    color: #004a4a;
 }
 
-div.checklist-progress-bar-current.js-checklist-progress-bar.checklist-progress-bar-current-complete {
-    background-color: #ff037d;
+span.sidebar-section-header-title {
+    color: #00ffff;
 }
 
-div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc p a {
-    color: #4400ff;
+span.u-block.quiet {
+    color: #004a4a;
 }
 
-div.checklist-progress-bar-current.js-checklist-progress-bar {
-    background-color: #4400ff;
+textarea.checklist-new-item-text.js-new-checklist-item-input {
+    background: #000000;
 }
 
-div.checklist-progress-bar {
-    background-color: #004a4a;
-    border-radius: 0 0 16px 0;
-    height: 16px;
-}
-
-div.window-module-title.window-module-title-no-divider.u-clearfix.ed.grab {
-    background-color: #00ffff;
-    padding-left: 1em;
-    border-radius: 0 16px 0 0;
-    color: #000000;
-    padding-right: 1em;
-    margin-bottom: 3px;
+textarea.field.single-line {
+    color: #00ffff;
+    font-style: italic;
     height: auto;
 }
 
-body {
-    font-family: 'Share Tech Mono', 'Consolas', monospace;
-}
-
-h2.list-header-name.hide-on-edit.js-list-name.current {
+textarea.list-card-edit-title {
+    background-color: #000000;
     color: #00ffff;
+    font-style: italic;
+    padding: .5em;
 }
 
-table.calendar-table {
+p.attachment-thumbnail-details {
+    transition: .5s;
+}
+
+p.attachment-thumbnail-details:hover {
     background-color: #000000;
-    border-width: 0;
-}
-
-div.calendar-day-spacer-div {
-    background: none;
-    border: none;
-}
-
-h2.calendar-header-toolbar-title.js-calendar-header {
-    color: #00ffff;
-}
-
-div.calendar-header-toolbar {
-    background-color: #000000;
-}
-
-div.calendar-wrapper {
-    background-color: #000000;
-}
-
-#header {
-    background-color: #00ffff;
-    color: #000000;
-}
-
-div.calendar-day.js-expand-day.today {
-    border-style: solid;
-}
-
-td.day-cell {
-    background-color: #000000;
-}
-
-div.card-detail-item.card-detail-item-block.clear.u-clearfix.editable {
-    padding: 10px;
-    background-color: #001f1f;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-radius: 10px;
-}
-
-div.quiet {
-    background-color: #00ffff;
-    color: #000000;
-    border-width: 1;
-    border-color: #000000;
-    border-style: solid;
-    border-radius: 1em;
-}
-
-div.calendar-day.js-expand-day {
-    background-color: #001f1f;
-    margin: 12px;
-    border-style: none;
-}
-
-div.calendar-day.js-expand-day.active {
-    background-color: rgba(0,0,0,0.6);
-    border-style: solid;
     border-color: #00ffff;
-    border-radius: 1em;
-    border-width: .6em;
+    border-radius: 0 10px 10px 0;
+    border-style: solid;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 0;
 }
 
-div.day-date-header {
-    color: #00ffff;
-}
-
-div.list-card-details.u-clearfix {
-    background-color: #00ffff;
-    border-radius: 10px;
-}
-
-
-
-/* -------------------------- NEW STYLES STAGING AREA --------------------------- */
-
-
-
-/* ------------------------------------------------------------------------------ */
-
-@import url(http://fonts.googleapis.com/css?family=PT+Mono|Share+Tech+Mono);
