@@ -9,7 +9,7 @@
     https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-stylebot-extras.css
 */
 
-@import url("https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan.css");
+@import url("https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-core.css");
 
 #header {
     background-color: #00ffff;
