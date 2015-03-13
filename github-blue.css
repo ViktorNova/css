@@ -3,6 +3,7 @@
    https://github.com/ViktorNova/css
 */
 
+/* ACE CODE EDITOR */
 
 .ace-github-light {
     background-color: #000000;
@@ -79,13 +80,23 @@
     color: #444444;
 }
 
-.issues-list-options {
-    margin-bottom: 5px;
-}
-
 .js-code-editor,.container-preview,.show-code {
     background: #000000;
     border-color: #000396;
+}
+
+.markdown-body a.anchor {
+    padding-left: 24px;
+}
+
+.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
+    padding-left: 8px;
+}
+
+/* ^^^ END CODE EDITOR ^^^*/
+
+.issues-list-options {
+    margin-bottom: 5px;
 }
 
 .js-current-repository {
@@ -95,14 +106,6 @@
 .list-group-item .minibutton {
     background-color: transparent;
     line-height: 2em;
-}
-
-.markdown-body a.anchor {
-    padding-left: 24px;
-}
-
-.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
-    padding-left: 8px;
 }
 
 .menu-item {
@@ -168,10 +171,6 @@
     background: none;
 }
 
-.tabnav {
-    margin-bottom: 5px;
-}
-
 a {
     color: cyan;
 }
@@ -196,10 +195,33 @@ a.button.primary.right {
     border-color: #73ff00;
 }
 
-a.code.selected.tabnav-tab {
-    background-color: #000000;
-    color: #00aaff;
+/* TABS */
+
+.tabnav {
+    margin-bottom: 5px;
 }
+
+a.preview.tabnav-tab, a.code.selected.tabnav-tab {
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+}
+
+a.preview.tabnav-tab {
+    color: #000000;
+    background-color: #000396;
+}
+
+a.code.selected.tabnav-tab {
+    background-color: #00aaff;
+    color: #000000;
+    border-color: #00aaff;
+}
+
+div.js-file-header.file-header, div.js-file-header.file-header::before {
+    border-color: #000000;
+}
+
+/* SIDEBAR NAVIGATION */
 
 a.js-selected-navigation-item.menu-item {
     border-color: #000396;
@@ -240,12 +262,8 @@ a.minibutton.with-count.js-toggler-target.tooltipped-n {
     color: #000000;
 }
 
-a.preview.tabnav-tab {
-    color: #000396;
-}
-
 a.preview.tabnav-tab .octicon {
-    color: #000396;
+    color: #000000;
 }
 
 a.social-count {
@@ -316,7 +334,6 @@ button.minibutton, p button.minibutton {
 
 button.minibutton.with-count.js-toggler-target {
     background-color: #00aaff;
-    color: #000000;
 }
 
 button.minibutton:hover, p button.minibutton:hover {
@@ -1016,6 +1033,8 @@ ul.vcard-details {
     border-color: #000396;
 }
 
+/*   EDITED 2-17 --- */
+
 :-moz-placeholder {
     color: #000966;
     /* Firefox 18- */
@@ -1178,8 +1197,8 @@ div.file-actions a.minibutton:hover {
 
 /* --------------------------- */
 
-
 /* RANDOM STUFF */
+
 button.minibutton {
     color: #000000;
 }
@@ -1214,32 +1233,114 @@ span.file-info-divider {
     color: #000996;
 }
 
-
 /* SCROLLBARS */
 
-::-webkit-scrollbar
-{
-  width: 20px;  /* for vertical scrollbars */
-  height: 20px; /* for horizontal scrollbars */
-  
+::-webkit-scrollbar {
+    width: 20px;
+    /* for vertical scrollbars */
+    height: 20px;
+    /* for horizontal scrollbars */
 }
 
-::-webkit-scrollbar-track
-{
-  background: rgba(0, 0, 0, 0.5);  
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
 }
 
-::-webkit-scrollbar-thumb
-{
-background: rgba(0, 5, 130, 1);
-border-radius: 16px;
-
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 5, 130, 1);
+    border-radius: 16px;
 }
 
-::-webkit-scrollbar-thumb:hover
-{
-background: rgba(0, 255, 255, 1);
-border-radius: 16px;
-
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 255, 255, 1);
+    border-radius: 16px;
 }
-/* /END SCROLLBARS */
+/* ^^^^^^^ END SCROLLBARS ^^^^^^^^*/
+
+div.write-content.js-write-bucket {
+    background-color: #000000;
+}
+
+textarea.comment-form-textarea.js-comment-field.js-size-to-fit.js-quote-selection-target.input-with-fullscreen-icon {
+    background-color: #000000;
+}
+
+div.js-previewable-comment-form.previewable-comment-form.write-selected {
+    background-color: #000000;
+}
+
+div.editor-gitignore-template.js-gitignore-template.is-visible {
+    color: #00aaff;
+}
+
+span.editor-abort {
+    color: #000966;
+}
+
+*/ MORE CODE EDITOR STUFF */
+div.markdown-body {
+    background-color: #000000;
+}
+
+article.markdown-body.js-file {
+    background-color: #000000;
+}
+
+article.markdown-body.js-file hr {
+    background-color: #000996;
+}
+
+article.markdown-body.js-file h2 {
+    border-color: #000996;
+}
+
+div.gist-description div {
+    color: #00aaff;
+}
+
+span.datetime {
+    color: #000996;
+}
+
+span.pl-vo {
+    color: #00ffff;
+}
+
+li pre code {
+    background-color: #000996;
+    color: #000000;
+    padding: 10px;
+}
+
+ol.task-list li pre {
+    background-color: #000996;
+}
+
+   /* code search box */
+span.ace_button {
+    color: #000000;
+    background-color: #00aadd;
+}
+
+input.ace_search_field {
+    border: none;
+}
+
+button.ace_searchbtn.prev {
+    color: #000000;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAABySURBVHjabNFLEoAgDAPQAiJ/ev/buqCJONjlm5GkVcKwEbWR5uaaq4E0V7NB0mg0b5J2mCdpMqpC+kasaNkjrE3Ac530RgSSDkaQ0kFbN6N9g0X5KPFTteAzLuSPtQVScJyGpx1PyNo8NH9HxB6PAAMAzkAUorcBvvAAAAAASUVORK5CYII=) no-repeat scroll 100% 50% #ffffff;
+}
+
+button.ace_searchbtn.next {
+    color: #000000;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAAB1SURBVHjafNFXDsAgDAPQAKWDUd//tq2EnS6p+eNJECcYWLmzklFq2Ud1iAKlVNFG2c/zoCiJIJlkA6lOlFBFXU+vIM26lkHypxvzmCnjgg91J6TPRaDJktMVwvATFc+ur7Gb02MCrfA2py/6amGe2b/jEGAA5cYUouw7P64AAAAASUVORK5CYII=) no-repeat scroll 0% 50% #ffffff;
+}
+
+div.ace_search.right {
+    background-color: #000966;
+    border-color: #000996;
+    border-radius: 0 0 5px 5px;
+    box-shadow: -2px 2px 7px #00aaff;
+}
+
+/* ^^^^ END MORE CODE STUFF */
