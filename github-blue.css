@@ -217,6 +217,16 @@ a.code.selected.tabnav-tab {
     border-color: #00aaff;
 }
 
+a.preview.tabnav-tab .octicon {
+    color: #000000;
+}
+a.tabnav-tab.selected .octicon {
+    color: #000000;
+}
+/* ^^^ END TABS ^^^ */
+
+
+
 div.js-file-header.file-header, div.js-file-header.file-header::before {
     border-color: #000000;
 }
@@ -262,9 +272,7 @@ a.minibutton.with-count.js-toggler-target.tooltipped-n {
     color: #000000;
 }
 
-a.preview.tabnav-tab .octicon {
-    color: #000000;
-}
+
 
 a.social-count {
     border: 1px solid #00aaff;
@@ -272,14 +280,6 @@ a.social-count {
 
 a.social-count.js-social-count {
     border-color: #000396;
-}
-
-a.tabnav-tab {
-    border-color: #000396;
-}
-
-a.tabnav-tab.selected {
-    border-color: #00ffff;
 }
 
 a.url.fn span {
@@ -1066,9 +1066,6 @@ a.minibutton.select-menu-button.with-count.js-menu-target:hover {
     background-color: #00ffff;
 }
 
-a.tabnav-tab.selected .octicon {
-    color: #000000;
-}
 
 button.button-link.delete-note.tooltipped.tooltipped-w {
     background-color: #000000;
