@@ -1,0 +1,402 @@
+#cont {
+    background-color: #141414;
+    border-color: #ffab4a;
+}
+
+#cont footer {
+    background-color: #141414;
+}
+
+#content {
+    border-color: #000000;
+}
+
+#content div table {
+    border-style: none;
+    border-width: 10px;
+}
+
+#content pre {
+    background-color: #000000;
+    color: #00aaff;
+    padding: 10px;
+}
+
+#content ul {
+    color: #ffffff;
+}
+
+#finder ul {
+    background: none;
+}
+
+#import-results div a {
+    color: #7a7a7a;
+}
+
+#logincontrol form input {
+    background-color: #63ff94;
+    border-radius: 7px;
+    border-style: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#recipe-summary a {
+    color: #00ffbf;
+}
+
+#sepbar {
+    background: none;
+}
+
+#side-portlets .portlet {
+    background-color: #000000;
+    border-color: #63ff94;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#side-portlets .portlet a {
+    color: #ffab4a
+;
+}
+
+#side-portlets div.portlet.public {
+    background: #63ff94;
+    background-color: #63ff94;
+    border-style: none;
+    color: #000000;
+}
+
+#status dd {
+    color: #ff006a;
+}
+
+#watermark-heading a {
+    color: #00ffbf;
+}
+
+.facetmenu li a {
+    color: #63ff94;
+}
+
+.facetmenu li a:hover {
+    background-color: #63ff94;
+    color: #000000;
+}
+
+.facetmenu li.active a {
+    background-color: #63ff94;
+    border-radius: 10px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.subscriber a {
+    color: #ffab4a;
+}
+
+a {
+    color: #00d0ff;
+    transition: background 0.3s;
+}
+
+a.sprite {
+    color: #ffab4a;
+}
+
+a.sprite.person {
+    color: #00ffbf;
+}
+
+/* PORTLETS */
+
+/* END PORTLETS */
+
+div.boardCommentActivity {
+    background-color: #000000;
+}
+
+div.boardCommentDetails {
+    background-color: #000000;
+}
+
+div.colophon a {
+    color: #ffab4a;
+}
+
+div.context-publication h1 {
+    color: #ffab4a;
+}
+
+div.form-box.selected-login {
+    background-color: #141414;
+}
+
+div.informational.message {
+    background: #ffab4a;
+}
+
+div.lp-arcana {
+    background: #000000
+;
+}
+
+div.lp-branding a {
+    color: #ffab4a;
+}
+
+div.portlet {
+    border-color: #000000;
+}
+
+div.portlet.yui3-branch-subscription-widget-content {
+    border-color: #63ff94;
+}
+
+div.pretty-overlay-window {
+    background-color: #000000;
+}
+
+div.yui3-ichoicelist-content.yui3-widget-stdmod {
+    background-color: #000000;
+}
+
+div.yui3-widget-stdmod {
+    background-color: #000000;
+}
+
+dt {
+    color: #636363;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #63ff94;
+}
+
+header .wrapper {
+    background: none;
+}
+
+html,body {
+    background-color: #141414;
+}
+
+html,body,p {
+    color: #ffffff;
+}
+
+input.button {
+    background-color: #00ffbf;
+    border-radius: 7px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a {
+    color: #63ff94;
+}
+
+li.FAILEDTOBUILD {
+    background-color: #ff6666;
+    border-color: #ff0000;
+    border-radius: 7px;
+    color: #000000;
+}
+
+li.FULLYBUILT {
+    background-color: #00aaff;
+    border-radius: 6px;
+    border-style: none;
+    color: #000000;
+    margin-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+li.active a {
+    background-color: #63ff94;
+    border-radius: 1em;
+    color: #000000;
+}
+
+li.unstyled a:hover {
+    color: #000000;
+}
+
+p strong {
+    color: #ffab4a;
+}
+
+span.codeimportREVIEWED {
+    color: #88ff33;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+span.value.branchstatusDEVELOPMENT {
+    color: #ff0044;
+}
+
+tbody {
+    background-color: #000000;
+    border-style: none;
+}
+
+tbody tr td {
+    border-color: #141414;
+    border-width: 1px;
+}
+
+thead tr th {
+    background-color: #63ff94;
+    border-color: #000000;
+    color: #000000;
+}
+
+tr.highlight {
+    background-color: #54008c;
+}
+
+tr.superseded td {
+    background-color: #000000;
+}
+
+/* END PORTLETS */
+
+ul.facetmenu li.active a, .watermark-apps-portlet ul.facetmenu li.active span,#on {
+    background-color: #63ff94;
+    border-radius: 10px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.ubuntuone-information.related-information {
+    border-color: #000000;
+}
+
+div.menu {
+    border-color: #000000;
+}
+
+#account2-link span {
+    border-color: #000000;
+}
+
+header.public {
+    border-color: #63ff94;
+}
+
+td.noTransition {
+    border-radius: 10px;
+}
+
+table {
+    background: none;
+}
+
+div.widecolumn {
+    background: #141414;
+}
+
+#header {
+    background: #000000;
+}
+
+p.informational.message {
+    color: #000000;
+}
+
+div.infoContainer {
+    background-color: #000000;
+    border-style: none;
+    font-size: 2em;
+}
+
+li.files a {
+    color: #000000;
+}
+
+div.infoContainer li {
+    margin-bottom: 7px;
+}
+
+div.information {
+    color: #00aaff;
+}
+
+div.diffBox {
+    background-color: #000000;
+    border-style: none;
+    font-weight: bold;
+}
+
+div.lineNumber {
+    color: #00aaff;
+    border-color: #000000;
+    background-color: #0a0a0a;
+}
+
+div.code.context {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+div.diffinfo {
+    border-color: #000000;
+}
+
+div.black-link {
+    border-color: #000000;
+    background-color: #000000;
+}
+
+div.boardComment {
+    border-color: #000000;
+}
+
+div.boardCommentBody {
+    border-color: #000000;
+}
+
+#menuTabs li a:hover {
+    background-color: #63ff94;
+    color: black;
+}
+
+#menuTabs {
+    background-color: #000000;
+    margin-top: -6em;
+    padding-top: 7em;
+}
+
+h1.branch-name {
+    color: #00ffff;
+    font-family: Consolas;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+div.black-link a {
+    color: #00aaff;
+}
+
+#loggerheadCont {
+    margin-top: -23px;
+}
+
+#infTxt {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 16px;
+}
+
+tr.logheader,tr.logheader th {
+    border-color: #00aaff;
+    border-style: solid;
+}
+
