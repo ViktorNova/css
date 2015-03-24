@@ -1,9 +1,7 @@
-/* SCI-FI DARK GITHUB
-   By Viktor Nova 
-   https://github.com/ViktorNova/css
-*/
-
-/* ACE CODE EDITOR */
+#commit-description-textarea, #commit-description-textarea {
+    background-color: #000000;
+    color: #00aaff;
+}
 
 .ace-github-light {
     background-color: #000000;
@@ -12,6 +10,15 @@
 
 .ace_gutter-cell {
     background: #000000;
+}
+
+.ace_layer .ace_active-line {
+    background-color: #222222;
+    color: #00ffff;
+}
+
+.ace_layer .ace_selection {
+    background-color: #000966;
 }
 
 .bubble {
@@ -80,23 +87,13 @@
     color: #444444;
 }
 
+.issues-list-options {
+    margin-bottom: 5px;
+}
+
 .js-code-editor,.container-preview,.show-code {
     background: #000000;
     border-color: #000396;
-}
-
-.markdown-body a.anchor {
-    padding-left: 24px;
-}
-
-.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
-    padding-left: 8px;
-}
-
-/* ^^^ END CODE EDITOR ^^^*/
-
-.issues-list-options {
-    margin-bottom: 5px;
 }
 
 .js-current-repository {
@@ -106,6 +103,14 @@
 .list-group-item .minibutton {
     background-color: transparent;
     line-height: 2em;
+}
+
+.markdown-body a.anchor {
+    padding-left: 24px;
+}
+
+.markdown-body h4:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h1:hover a.anchor {
+    padding-left: 8px;
 }
 
 .menu-item {
@@ -171,6 +176,49 @@
     background: none;
 }
 
+.tabnav {
+    margin-bottom: 5px;
+}
+
+:-moz-placeholder {
+    color: #000966;
+    /* Firefox 18- */
+}
+
+:-ms-input-placeholder {
+    color: #000966;
+}
+
+::-moz-placeholder {
+    color: #000966;
+    /* Firefox 19+ */
+}
+
+::-webkit-input-placeholder {
+    color: #000966;
+}
+
+::-webkit-scrollbar {
+    /* for vertical scrollbars */
+    /* for horizontal scrollbars */
+    height: 20px;
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 5, 130, 1);
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 255, 255, 1);
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 a {
     color: cyan;
 }
@@ -187,6 +235,10 @@ a.button-link {
     color: #000000;
 }
 
+a.button-outline.right {
+    border-color: #000996;
+}
+
 a.button.danger.cancel {
     border-color: #000396;
 }
@@ -195,43 +247,16 @@ a.button.primary.right {
     border-color: #73ff00;
 }
 
-/* TABS */
-
-.tabnav {
-    margin-bottom: 5px;
-}
-
-a.preview.tabnav-tab, a.code.selected.tabnav-tab {
-    border-radius: 5px 5px 0 0;
-    font-weight: bold;
-}
-
-a.preview.tabnav-tab {
-    color: #000000;
-    background-color: #000396;
-}
-
 a.code.selected.tabnav-tab {
     background-color: #00aaff;
-    color: #000000;
     border-color: #00aaff;
-}
-
-a.preview.tabnav-tab .octicon {
     color: #000000;
 }
-a.tabnav-tab.selected .octicon {
+
+a.filter-item.selected {
+    background-color: #00aaff;
     color: #000000;
 }
-/* ^^^ END TABS ^^^ */
-
-
-
-div.js-file-header.file-header, div.js-file-header.file-header::before {
-    border-color: #000000;
-}
-
-/* SIDEBAR NAVIGATION */
 
 a.js-selected-navigation-item.menu-item {
     border-color: #000396;
@@ -267,12 +292,32 @@ a.minibutton {
     border-color: #000396;
 }
 
+a.minibutton.select-menu-button.with-count.js-menu-target {
+    background-color: #00aaff;
+}
+
+a.minibutton.select-menu-button.with-count.js-menu-target:hover {
+    background-color: #00ffff;
+}
+
 a.minibutton.with-count.js-toggler-target.tooltipped-n {
     background-color: #00aaff;
     color: #000000;
 }
 
+a.preview.tabnav-tab {
+    background-color: #000396;
+    color: #000000;
+}
 
+a.preview.tabnav-tab .octicon {
+    color: #000000;
+}
+
+a.preview.tabnav-tab, a.code.selected.tabnav-tab {
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+}
 
 a.social-count {
     border: 1px solid #00aaff;
@@ -280,6 +325,10 @@ a.social-count {
 
 a.social-count.js-social-count {
     border-color: #000396;
+}
+
+a.tabnav-tab.selected .octicon {
+    color: #000000;
 }
 
 a.url.fn span {
@@ -301,6 +350,18 @@ article.markdown-body.entry-content h3 code {
 
 article.markdown-body.entry-content p code {
     background-color: #3b3b3b;
+}
+
+article.markdown-body.js-file {
+    background-color: #000000;
+}
+
+article.markdown-body.js-file h2 {
+    border-color: #000996;
+}
+
+article.markdown-body.js-file hr {
+    background-color: #000996;
 }
 
 body, a, button, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, il, li, table, th, tr, td, p, strong, pre, .announce, .name, .num, .bubble, .commit, .container, .divider-vertical, .authorship, .octofication, .commit-meta, .box, .box-header, .box-small, .box-title, .box-body, .col, .grid, .filter-bar, .js-notice, .news, .flash, .dashboard, .dashboard-sidebar, .header, .highlight, .message, .repo-nav-contents, .tab-content, .contributions-tab, .last, .site, .pagehead, .participation, .meta, .line, .plain {
@@ -328,6 +389,41 @@ button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container 
     text-shadow: none;
 }
 
+button.ace_searchbtn.next {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAAB1SURBVHjafNFXDsAgDAPQAKWDUd//tq2EnS6p+eNJECcYWLmzklFq2Ud1iAKlVNFG2c/zoCiJIJlkA6lOlFBFXU+vIM26lkHypxvzmCnjgg91J6TPRaDJktMVwvATFc+ur7Gb02MCrfA2py/6amGe2b/jEGAA5cYUouw7P64AAAAASUVORK5CYII=) no-repeat scroll 0% 50% #ffffff;
+    color: #000000;
+}
+
+button.ace_searchbtn.prev {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAABySURBVHjabNFLEoAgDAPQAiJ/ev/buqCJONjlm5GkVcKwEbWR5uaaq4E0V7NB0mg0b5J2mCdpMqpC+kasaNkjrE3Ac530RgSSDkaQ0kFbN6N9g0X5KPFTteAzLuSPtQVScJyGpx1PyNo8NH9HxB6PAAMAzkAUorcBvvAAAAAASUVORK5CYII=) no-repeat scroll 100% 50% #ffffff;
+    color: #000000;
+}
+
+button.button-link.delete-note.tooltipped.tooltipped-w {
+    background-color: #000000;
+}
+
+button.button-link.js-details-target {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button.button-link.mute-note.tooltipped.tooltipped-w {
+    background-color: #000000;
+}
+
+button.header-nav-link.sign-out-button.tooltipped.tooltipped-s {
+    background-color: #000000;
+}
+
+button.mark-all-as-read.css-truncate.tooltipped.tooltipped-w {
+    background-color: #000000;
+}
+
+button.minibutton {
+    color: #000000;
+}
+
 button.minibutton, p button.minibutton {
     color: #00aaff;
 }
@@ -341,9 +437,58 @@ button.minibutton:hover, p button.minibutton:hover {
     color: #000000;
 }
 
+button.web-edit-button {
+    background: #000000;
+}
+
+button.web-edit-button span.octicon {
+    color: #00aaff;
+}
+
+button.web-edit-button span.octicon:hover {
+    color: #00ffff;
+}
+
+/* SCI-FI DARK GITHUB
+   By Viktor Nova 
+   https://github.com/ViktorNova/css
+*/
+
+/* ACE CODE EDITOR */
+
+/* CODE EDITOR */
+
+/* COMMENTS, COMMIT MESSAGES, ETC */
+
+/* FILE EDITING BUTTONS */
+
+/* --------------------------- */
+
+/* RANDOM STUFF */
+
+/* SCROLLBARS */
+
+/* ^^^ END CODE EDITOR ^^^*/
+
+/* ^^^^^^^ END SCROLLBARS ^^^^^^^^*/
+
+/* MORE CODE EDITOR STUFF */
+
+/* code search box */
+
+/* ^^^^ END MORE CODE STUFF */
+
+/* TABS */
+
+/* ^^^ END TABS ^^^ */
+
+/* SIDEBAR NAVIGATION */
+
 /* Line devider for social count buttons */
 
 /* Line devider for social count buttons */
+
+/*   EDITED 2-17 --- */
 
 /*   EDITED 2-17 --- */
 
@@ -358,6 +503,17 @@ div.ace_gutter {
 div.ace_gutter-cell {
     border-color: #000396;
     color: #00aaff;
+}
+
+div.ace_layer.ace_gutter-layer.ace_folding-enabled {
+    background-color: #000000;
+}
+
+div.ace_search.right {
+    background-color: #000966;
+    border-color: #000996;
+    border-radius: 0 0 5px 5px;
+    box-shadow: -2px 2px 7px #00aaff;
 }
 
 div.alert.fork.simple {
@@ -445,6 +601,10 @@ div.column.one-fourth hr {
     border-color: #000396;
 }
 
+div.comment-body.markdown-body.email-format.js-comment-body {
+    background-color: #000000;
+}
+
 div.comment-body.markdown-body.js-comment-body p a {
     color: #aca6ff;
 }
@@ -456,6 +616,11 @@ div.comment-body.markdown-body.js-comment-body p code {
 div.comment-body.markdown-body.markdown-format.js-comment-body {
     background-color: #000000;
     border-color: #000396;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body p code {
+    background-color: #00aadd;
+    color: #000000;
 }
 
 div.comment-form-head.tabnav {
@@ -471,6 +636,10 @@ div.commit-form {
     border-color: #000396;
 }
 
+div.commit-form:before, div.commit-form:after, div.timeline-comment:before, div.timeline-comment:after {
+    border-right-color: #000996;
+}
+
 div.commit-meta {
     border-color: #000396;
 }
@@ -481,6 +650,14 @@ div.commit.commit-tease.js-details-container {
 
 div.commit.file-history-tease {
     border-color: #000396;
+}
+
+div.commit.full-commit {
+    border-color: #000996;
+}
+
+div.contrib-column {
+    border-color: #000966;
 }
 
 div.contrib-column.contrib-column-first.table-column {
@@ -524,12 +701,31 @@ div.divider-vertical {
     border-color: #000396;
 }
 
+div.editor-gitignore-template.js-gitignore-template.is-visible {
+    color: #00aaff;
+}
+
 div.file {
     border-color: #000396;
 }
 
+div.file-actions a.minibutton {
+    background-color: #00aaff;
+    border: 3px solid #000000;
+    border-radius: 16px;
+}
+
+div.file-actions a.minibutton:hover {
+    background-color: #00ffff;
+}
+
 div.file-box.blob-wrapper {
     border-color: #000396;
+}
+
+div.file-header {
+    background-color: #000000;
+    border-color: #000966;
 }
 
 div.file-history-tease-header {
@@ -538,6 +734,10 @@ div.file-history-tease-header {
 
 div.file-wrap {
     border-color: #000396;
+}
+
+div.filter-bar {
+    border-color: #000966;
 }
 
 div.filter-repos.filter-bar {
@@ -556,12 +756,24 @@ div.form-actions {
     background-color: #000396;
 }
 
+div.gist-description div {
+    color: #00aaff;
+}
+
 div.header.header-logged-in {
     border-color: #000396;
 }
 
+div.inner {
+    background-color: #000000;
+}
+
 div.js-calendar-graph.is-graph-loading.graph-canvas.calendar-graph {
     background-color: #000000;
+}
+
+div.js-file-header.file-header, div.js-file-header.file-header::before {
+    border-color: #000000;
 }
 
 div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.preview-selected {
@@ -572,8 +784,16 @@ div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.
     background-color: #000396;
 }
 
+div.js-previewable-comment-form.previewable-comment-form.write-selected {
+    background-color: #000000;
+}
+
 div.left.text-muted {
     color: #000396;
+}
+
+div.markdown-body {
+    background-color: #000000;
 }
 
 div.message.markdown-body blockquote {
@@ -624,6 +844,10 @@ div.protip.protip-callout {
 
 div.recently-touched-branches ul li {
     border-color: #00aaff;
+}
+
+div.repo-list-stats {
+    color: #000966;
 }
 
 div.repository-description {
@@ -684,6 +908,11 @@ div.tabnav {
     border-color: #000396;
 }
 
+div.thread-subscription-status.js-thread-subscription-status.js-socket-channel.js-updatable-content {
+    background-color: #000000;
+    border-color: #000996;
+}
+
 div.timeline-comment {
     border-color: #000396;
 }
@@ -703,6 +932,10 @@ div.timeline-comment-wrapper.js-comment-container {
 
 div.vcard-stats {
     border-color: #000396;
+}
+
+div.write-content.js-write-bucket {
+    background-color: #000000;
 }
 
 div.write-content.js-write-bucket.js-uploadable-container.js-upload-markdown-image.upload-enabled.is-default {
@@ -733,12 +966,20 @@ form.subnav-search.subnav-divider-right.left {
     border-color: #000396;
 }
 
+h3.conversation-list-heading {
+    border-color: #00aaff;
+}
+
 html, body {
     color: #00a6ff;
 }
 
 input {
     border-color: #000396;
+}
+
+input.ace_search_field {
+    border: none;
 }
 
 input.filename.js-blob-filename.js-breadcrumb-nav {
@@ -777,6 +1018,12 @@ li p code {
     background-color: #000669;
 }
 
+li pre code {
+    background-color: #000996;
+    color: #000000;
+    padding: 10px;
+}
+
 li.list-group-item.js-notification.js-navigation-item.unread.pull-request-notification.navigation-focus {
     border-color: #000396;
 }
@@ -793,6 +1040,10 @@ nav.menu {
 nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loaders {
     background: #000000;
     border-color: #000396;
+}
+
+ol.task-list li pre {
+    background-color: #000996;
 }
 
 p.drag-and-drop {
@@ -825,6 +1076,11 @@ span a span {
     color: #00ffff;
 }
 
+span.ace_button {
+    background-color: #00aadd;
+    color: #000000;
+}
+
 span.button-link.select-menu-button.js-menu-target {
     color: #000000;
 }
@@ -847,6 +1103,18 @@ span.current {
     color: #4183c4;
 }
 
+span.datetime {
+    color: #000996;
+}
+
+span.editor-abort {
+    color: #000966;
+}
+
+span.file-info-divider {
+    color: #000996;
+}
+
 span.gap {
     background-color: #000000;
     border-color: #000396;
@@ -855,6 +1123,14 @@ span.gap {
 
 span.issue-meta-section.opened-by {
     color: #000396;
+}
+
+span.js-select-button {
+    background-color: inherit;
+}
+
+span.js-select-button.css-truncate-target {
+    background-color: inherit;
 }
 
 span.label {
@@ -884,6 +1160,11 @@ span.mega-octicon {
 
 span.mega-octicon.octicon-repo {
     color: #00aaff;
+}
+
+span.minibutton.select-menu-button.js-menu-target.css-truncate:hover {
+    background-color: #00ffff;
+    color: #000000;
 }
 
 span.n {
@@ -928,10 +1209,18 @@ span.path-divider {
     color: #000396;
 }
 
+span.pl-vo {
+    color: #00ffff;
+}
+
 span.previous_page.disabled {
     background: #000000;
     border-color: #000396;
     color: #000396;
+}
+
+span.repo-description {
+    color: #000966;
 }
 
 span.separator {
@@ -940,6 +1229,14 @@ span.separator {
 
 span.sha {
     color: #000396;
+}
+
+span.sha-block {
+    color: #000996;
+}
+
+span.sha.js-selectable-text {
+    color: #00aaff;
 }
 
 span.ss {
@@ -956,6 +1253,14 @@ span.text-muted {
 
 span.updated-at {
     color: #000396;
+}
+
+span.vcard-fullname {
+    color: #00ffff;
+}
+
+span.vcard-username {
+    color: #000966;
 }
 
 td.age {
@@ -980,6 +1285,10 @@ td.message {
 
 textarea {
     border-color: #000396;
+}
+
+textarea.comment-form-textarea.js-comment-field.js-size-to-fit.js-quote-selection-target.input-with-fullscreen-icon {
+    background-color: #000000;
 }
 
 textarea.file-contents.js-file-edit.js-code-editor {
@@ -1033,311 +1342,79 @@ ul.vcard-details {
     border-color: #000396;
 }
 
-/*   EDITED 2-17 --- */
-
-:-moz-placeholder {
-    color: #000966;
-    /* Firefox 18- */
-}
-
-:-ms-input-placeholder {
-    color: #000966;
-}
-
-::-moz-placeholder {
-    color: #000966;
-    /* Firefox 19+ */
-}
-
-::-webkit-input-placeholder {
-    color: #000966;
-}
-
-a.filter-item.selected {
+code.noTransition {
     background-color: #00aaff;
     color: #000000;
 }
 
-a.minibutton.select-menu-button.with-count.js-menu-target {
+div.gh-header-meta.noTransition {
+    border-color: #000996;
+    color: #000996;
+}
+
+a.btn.btn-sm.btn-with-count.noTransition {
+    border-color: #000996;
     background-color: #00aaff;
-}
-
-a.minibutton.select-menu-button.with-count.js-menu-target:hover {
-    background-color: #00ffff;
-}
-
-
-button.button-link.delete-note.tooltipped.tooltipped-w {
-    background-color: #000000;
-}
-
-button.button-link.mute-note.tooltipped.tooltipped-w {
-    background-color: #000000;
-}
-
-button.header-nav-link.sign-out-button.tooltipped.tooltipped-s {
-    background-color: #000000;
-}
-
-button.mark-all-as-read.css-truncate.tooltipped.tooltipped-w {
-    background-color: #000000;
-}
-
-div.comment-body.markdown-body.email-format.js-comment-body {
-    background-color: #000000;
-}
-
-div.comment-body.markdown-body.markdown-format.js-comment-body p code {
-    background-color: #00aadd;
     color: #000000;
 }
 
-div.contrib-column {
-    border-color: #000966;
+a.social-count.noTransition {
+    color: #000996;
+    border-color: #000996;
+    background-color: #00aaff#00aaff;
 }
 
-div.file-header {
-    background-color: #000000;
-    border-color: #000966;
-}
-
-div.filter-bar {
-    border-color: #000966;
-}
-
-div.inner {
-    background-color: #000000;
-}
-
-div.repo-list-stats {
-    color: #000966;
-}
-
-h3.conversation-list-heading {
-    border-color: #00aaff;
-}
-
-span.js-select-button {
-    background-color: inherit;
-}
-
-span.js-select-button.css-truncate-target {
-    background-color: inherit;
-}
-
-span.minibutton.select-menu-button.js-menu-target.css-truncate:hover {
-    background-color: #00ffff;
+span.octicon.octicon-repo-forked.noTransition {
     color: #000000;
 }
 
-span.repo-description {
-    color: #000966;
+span.octicon.octicon-star.noTransition {
+    color: #000000;
 }
 
-span.vcard-fullname {
-    color: #00ffff;
+span.octicon.octicon-eye.noTransition {
+    color: #000000;
 }
 
-span.vcard-username {
-    color: #000966;
-}
-
-/* CODE EDITOR */
-
-.ace_layer .ace_selection {
-    background-color: #000966;
-}
-
-.ace_layer .ace_active-line {
-    background-color: #222222;
-    color: #00ffff;
-}
-
-div.ace_layer.ace_gutter-layer.ace_folding-enabled {
-    background-color: #000000;
-}
-
-/* COMMENTS, COMMIT MESSAGES, ETC */
-
-#commit-description-textarea, #commit-description-textarea {
-    background-color: #000000;
-    color: #00aaff;
-}
-
-div.commit-form:before, div.commit-form:after, div.timeline-comment:before, div.timeline-comment:after {
-    border-right-color: #000996;
-}
-
-/* FILE EDITING BUTTONS */
-
-button.web-edit-button {
-    background: #000000;
-}
-
-button.web-edit-button span.octicon {
-    color: #00aaff;
-}
-
-button.web-edit-button span.octicon:hover {
-    color: #00ffff;
-}
-
-div.file-actions a.minibutton {
-    border: 3px solid #000000;
-    border-radius: 16px;
+span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
     background-color: #00aaff;
-}
-
-div.file-actions a.minibutton:hover {
-    background-color: #00ffff;
-}
-
-/* --------------------------- */
-
-/* RANDOM STUFF */
-
-button.minibutton {
     color: #000000;
-}
-
-div.commit.full-commit {
     border-color: #000996;
 }
 
-span.sha-block {
-    color: #000996;
-}
-
-span.sha.js-selectable-text {
-    color: #00aaff;
-}
-
-a.button-outline.right {
+a.js-show-file-finder.btn.btn-sm.empty-icon.tooltipped.tooltipped-s.right.noTransition {
     border-color: #000996;
 }
 
-button.button-link.js-details-target {
-    padding-right: 5px;
-    padding-left: 5px;
+span.octicon.octicon-git-branch.noTransition {
+    color: #000000;
 }
 
-div.thread-subscription-status.js-thread-subscription-status.js-socket-channel.js-updatable-content {
-    background-color: #000000;
+a.social-count.js-social-count.noTransition {
+    color: #000000;
+}
+
+i.noTransition {
+    color: #000000;
+}
+
+span.mail-status.unread.noTransition {
+    content: "⚡";
+}
+
+span.language-color.noTransition {
     border-color: #000996;
 }
 
-span.file-info-divider {
-    color: #000996;
+button.octicon-btn.tooltipped.tooltipped-n {
+    color: #000000;
 }
 
-/* SCROLLBARS */
-
-::-webkit-scrollbar {
-    width: 20px;
-    /* for vertical scrollbars */
-    height: 20px;
-    /* for horizontal scrollbars */
+button.octicon-btn.tooltipped.tooltipped-n .octicon {
+    color: #000000;
 }
 
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.5);
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgba(0, 5, 130, 1);
-    border-radius: 16px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 255, 255, 1);
-    border-radius: 16px;
-}
-/* ^^^^^^^ END SCROLLBARS ^^^^^^^^*/
-
-div.write-content.js-write-bucket {
-    background-color: #000000;
-}
-
-textarea.comment-form-textarea.js-comment-field.js-size-to-fit.js-quote-selection-target.input-with-fullscreen-icon {
-    background-color: #000000;
-}
-
-div.js-previewable-comment-form.previewable-comment-form.write-selected {
-    background-color: #000000;
-}
-
-div.editor-gitignore-template.js-gitignore-template.is-visible {
-    color: #00aaff;
-}
-
-span.editor-abort {
-    color: #000966;
-}
-
-/* MORE CODE EDITOR STUFF */
-div.markdown-body {
-    background-color: #000000;
-}
-
-article.markdown-body.js-file {
-    background-color: #000000;
-}
-
-article.markdown-body.js-file hr {
-    background-color: #000996;
-}
-
-article.markdown-body.js-file h2 {
+a.btn.btn-sm {
     border-color: #000996;
 }
 
-div.gist-description div {
-    color: #00aaff;
-}
-
-span.datetime {
-    color: #000996;
-}
-
-span.pl-vo {
-    color: #00ffff;
-}
-
-li pre code {
-    background-color: #000996;
-    color: #000000;
-    padding: 10px;
-}
-
-ol.task-list li pre {
-    background-color: #000996;
-}
-
-   /* code search box */
-span.ace_button {
-    color: #000000;
-    background-color: #00aadd;
-}
-
-input.ace_search_field {
-    border: none;
-}
-
-button.ace_searchbtn.prev {
-    color: #000000;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAABySURBVHjabNFLEoAgDAPQAiJ/ev/buqCJONjlm5GkVcKwEbWR5uaaq4E0V7NB0mg0b5J2mCdpMqpC+kasaNkjrE3Ac530RgSSDkaQ0kFbN6N9g0X5KPFTteAzLuSPtQVScJyGpx1PyNo8NH9HxB6PAAMAzkAUorcBvvAAAAAASUVORK5CYII=) no-repeat scroll 100% 50% #ffffff;
-}
-
-button.ace_searchbtn.next {
-    color: #000000;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF2dnZWVlZsrKyv7+/TU1NzMzMjY2Nc3Nz5eXlgICAQEBA8vLymZmZZmZmMzMz////CXz3iwAAABB0Uk5T////////////////////AOAjXRkAAAB1SURBVHjafNFXDsAgDAPQAKWDUd//tq2EnS6p+eNJECcYWLmzklFq2Ud1iAKlVNFG2c/zoCiJIJlkA6lOlFBFXU+vIM26lkHypxvzmCnjgg91J6TPRaDJktMVwvATFc+ur7Gb02MCrfA2py/6amGe2b/jEGAA5cYUouw7P64AAAAASUVORK5CYII=) no-repeat scroll 0% 50% #ffffff;
-}
-
-div.ace_search.right {
-    background-color: #000966;
-    border-color: #000996;
-    border-radius: 0 0 5px 5px;
-    box-shadow: -2px 2px 7px #00aaff;
-}
-
-/* ^^^^ END MORE CODE STUFF */
