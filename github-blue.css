@@ -3,43 +3,7 @@
    https://github.com/ViktorNova/css
 */
 
-/* ACE CODE EDITOR */
 
-/* CODE EDITOR */
-
-/* COMMENTS, COMMIT MESSAGES, ETC */
-
-/* FILE EDITING BUTTONS */
-
-/* --------------------------- */
-
-/* RANDOM STUFF */
-
-/* SCROLLBARS */
-
-/* ^^^ END CODE EDITOR ^^^*/
-
-/* ^^^^^^^ END SCROLLBARS ^^^^^^^^*/
-
-/* MORE CODE EDITOR STUFF */
-
-/* code search box */
-
-/* ^^^^ END MORE CODE STUFF */
-
-/* TABS */
-
-/* ^^^ END TABS ^^^ */
-
-/* SIDEBAR NAVIGATION */
-
-/* Line devider for social count buttons */
-
-/* Line devider for social count buttons */
-
-/*   EDITED 2-17 --- */
-
-/*   EDITED 2-17 --- */
 
 div.ace_content {
     border-color: #000396;
@@ -1416,4 +1380,8 @@ button.web-edit-button span.octicon {
 
 button.web-edit-button span.octicon:hover {
     color: #00ffff;
+}
+
+h1,h2,h3,h4,h5 {
+    border-color: #000996;
 }
