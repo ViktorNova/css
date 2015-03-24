@@ -265,17 +265,7 @@ tr.superseded td {
     background-color: #000000;
 }
 
-/* END PORTLETS */
-
-ul.facetmenu li.active a, .watermark-apps-portlet ul.facetmenu li.active span,#on {
-    background-color: #63ff94;
-    border-radius: 10px;
-    color: #000000;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-div.ubuntuone-information.related-information {
+#account2-link span {
     border-color: #000000;
 }
 
@@ -283,7 +273,7 @@ div.menu {
     border-color: #000000;
 }
 
-#account2-link span {
+div.ubuntuone-information.related-information {
     border-color: #000000;
 }
 
@@ -291,24 +281,16 @@ header.public {
     border-color: #63ff94;
 }
 
-td.noTransition {
-    border-radius: 10px;
+p.informational.message {
+    color: #000000;
 }
 
 table {
     background: none;
 }
 
-div.widecolumn {
-    background: #141414;
-}
-
-#header {
-    background: #000000;
-}
-
-p.informational.message {
-    color: #000000;
+td.noTransition {
+    border-radius: 10px;
 }
 
 div.infoContainer {
@@ -352,7 +334,16 @@ div.diffinfo {
 
 div.black-link {
     border-color: #000000;
-    background-color: #000000;
+}
+
+/* END PORTLETS */
+
+div.widecolumn {
+    background: #141414;
+}
+
+#header {
+    background: #000000;
 }
 
 div.boardComment {
@@ -363,40 +354,19 @@ div.boardCommentBody {
     border-color: #000000;
 }
 
-#menuTabs li a:hover {
-    background-color: #63ff94;
-    color: black;
-}
-
-#menuTabs {
+div.watermark-apps-portlet {
+    width: 100%px;
     background-color: #000000;
-    margin-top: -6em;
-    padding-top: 7em;
+    margin-left: -18px;
+    margin-right: -18px;
+    margin-top: -18px;
 }
 
-h1.branch-name {
-    color: #00ffff;
-    font-family: Consolas;
-    font-size: 3em;
-    margin-top: 0;
-}
-
-div.black-link a {
-    color: #00aaff;
-}
-
-#loggerheadCont {
-    margin-top: -23px;
-}
-
-#infTxt {
-    padding: 12px;
-    font-size: 14px;
-    border-radius: 16px;
-}
-
-tr.logheader,tr.logheader th {
-    border-color: #00aaff;
-    border-style: solid;
+ul.facetmenu {
+    background-color: #000000;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
