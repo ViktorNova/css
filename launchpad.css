@@ -86,7 +86,7 @@
     color: #000000;
 }
 
-.facetmenu li.active a {
+.facetmenu li.active a,li.active span {
     background-color: #63ff94;
     border-radius: 10px;
     color: #000000;
@@ -357,9 +357,9 @@ div.boardCommentBody {
 div.watermark-apps-portlet {
     width: 100%px;
     background-color: #000000;
-    margin-left: -18px;
+    margin-left: -20px;
     margin-right: -18px;
-    margin-top: -18px;
+    margin-top: -9px;
 }
 
 ul.facetmenu {
@@ -369,4 +369,5 @@ ul.facetmenu {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
 
