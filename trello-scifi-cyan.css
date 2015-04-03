@@ -11,6 +11,14 @@
 
 @import url("https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-core.css");
 
+div.u-fancy-scrollbar::-webkit-scrollbar-track, div.u-fancy-scrollbar::-webkit-scrollbar-track-piece {
+    background: #000000;
+}
+
+div.u-fancy-scrollbar::-webkit-scrollbar-thumb {
+    background: #004a4a;
+}
+
 #header {
     background-color: #00ffff;
     padding-bottom: 9px;
@@ -29,10 +37,6 @@
 
 .list-card-labels .card-label {
     line-height: 1em;
-}
-
-a.attachment-thumbnail-details-title.js-attachment-thumbnail-details {
-    color: #00ffff;
 }
 
 a.button-link {
@@ -78,11 +82,6 @@ a.js-open-delete-confirm {
 
 a.js-remove-cover {
     color: #004a4a;
-}
-
-a.list-card-title.js-card-name {
-    color: #000000;
-    font-weight: bold;
 }
 
 a.quiet-button.js-add-board {
@@ -196,6 +195,10 @@ input.js-search-boards {
     padding-right: 14px;
 }
 
+p.attachment-thumbnail-details {
+    transition: .5s;
+}
+
 p.attachment-thumbnail-details.js-open-viewer {
     color: #000000;
 }
@@ -203,6 +206,17 @@ p.attachment-thumbnail-details.js-open-viewer {
 p.attachment-thumbnail-details.js-open-viewer:hover {
     background: none;
     background-color: #000000;
+}
+
+p.attachment-thumbnail-details:hover {
+    background-color: #000000;
+    border-bottom-width: 10px;
+    border-color: #00ffff;
+    border-left-width: 0;
+    border-radius: 0 10px 10px 0;
+    border-right-width: 10px;
+    border-style: solid;
+    border-top-width: 10px;
 }
 
 p.inline-block.bottom {
@@ -321,18 +335,34 @@ textarea.list-card-edit-title {
     padding: .5em;
 }
 
-p.attachment-thumbnail-details {
-    transition: .5s;
+a.attachment-thumbnail-details-title.js-attachment-thumbnail-details {
+    color: #00ffff;
 }
 
-p.attachment-thumbnail-details:hover {
+a.list-card-title.js-card-name {
+    color: #000000;
+    font-weight: bold;
+}
+
+span.badge-icon.icon-sm {
+    color: #000000;
+}
+
+a.list-header-menu-icon.icon-sm.icon-dropdown-menu.dark-hover.js-open-list-menu {
+    color: #00ffff;
+}
+
+div.list-card-details {
+    background-color: #00ffff;
+    border-radius: 10px;
+}
+
+div.window-cover.js-card-cover-box {
     background-color: #000000;
-    border-color: #00ffff;
-    border-radius: 0 10px 10px 0;
-    border-style: solid;
-    border-top-width: 10px;
-    border-right-width: 10px;
-    border-bottom-width: 10px;
-    border-left-width: 0;
+}
+
+a.disabled strong {
+    color: #000000;
+    text-decoration: underline;
 }
 
