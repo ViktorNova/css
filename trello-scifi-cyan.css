@@ -11,19 +11,6 @@
 
 @import url("https://raw.githubusercontent.com/ViktorNova/css/master/trello-scifi-cyan-core.css");
 
-div.u-fancy-scrollbar::-webkit-scrollbar-track, div.u-fancy-scrollbar::-webkit-scrollbar-track-piece {
-    background: #000000;
-}
-
-div.u-fancy-scrollbar::-webkit-scrollbar-thumb {
-    background: #004a4a;
-}
-
-#header {
-    background-color: #00ffff;
-    padding-bottom: 9px;
-}
-
 .header-search-input {
     border: 1px solid #000000;
     border-radius: 16px;
@@ -39,12 +26,8 @@ div.u-fancy-scrollbar::-webkit-scrollbar-thumb {
     line-height: 1em;
 }
 
-a.button-link {
-    background: #001f1f;
-    background-color: #004a4a;
-    border-color: #000000;
-    border-style: none;
-    color: #000000;
+a.attachment-thumbnail-details-title.js-attachment-thumbnail-details {
+    color: #00ffff;
 }
 
 a.button-link span.icon-sm {
@@ -61,6 +44,11 @@ a.card-detail-item-add-button.dark-hover.js-details-edit-members {
 
 a.card-detail-item-add-button.dark-hover.js-details-edit-members:hover {
     background-color: #00ffff;
+}
+
+a.disabled strong {
+    color: #000000;
+    text-decoration: underline;
 }
 
 a.header-btn.header-boards.js-boards-menu {
@@ -82,6 +70,15 @@ a.js-open-delete-confirm {
 
 a.js-remove-cover {
     color: #004a4a;
+}
+
+a.list-card-title.js-card-name {
+    color: #000000;
+    font-weight: bold;
+}
+
+a.list-header-menu-icon.icon-sm.icon-dropdown-menu.dark-hover.js-open-list-menu {
+    color: #00ffff;
 }
 
 a.quiet-button.js-add-board {
@@ -127,6 +124,8 @@ a.quiet-button.mod-with-image.hide-on-edit.js-edit-desc.js-hide-with-desc:hover 
     color: #000000;
 }
 
+
+
 /* ADDED 2015-02-17 */
 
 div.attachment-viewer-frame-details p {
@@ -155,8 +154,23 @@ div.clearfix {
     background-color: #000000;
 }
 
+div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc pre {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+div.current.markeddown.hide-on-edit.js-card-desc.js-show-with-desc pre code {
+    background-color: #00ffff;
+    font-weight: bold;
+}
+
 div.js-attachment-list attachment-thumbnail-details.js-open-viewer:hover {
     border-style: solid;
+}
+
+div.list-card-details {
+    background-color: #00ffff;
+    border-radius: 10px;
 }
 
 div.list.add-list.idle {
@@ -172,10 +186,22 @@ div.u-clearfix hr {
     background-color: #004a4a;
 }
 
+div.u-fancy-scrollbar::-webkit-scrollbar-thumb {
+    background: #004a4a;
+}
+
+div.u-fancy-scrollbar::-webkit-scrollbar-track, div.u-fancy-scrollbar::-webkit-scrollbar-track-piece {
+    background: #000000;
+}
+
 div.window-archive-banner.js-archive-banner {
     background: none;
     background-color: #004a4a;
     color: #000000;
+}
+
+div.window-cover.js-card-cover-box {
+    background-color: #000000;
 }
 
 div.window-module {
@@ -235,6 +261,10 @@ p.u-inline-block.u-bottom {
 
 span.attachment-thumbnail-details-options-item-text {
     color: #004a4a;
+}
+
+span.badge-icon.icon-sm {
+    color: #000000;
 }
 
 span.board-header-btn-icon.icon-sm.icon-cal {
@@ -335,34 +365,179 @@ textarea.list-card-edit-title {
     padding: .5em;
 }
 
-a.attachment-thumbnail-details-title.js-attachment-thumbnail-details {
-    color: #00ffff;
+input.primary.confirm.js-add-comment {
+    color: #000000;
 }
 
-a.list-card-title.js-card-name {
+a.helper.js-format-help {
+    color: #004a4a;
+    background-color: #000000;
+}
+
+div.pop-over.is-shown {
+    background-color: #00ffff;
+    border-color: #000000;
+}
+
+span.pop-over-header-title.js-fill-pop-over-title {
+    border-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    border-bottom-width: 5pxpx;
+    border-style: dashed;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+div.pop-over.is-shown hr {
+    background-color: #000000;
+}
+
+p.quiet {
     color: #000000;
     font-weight: bold;
 }
 
-span.badge-icon.icon-sm {
+div.pop-over-content.u-fancy-scrollbar.js-fill-pop-over-content.js-tab-parent div p {
     color: #000000;
 }
 
-a.list-header-menu-icon.icon-sm.icon-dropdown-menu.dark-hover.js-open-list-menu {
+input.primary.confirm.js-save-edit {
+    color: #000000;
+}
+
+a.button-link {
+    background: #001f1f;
+    background-color: #004a4a;
+    border-color: #000000;
+    border-style: none;
+    color: #000000;
+}
+
+span.board-header-btn-text {
+    display: inline;
+}
+
+#trellists {
+    display: inline;
+}
+
+li.show-list:hover {
+    background-color: #00ffff;
+}
+
+li.show-list {
+    color: #000000;
+    background-color: #001f1f;
+    border-radius: 1em;
+    font-weight: bold;
+    margin-right: .3em;
+    margin-bottom: .3em;
+    padding-left: .8em;
+    padding-right: .8em;
+    display: inline;
+    transition: background-color .05s;
+}
+
+li.hide-list {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #001f1f;
+    color: #001f1f;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 2em;
+    margin-right: .3em;
+}
+
+div.board-widgets.js-board-widgets-view {
+    background-color: rgba(0,0,0,0.8);
+}
+
+h3.dark-hover.toggle-widget-nav.js-toggle-widget-nav {
+    background-color: #00ffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+span.icon-sm.icon-dropdown-menu.toggle-menu-icon {
+    color: #001f1f;
+}
+
+a.inline-object.js-show-mem-menu {
+    background-color: #00ffff;
+    padding-right: .3em;
+    padding-left: .3em;
+    border-top-right-radius: .4em;
+    border-bottom-right-radius: .4em;
+}
+
+a.action-card {
+    color: #00ffff;
+    display: block;
+}
+
+div.phenom-desc {
     color: #00ffff;
 }
 
-div.list-card-details {
-    background-color: #00ffff;
-    border-radius: 10px;
+div.board-widget-title h3 {
+    color: #00ffff;
 }
 
-div.window-cover.js-card-cover-box {
+div.board-widgets-content.board-widgets-content--default-view hr {
+    background: #00ffff;
+}
+
+span.icon-sm.icon-forward {
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    color: #00ffff;
     background-color: #000000;
+    border-style: solid;
+    border-color: #00ffff;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 0;
 }
 
-a.disabled strong {
+div.board-widgets-content-wrapper.u-fancy-scrollbar.js-board-menu-content-wrapper {
+    border-style: solid;
+    border-color: #00ffff;
+    border-top-width: 0;
+    box-shadow: -2px 0 12px #00ffff;
+}
+
+span.board-header-btn-icon.icon-sm.icon-back {
+    color: #00ffff;
+}
+
+a.board-header-btn.mod-show-menu.js-show-sidebar {
+    border-top-width: 2pxpx;
+    border-right-width: 0;
+    border-style: solid;
+    border-color: #00ffff;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+a.show-more.js-view-all-activity-list {
+    background: #001f1f;
     color: #000000;
-    text-decoration: underline;
+}
+
+a.show-more.js-view-all-activity-list:hover {
+    background: #00ffff;
+    background-color: #00ffff;
+}
+
+#header {
+    background: none;
+    background-color: #00ffff;
+    padding-bottom: 9px;
 }
 
