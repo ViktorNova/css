@@ -2,9 +2,18 @@
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
+
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
+}
+
+#content-wrapper {
+    border-color: #000966;
+}
+
+#header {
+    border-color: #000966;
 }
 
 .ace-github-light {
@@ -234,6 +243,19 @@ a, div, span, li {
     text-shadow: none ;
 }
 
+a.btn {
+    border-color: #000966;
+}
+
+a.btn.btn-sm.btn-with-count.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.btn.btn-sm.btn-with-count.noTransition .octicon {
+    color: #000000;
+}
+
 a.button-link {
     background-color: #00aaff;
     color: #000000;
@@ -257,6 +279,11 @@ a.code.selected.tabnav-tab {
 }
 
 a.filter-item.selected {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.js-details-target {
     background-color: #00aaff;
     color: #000000;
 }
@@ -404,6 +431,10 @@ button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container 
     text-shadow: none;
 }
 
+button.btn.btn-sm.btn-with-count.js-toggler-target.noTransition .octicon {
+    color: #000000;
+}
+
 button.button-link.delete-note.tooltipped.tooltipped-w {
     background-color: #000000;
 }
@@ -454,15 +485,10 @@ button.web-edit-button span.octicon:hover {
     color: #00ffff;
 }
 
-/* Line devider for social count buttons */
-
-/* Line devider for social count buttons */
-
-/* --------------------------- */
-
-/* RANDOM STUFF */
-
-/* SCROLLBARS */
+/* SCI-FI DARK GITHUB
+   By Viktor Nova 
+   https://github.com/ViktorNova/css
+*/
 
 /* /END SCROLLBARS */
 
@@ -483,6 +509,16 @@ button.web-edit-button span.octicon:hover {
 /* COMMENTS, COMMIT MESSAGES, ETC */
 
 /* FILE EDITING BUTTONS */
+
+/* Line devider for social count buttons */
+
+/* Line devider for social count buttons */
+
+/* --------------------------- */
+
+/* RANDOM STUFF */
+
+/* SCROLLBARS */
 
 div.ace_content {
     border-color: #000396;
@@ -519,6 +555,19 @@ div.alert.issues_opened {
 
 div.alert.push {
     border-color: #000396;
+}
+
+div.article-body.content-body.wikistyle.markdown-format h3 {
+    border-color: #000966;
+}
+
+div.article-body.content-body.wikistyle.markdown-format p a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+div.article.js-hide-during-search {
+    border-color: #000966;
 }
 
 div.blankslate {
@@ -571,6 +620,10 @@ div.capped-box.overall-summary {
 
 div.capped-box.overall-summary.without-lang-stats {
     border-bottom: 1px solid #ddd;
+}
+
+div.clearfix {
+    border-color: #000966;
 }
 
 div.clearfix.announce.instapaper_body.md {
@@ -639,6 +692,10 @@ div.commit.file-history-tease {
 
 div.commit.full-commit {
     border-color: #000996;
+}
+
+div.content-header.small {
+    border-color: #000966;
 }
 
 div.contrib-column {
@@ -846,6 +903,10 @@ div.scope-badge {
     color: #000000;
 }
 
+div.sidebar {
+    border-color: #000966;
+}
+
 div.site-footer {
     border-color: #000396;
 }
@@ -866,6 +927,10 @@ div.sunken-menu-separator {
 
 div.sunken-menu-separator:before {
     display: none;
+}
+
+div.support-footer hr {
+    border-color: #000966;
 }
 
 div.table-list-cell.issue-comments {
@@ -989,6 +1054,10 @@ input.input-block.js-search-query {
     margin-top: -2px;
 }
 
+input.js-articles-quicksearch {
+    border-color: #000000;
+}
+
 input.subnav-search-input.input-contrast {
     border-color: #000396;
 }
@@ -1057,6 +1126,10 @@ select.js-code-wrap-mode {
 
 span a span {
     color: #00ffff;
+}
+
+span.btn-link.select-menu-button.js-menu-target {
+    color: #000000;
 }
 
 span.button-link.select-menu-button.js-menu-target {
@@ -1221,6 +1294,11 @@ span.ss {
     color: #e897e8;
 }
 
+span.tag-name {
+    color: #00ffff;
+    font-size: 1.5em;
+}
+
 span.text-emphasized {
     color: #000396;
 }
@@ -1243,6 +1321,14 @@ span.vcard-username {
 
 td.age {
     border-color: #000396;
+}
+
+td.blob-code.blob-code-inner.js-file-line {
+    background-color: #000000;
+}
+
+td.blob-code.js-file-line {
+    background: #555555;
 }
 
 td.blob-num {
@@ -1317,47 +1403,64 @@ ul.task-list li code {
 }
 
 ul.vcard-details {
-    border-color: #000396;
-}
-
-div.article-body.content-body.wikistyle.markdown-format p a {
-    color: #00ffff;
-    text-decoration: underline;
-}
-
-div.article.js-hide-during-search {
     border-color: #000966;
 }
 
-div.sidebar {
+div.article-body.content-body.wikistyle.markdown-format p code {
+    border-style: none;
+    color: #000000;
+    background-color: #00aaff;
+}
+
+div.alert.warning {
+    background-color: #00aaff;
+    border-style: none;
+}
+
+div.alert.warning p {
+    background-color: inherit;
+    color: #000000;
+}
+
+div.gollum-editor-help.noTransition div.gollum-editor-help-wrapper.noTransition, div.gollum-editor-help.noTransition, div.gollum-editor-help-wrapper.noTransition {
+    background: #000000;
+}
+
+#gollum-editor-help-parent li a.selected, #gollum-editor-help-list li a.selected {
     border-color: #000966;
 }
 
-#content-wrapper {
+div.noTransition {
+    border-color: #000966;
+    background: inherit;
+}
+
+#gollum-editor ul.noTransition {
     border-color: #000966;
 }
 
-div.clearfix {
+#gollum-editor ul.li.noTransition:hover {
+    border: inherit;
+}
+
+h3.noTransition {
     border-color: #000966;
 }
 
-div.content-header.small {
+div.boxed-group-inner.noTransition hr {
     border-color: #000966;
 }
 
-#header {
-    border-color: #000966;
+div.boxed-group-inner.noTransition label.noTransition {
+    color: #000000;
+    padding-left: 1em;
+    display: block;
+    background-color: #00aaff;
 }
 
-div.article-body.content-body.wikistyle.markdown-format h3 {
+select.js-repo-default-branch.noTransition {
+    color: #000000;
+    background-color: #00aaff;
     border-color: #000966;
-}
-
-div.support-footer hr {
-    border-color: #000966;
-}
-
-input.js-articles-quicksearch {
-    border-color: #000000;
 }
 
