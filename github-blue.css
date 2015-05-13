@@ -2,7 +2,6 @@
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
-
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
@@ -1542,7 +1541,7 @@ div.content p code, ul li code {
     border-color: #00aaff;
 }
 
-span.s2 {
+div.content pre span.s2 {
     color: #000000;
     background-color: #00aaff;
 }
