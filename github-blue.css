@@ -2,6 +2,7 @@
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
+
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
@@ -1491,5 +1492,112 @@ button.octicon-btn.tooltipped.tooltipped-n span {
 
 button.js-zeroclipboard.btn.btn-sm.zeroclipboard-button.tooltipped.tooltipped-s span {
     color: #000000;
+}
+
+div.sub-nav {
+    border-color: #000966;
+}
+
+div.alert p {
+    background-color: inherit;
+    color: #000000;
+}
+
+div.alert p a {
+    color: inherit;
+    background-color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.alert p code,div.alert pre {
+    background-color: #000000;
+    color: #00aaff;
+    border-style: none;
+}
+
+tbody tr td {
+    border-color: #000966;
+}
+
+thead tr th {
+    background-color: #00aaff;
+    color: #000000;
+    border-color: #000966;
+}
+
+table {
+    border-radius: 5px;
+}
+
+div.content pre {
+    border-color: #009966;
+    background-color: #00aaff;
+    color: #000000;
+}
+
+div.content p code, ul li code {
+    background-color: #00aaff;
+    color: #000000;
+    border-color: #00aaff;
+}
+
+span.s2 {
+    color: #000000;
+    background-color: #00aaff;
+}
+
+code.language-javascript.highlight {
+    background-color: inherit;
+}
+
+span.p {
+    color: #000966;
+}
+
+span.mi {
+    color: #000966;
+}
+
+div.lower_footer {
+    border-color: #000966;
+}
+
+li.js-topic,li.js-topic h3, div.js-toggle-list.sidebar-module.expandable {
+    border-color: #000966;
+}
+
+div.sidebar-module.notice p {
+    border-color: #000966;
+}
+
+div.sidebar-module.api-status {
+    border-color: #000966;
+}
+
+div.sidebar-module.notice {
+    border-color: #000966;
+}
+
+div.alert {
+    background-color: #00ffff;
+    border-color: #000966;
+    border-left-width: 20px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    box-shadow: .2em .2em .8em #000966;
+}
+
+div.alert pre {
+    border-style: solid;
+    border-color: #000000;
+    color: #00aaff;
+    background-color: #000000;
+}
+
+div.alert p code {
+    background-color: #000000;
+    color: #00aaff;
+    border-color: #000000;
 }
 
