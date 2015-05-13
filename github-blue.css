@@ -2,7 +2,6 @@
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
-
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
@@ -1462,5 +1461,35 @@ select.js-repo-default-branch.noTransition {
     color: #000000;
     background-color: #00aaff;
     border-color: #000966;
+}
+
+span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000000;
+}
+
+span.octicon.octicon-git-branch {
+    color: #000000;
+}
+
+span.language-color {
+    border-color: #000966;
+}
+
+div.scope-badge.noTransition {
+    background-color: #00aaff;
+}
+
+div.repository-lang-stats-graph {
+    border-color: #000966;
+}
+
+button.octicon-btn.tooltipped.tooltipped-n span {
+    color: #000000;
+}
+
+button.js-zeroclipboard.btn.btn-sm.zeroclipboard-button.tooltipped.tooltipped-s span {
+    color: #000000;
 }
 
