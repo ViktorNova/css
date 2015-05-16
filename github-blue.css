@@ -1600,3 +1600,8 @@ div.alert p code {
     border-color: #000000;
 }
 
+label.js-chromeless-input-container.form-control.noTransition {
+    background-color: #000000;
+    border-style: none;
+}
+
