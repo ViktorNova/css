@@ -1739,3 +1739,8 @@ a.btn.btn-danger.noTransition {
     background-color: inherit;
 }
 
+a.selected.js-selected-navigation-item.sunken-menu-item.noTransition .octicon {
+    color: #000000;
+}
+
+
