@@ -414,6 +414,7 @@ article.markdown-body.js-file hr {
 
 body, a, button, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, il, li, table, th, tr, td, p, strong, pre, .announce, .name, .num, .bubble, .commit, .container, .divider-vertical, .authorship, .octofication, .commit-meta, .box, .box-header, .box-small, .box-title, .box-body, .col, .grid, .filter-bar, .js-notice, .news, .flash, .dashboard, .dashboard-sidebar, .header, .highlight, .message, .repo-nav-contents, .tab-content, .contributions-tab, .last, .site, .pagehead, .participation, .meta, .line, .plain {
     /*Viktor - WTF*/
+    /* This used to make everything's background-color black, but it affected too much other stuff, like issues lables couldn't have a background color, etc */
     background-attachment: scroll;
     background-image: none;
     background-position: top left;
@@ -502,46 +503,6 @@ button.web-edit-button span.octicon:hover {
 code.language-javascript.highlight {
     background-color: inherit;
 }
-
-/* SCI-FI DARK GITHUB
-   By Viktor Nova 
-   https://github.com/ViktorNova/css
-*/
-
-/*   EDITED 2-17 --- */
-
-/*   EDITED 2-17 --- */
-
-/*   EDITED 2-17 --- */
-
-/* CODE EDITOR */
-
-/* COMMENTS, COMMIT MESSAGES, ETC */
-
-/* FILE EDITING BUTTONS */
-
-/* Line devider for social count buttons */
-
-/* Line devider for social count buttons */
-
-/* --------------------------- */
-
-/* RANDOM STUFF */
-
-/* SCROLLBARS */
-
-/* SCI-FI DARK GITHUB
-   By Viktor Nova 
-   https://github.com/ViktorNova/css
-*/
-
-/* /END SCROLLBARS */
-
-/* SIDEBAR NAVIGATION */
-
-/* Line devider for social count buttons */
-
-/* Line devider for social count buttons */
 
 div.ace_content {
     border-color: #000396;
@@ -1295,7 +1256,8 @@ span.btn-link.select-menu-button.js-menu-target {
 
 span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
     background-color: #00aaff;
-    border-color: #000966;
+    background: #00aaff;
+    border: none
     color: #000000;
 }
 
@@ -1614,7 +1576,7 @@ div.ul div.table-list-cell .navigation-focus,li.issue,li.issue {
     background: #000000;
 }
 
-.selectable.table-list-item.js-navigation-item.js-issue-row {
+.selectable.table-list-item.js-navigation-item.js-issue-row, table.files td, td, table.files td span a, table.files td span {
     /* Viktor - this makes tables black! */
     background-color: #000000;
     transition: background 1s;
@@ -1734,10 +1696,6 @@ a.btn.btn-primary .octicon {
     color: #000000;
 }
 
-td {
-    background-color: #000000;
-}
-
 div.file-wrap h3.noTransition {
     background-color: #000000;
 }
@@ -1754,5 +1712,30 @@ div.file-wrap h3.noTransition {
 
 div.table-list-header a.btn-link {
     color: #000000;
+}
+
+span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
+    border-style: none;
+}
+
+a.message.noTransition {
+    background-color: inherit;
+}
+
+span.language-color.noTransition {
+    border-style: solid;
+}
+
+span.octicon.octicon-clippy.noTransition {
+    background-color: inherit;
+}
+
+strong.branch-name.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.btn.btn-danger.noTransition {
+    background-color: inherit;
 }
 
