@@ -1,0 +1,439 @@
+#content {
+    color: #96cc00;
+}
+
+#footer {
+    background-color: inherit;
+}
+
+#header {
+    background-color: #000000;
+}
+
+#home_content {
+    border-color: #000966;
+}
+
+#home_tabs li {
+    background-color: #00092e;
+    border-radius: .75em;
+    border-style: none;
+    color: #000000;
+}
+
+#home_tabs ul li.active {
+    background-color: #000966;
+}
+
+#home_tabs_content {
+    border-style: none;
+    color: #ff127d;
+}
+
+#home_title {
+    border-color: #000966;
+}
+
+#navbar {
+    background-color: inherit;
+}
+
+#navbar div.current span, #navbar div.current span:hover {
+    background-color: #00aaff;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar li {
+    border-color: #000;
+}
+
+#navbar li a.current {
+    color: #000000;
+    font-weight: bold;
+}
+
+#navbar li a:hover, #navbar div span:hover {
+    background-color: #00aaff;
+    box-shadow: 0 -1px 5px #005266 inset;
+    color: #000000;
+}
+
+#navbar ul li {
+    border-color: #000;
+}
+
+#navbar ul li a {
+    border-color: #000;
+    color: #000000;
+}
+
+#sm2 li a {
+    color: #000000;
+}
+
+#submenu {
+    background-color: #00aaff;
+}
+
+#submenu ul li a {
+    color: #000000;
+}
+
+.evotabs li {
+    background-color: #000966;
+    border-style: none;
+    color: #000000;
+}
+
+.evotabs li.active {
+    background-color: #00aaff;
+}
+
+.widget-table tr:hover td {
+    background: #00aaff;
+    color: #000;
+}
+
+.widget-table tr:hover td a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.widget-table-form tr td {
+    border-style: none;
+}
+
+a.ticket_subject {
+    background-color: #00aaff;
+    border-style: none;
+    color: #000;
+}
+
+/* ------------ */
+
+div#navbar.noTransition a, #navbar div span {
+    background: #005266;
+    color: #000000;
+    transition: background .5s ease-out;
+}
+
+div#navbar.noTransition a:hover, div#navbar.noTransition a.current {
+    background: #00aaff;
+}
+
+div.b_title {
+    color: #000000;
+}
+
+div.day.noTransition {
+    background-color: inherit;
+    border-color: #00aaff;
+    color: #00aaff;
+}
+
+div.error_box {
+    background-color: #ff96ef;
+}
+
+div.evotabs_content {
+    background-color: inherit;
+    border-style: none;
+}
+
+div.evotabs_content.noTransition {
+    border-color: #00aaff;
+}
+
+div.evotabs_content.noTransition li {
+    width: 100%
+display: block;
+}
+
+div.memberbox .mcontent ul li a {
+    border-style: none;
+}
+
+div.memberbox .mcontent, div.memberbox .mheader {
+    background-color: #000966;
+    border-style: none;
+    color: #000;
+}
+
+div.memberbox ul li {
+    border-style: none;
+}
+
+div.memberbox ul li a {
+    border-color: #000966;
+}
+
+div.memberbox ul li a:hover {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+div.mheader.noTransition {
+    font-weight: bold;
+}
+
+div.success_box.noTransition {
+    background-color: inherit;
+    border-color: #29d935;
+    color: #29d935;
+    font-weight: bold;
+}
+
+div.ticket_conversation {
+    background-color: #0f1929;
+    border-color: #000;
+    color: #000000;
+}
+
+div.ticket_date {
+    border-color: #000;
+}
+
+div.ticket_date.noTransition {
+    color: #000000;
+}
+
+div.ticket_details_block div select {
+    background-color: #000966;
+    border-style: none;
+    color: #00aaff;
+}
+
+div.ticket_details_block.noTransition {
+    border-color: #000966;
+}
+
+div.ticket_details_block.noTransition div.b_title.noTransition {
+    color: #000966;
+}
+
+div.ticket_email {
+    border-color: #000;
+}
+
+div.ticket_icons {
+    border-color: #000;
+}
+
+div.ticket_message.noTransition {
+    background-color: #005266;
+}
+
+div.ticket_msg.noTransition {
+    background-color: #005266;
+}
+
+div.ticket_staff.noTransition {
+    background-color: #00aaff;
+    border-color: #000000;
+    color: #000000;
+}
+
+div.ticket_subject {
+    background-color: inherit;
+}
+
+div.ticket_summary.noTransition ul li div.noTransition , div.ticket_summary.noTransition span {
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: .2em
+;
+}
+
+div.ticket_user {
+    background-color: #0f1929;
+    border-color: #000;
+}
+
+div.title {
+    border-color: #000966;
+}
+
+div.top.noTransition {
+    background-color: #00aaff;
+    color: #000;
+}
+
+div.ui-dialog-content.ui-widget-content.noTransition {
+    background-color: #000000;
+}
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.noTransition {
+    background-color: #000000;
+}
+
+html,body,#content,#home_content,#home_title {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+input {
+    position: relative;
+}
+
+input.search_button {
+    color: #000000;
+}
+
+input.search_input {
+    color: #00aaff;
+}
+
+input[type="submit"] {
+    background: #00aaff;
+    color: #000;
+    font-weight: bold;
+    height: 3em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 8px #000966;
+}
+
+li.active {
+    text-transform: uppercase;
+}
+
+small.noTransition {
+    color: #005266;
+}
+
+span.fancytree_descr.noTransition {
+    color: #00ffff;
+    display: inline-block;
+    float: right;
+}
+
+strong.noTransition {
+    color: #00aaff;
+}
+
+table thead.titles th.noTransition {
+    background-color: #00aaff;
+}
+
+table.widget-table {
+    background-color: #000;
+    border-color: #000966
+    color: #fff;
+}
+
+table.widget-table tr th {
+    border-color: #000966;
+}
+
+table.widget-table tr th a {
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000000;
+    font-weight: bold;
+}
+
+table.widget-table.noTransition {
+    border-color: #000966;
+}
+
+tbody tr td {
+    border-color: #000966;
+}
+
+td.zebraeven {
+    color: #ffffff;
+}
+
+td.zebraodd {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+textarea.noTransition {
+    background-color: #000000;
+    border-color: #000966;
+    border-style: dashed;
+    border-width: 8px;
+    color: #00aaff;
+}
+
+th.td_1 {
+    background-color: #000000;
+    color: #000966;
+}
+
+tr {
+    transition: background .5s;
+}
+
+tr td {
+    transition: color .5s;
+}
+
+tr td select {
+    background-color: #00092e;
+    border-style: none;
+}
+
+tr td textarea {
+    background-color: inherit;
+    border-color: #000966;
+    border-style: dashed;
+    border-width: 10px;
+    color: #00aaff;
+    font-size: 2em;
+    padding: .5em;
+}
+
+tr.ticket_details td {
+    background: #000966;
+    color: #000000;
+}
+
+tr.troverdue.noTransition td {
+    background-color: #000000;
+    border-color: #b01ab0;
+    box-shadow: 0 0 15px #b01ab0;
+}
+
+tr.trzebra td {
+    background: #00092e;
+    color: #00aaff;
+}
+
+ul li div {
+    background-color: #00aaff;
+    border-style: none;
+    color: #000000;
+}
+
+tr.troverdue:hover td.noTransition a,tr.troverdue:hover td.noTransition {
+    color: #ff2e69;
+}
+
+form#reply.noTransition div.noTransition {
+    color: #3c3e43;
+}
+
+select.noTransition {
+    color: #00aaff;
+}
+
+input.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+#msg_122 > div:nth-child(1) > div.ticket_user.noTransition > div {
+    color: #000;
+}
+
+form.noTransition {
+    height: auto;
+}
+
