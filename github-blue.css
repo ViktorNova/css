@@ -2,6 +2,7 @@
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
+
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
@@ -842,6 +843,7 @@ div.file-header {
 
 div.file-history-tease-header {
     border-color: #000396;
+    background-color: #000;
 }
 
 div.file-wrap {
@@ -957,6 +959,7 @@ div.pagination a {
 
 div.participation {
     border-color: #000396;
+    background-color: #000;
 }
 
 div.preview-content {
@@ -1259,6 +1262,8 @@ span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
     background: #00aaff;
     border: none
     color: #000000;
+    color: #000;
+    border-color: #000966;
 }
 
 span.button-link.select-menu-button.js-menu-target {
@@ -1741,5 +1746,21 @@ a.btn.btn-danger.noTransition {
 
 a.selected.js-selected-navigation-item.sunken-menu-item.noTransition .octicon {
     color: #000000;
+}
+
+div.header.header-logged-in.true {
+    background-color: #000;
+}
+
+label.js-chromeless-input-container.form-control {
+    background-color: #000;
+}
+
+a.js-selected-navigation-item.sunken-menu-item.selected {
+    background-color: #00aaff;
+}
+
+a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
+    color: #000;
 }
 
