@@ -1,8 +1,3 @@
-/* SCI-FI DARK GITHUB
-   By Viktor Nova 
-   https://github.com/ViktorNova/css
-*/
-
 #commit-description-textarea, #commit-description-textarea {
     background-color: #000000;
     color: #00aaff;
@@ -44,6 +39,16 @@
 
 .ace_layer .ace_selection {
     background-color: #000966;
+}
+
+.boxed-group.flush a.btn-link {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+.boxed-group.flush h3.noTransition {
+    background-color: #00aaff;
+    color: #000000;
 }
 
 .bubble {
@@ -118,7 +123,7 @@
 
 .js-code-editor,.container-preview,.show-code {
     background: #000000;
-    border-color: #000396;
+    border-color: #000966;
 }
 
 .js-current-repository {
@@ -181,10 +186,25 @@
     background: #569e3d;
 }
 
+.selectable.table-list-item.js-navigation-item.js-issue-row, table.files td, td, table.files td span a, table.files td span {
+    background-color: #000000;
+    /* Viktor - this makes tables black! */
+    transition: background 1s;
+}
+
+.selectable.table-list-item.js-navigation-item.js-issue-row:hover {
+    background-color: #000633;
+    transition: background .2s;
+}
+
 .social-count,.social-count.js-social-count {
     border-left-color: #000000;
     border-left-width: 1px;
     border-style: solid;
+}
+
+.stars {
+    color: #00aaff;
 }
 
 .sunken-menu {
@@ -258,12 +278,76 @@ a.btn {
     border-color: #000966;
 }
 
+a.btn-link.noTransition {
+    color: #000000;
+}
+
+a.btn-link.selected.noTransition {
+    color: #000000;
+}
+
+a.btn.btn-block {
+    background-color: inherit;
+    border-color: #000966;
+    border-style: solid;
+    border-width: 2px;
+}
+
+a.btn.btn-danger {
+    background-color: #000;
+}
+
+a.btn.btn-danger.noTransition {
+    background-color: inherit;
+}
+
+a.btn.btn-primary {
+    border-style: none;
+    color: #000000;
+}
+
+a.btn.btn-primary .octicon {
+    color: #000000;
+}
+
+a.btn.btn-primary.new-repo {
+    color: #000000;
+}
+
+a.btn.btn-primary.right.noTransition {
+    border-style: none;
+    color: #000000;
+    margin-top: 4px;
+}
+
+a.btn.btn-sm {
+    background-color: #000000;
+    border-color: #000966;
+}
+
+a.btn.btn-sm.btn-with-count {
+    background-color: #00aaff;
+    color: #000;
+}
+
+a.btn.btn-sm.btn-with-count .octicon {
+    color: #000000;
+}
+
 a.btn.btn-sm.btn-with-count.noTransition {
     background-color: #00aaff;
     color: #000000;
 }
 
 a.btn.btn-sm.btn-with-count.noTransition .octicon {
+    color: #000000;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
+    background-color: #00aaff;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target .octicon {
     color: #000000;
 }
 
@@ -294,6 +378,10 @@ a.filter-item.selected {
     color: #000000;
 }
 
+a.header-nav-link.tooltipped.tooltipped-s.js-menu-target .octicon {
+    color: #000;
+}
+
 a.js-details-target {
     background-color: #00aaff;
     color: #000000;
@@ -303,8 +391,40 @@ a.js-selected-navigation-item.menu-item {
     border-color: #000396;
 }
 
-a.js-selected-navigation-item.sunken-menu-item {
+a.js-selected-navigation-item.subnav-item {
     border-color: #000396;
+}
+
+a.js-selected-navigation-item.subnav-item.noTransition,,a.tabnav-tab.noTransition {
+    transition: background 1.2s;
+}
+
+a.js-selected-navigation-item.subnav-item.noTransition:hover,a.tabnav-tab.noTransition:hover {
+    background-color: #000633;
+    /* Viktor - Tab Navigation */
+    transition: background .2s;
+}
+
+a.js-selected-navigation-item.sunken-menu-item {
+    background-color: #000000;
+    border-color: #000396;
+}
+
+a.js-selected-navigation-item.sunken-menu-item.selected {
+    background-color: #00aaff;
+}
+
+a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
+    color: #000;
+}
+
+a.label.tooltipped.tooltipped-n,span.state {
+    border-radius: 1em;
+    color: #000000;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
 }
 
 a.menu-item {
@@ -319,6 +439,10 @@ a.menu-item {
 a.menu-item.selected span.counter {
     background-color: #000000;
     color: #00aaff;
+}
+
+a.message.noTransition {
+    background-color: inherit;
 }
 
 a.mini-repo-list-item.css-truncate {
@@ -355,12 +479,32 @@ a.preview.tabnav-tab, a.code.selected.tabnav-tab {
     font-weight: bold;
 }
 
+a.selected.js-selected-navigation-item.subnav-item.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+a.selected.js-selected-navigation-item.sunken-menu-item.noTransition .octicon {
+    color: #000000;
+}
+
+a.selected.js-selected-navigation-item.sunken-menu-item.noTransition,a.tabnav-tab.selected {
+    background-color: #00aaff;
+    color: #000000
+;
+}
+
 a.social-count {
     border: 1px solid #00aaff;
 }
 
 a.social-count.js-social-count {
     border-color: #000396;
+}
+
+a.social-count.noTransition {
+    border-color: #000966;
+    border-style: solid;
 }
 
 a.tabnav-tab {
@@ -401,6 +545,10 @@ article.markdown-body.entry-content p code {
     background-color: #3b3b3b;
 }
 
+article.markdown-body.entry-content pre {
+    background-color: #000324;
+}
+
 article.markdown-body.js-file {
     background-color: #000000;
 }
@@ -414,13 +562,13 @@ article.markdown-body.js-file hr {
 }
 
 body, a, button, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, il, li, table, th, tr, td, p, strong, pre, .announce, .name, .num, .bubble, .commit, .container, .divider-vertical, .authorship, .octofication, .commit-meta, .box, .box-header, .box-small, .box-title, .box-body, .col, .grid, .filter-bar, .js-notice, .news, .flash, .dashboard, .dashboard-sidebar, .header, .highlight, .message, .repo-nav-contents, .tab-content, .contributions-tab, .last, .site, .pagehead, .participation, .meta, .line, .plain {
-    /*Viktor - WTF*/
-    /* This used to make everything's background-color black, but it affected too much other stuff, like issues lables couldn't have a background color, etc */
     background-attachment: scroll;
     background-image: none;
     background-position: top left;
     background-repeat: repeat;
     color: #00aaff;
+    /*Viktor - WTF*/
+    /* This used to make everything's background-color black, but it affected too much other stuff, like issues lables couldn't have a background color, etc */
     text-shadow: none;
 }
 
@@ -489,6 +637,10 @@ button.octicon-btn.tooltipped.tooltipped-n span {
     color: #000000;
 }
 
+button.octicon-btn.tooltipped.tooltipped-nw .octicon {
+    color: #000;
+}
+
 button.web-edit-button {
     background: #000000;
 }
@@ -504,6 +656,16 @@ button.web-edit-button span.octicon:hover {
 code.language-javascript.highlight {
     background-color: inherit;
 }
+
+code.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
+/* SCI-FI DARK GITHUB
+   By Viktor Nova 
+   https://github.com/ViktorNova/css
+*/
 
 div.ace_content {
     border-color: #000396;
@@ -648,8 +810,15 @@ div.boxed-group.flush h3 {
     border-color: #000396;
 }
 
+div.boxed-group.flush.clearfix.announce.instapaper_body h3 {
+    background-color: #000000;
+}
+
 div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
     border-color: #000396;
+    background-color: #000966;
+    color: #000;
+    padding-left: .5em;
 }
 
 div.boxed-group.flush.js-notifications-browser h3 {
@@ -685,6 +854,11 @@ div.clearfix.announce.instapaper_body.md {
 
 div.code-list-item.code-list-item-public {
     border-color: #000396;
+}
+
+div.column div.boxed-group.flush.noTransition,div.column div.boxed-group.flush.noTransition h3 {
+    background: #000000;
+    background-color: #000000;
 }
 
 div.column.one-fourth hr {
@@ -731,13 +905,13 @@ div.commit-form:before, div.commit-form:after, div.timeline-comment:before, div.
 }
 
 div.commit-meta {
-    border-color: #000396;
     background-color: #000000;
+    border-color: #000396;
 }
 
 div.commit.commit-tease.js-details-container {
-    border-color: #000396;
     background-color: #000000;
+    border-color: #000396;
 }
 
 div.commit.file-history-tease {
@@ -842,17 +1016,21 @@ div.file-header {
 }
 
 div.file-history-tease-header {
-    border-color: #000396;
     background-color: #000;
+    border-color: #000396;
 }
 
 div.file-wrap {
     border-color: #000396;
 }
 
-div.filter-bar {
-    border-color: #000966;
+div.file-wrap h3.noTransition {
     background-color: #000000;
+}
+
+div.filter-bar {
+    background-color: #000000;
+    border-color: #000966;
 }
 
 div.filter-repos.filter-bar {
@@ -868,7 +1046,7 @@ div.flex-table.gh-header-meta {
 }
 
 div.form-actions {
-    background-color: #000396;
+    background-color: #000000;
 }
 
 div.gist-description div {
@@ -879,8 +1057,16 @@ div.gollum-editor-help.noTransition div.gollum-editor-help-wrapper.noTransition,
     background: #000000;
 }
 
+div.header.gist-header.header-logged-in {
+    background-color: inherit;
+}
+
 div.header.header-logged-in {
     border-color: #000396;
+}
+
+div.header.header-logged-in.true {
+    background-color: #000;
 }
 
 div.inner {
@@ -958,8 +1144,12 @@ div.pagination a {
 }
 
 div.participation {
-    border-color: #000396;
     background-color: #000;
+    border-color: #000396;
+}
+
+div.plain {
+    background-color: inherit;
 }
 
 div.preview-content {
@@ -1065,6 +1255,10 @@ div.table-list-header {
     border-color: #000396;
 }
 
+div.table-list-header a.btn-link {
+    color: #000000;
+}
+
 div.tabnav {
     border-color: #000396;
 }
@@ -1089,6 +1283,15 @@ div.timeline-comment-header-text {
 
 div.timeline-comment-wrapper.js-comment-container {
     border-color: #000396;
+}
+
+div.ul div.table-list-cell .navigation-focus,li.issue,li.issue {
+    background: #000000;
+    background-color: #000000;
+}
+
+div.ul div.table-list-cell:hover div {
+    background-color: #000633;
 }
 
 div.vcard-stats {
@@ -1141,6 +1344,10 @@ html, body {
     color: #00a6ff;
 }
 
+html,body {
+    background-color: #000;
+}
+
 input {
     border-color: #000396;
 }
@@ -1177,6 +1384,20 @@ input.subnav-search-input.input-contrast {
     border-color: #000396;
 }
 
+label.js-chromeless-input-container.form-control {
+    background-color: #000;
+    border-style: none;
+}
+
+label.js-chromeless-input-container.form-control.noTransition {
+    background-color: #000000;
+    border-style: none;
+}
+
+label.table-list-cell.table-list-cell-checkbox {
+    border-color: #000966;
+}
+
 li {
     border-color: #000396;
 }
@@ -1186,9 +1407,12 @@ li p code {
 }
 
 li pre code {
-    background-color: #000996;
     color: #000000;
-    padding: 10px;
+    padding: 6px;
+    background-color: inherit;
+}
+
+li.issue {
 }
 
 li.js-topic,li.js-topic h3, div.js-toggle-list.sidebar-module.expandable {
@@ -1218,6 +1442,7 @@ ol.task-list li pre {
 }
 
 p.drag-and-drop {
+    background-color: #000000;
     border-color: #000396;
 }
 
@@ -1257,13 +1482,26 @@ span.btn-link.select-menu-button.js-menu-target {
     color: #000000;
 }
 
+span.btn.btn-sm.select-menu-button.icon-only.js-menu-target {
+    background: none;
+    color: #000;
+}
+
+span.btn.btn-sm.select-menu-button.icon-only.js-menu-target .octicon {
+    color: #000;
+}
+
 span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
-    background-color: #00aaff;
     background: #00aaff;
+    background-color: #00aaff;
     border: none
     color: #000000;
-    color: #000;
     border-color: #000966;
+    color: #000;
+}
+
+span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
+    border-style: none;
 }
 
 span.button-link.select-menu-button.js-menu-target {
@@ -1323,10 +1561,10 @@ span.js-select-button.css-truncate-target {
 }
 
 span.label {
-    box-shadow: none ;
-    font-weight: bold;
     border-style: dashed;
     border-width: 2px;
+    box-shadow: none ;
+    font-weight: bold;
     padding-bottom: 1px;
     text-shadow: none ;
     text-transform: lowercase;
@@ -1340,9 +1578,16 @@ span.language-color {
     border-color: #000966;
 }
 
+span.language-color.noTransition {
+    border-style: solid;
+}
+
 span.mail-status.unread {
     background: #00ffff;
-    border-color: #000396;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: -2px -2px 4px #000;
 }
 
 span.match-count {
@@ -1377,6 +1622,10 @@ span.octicon {
 span.octicon.octicon-check {
     color: #00ff73;
     text-shadow: 0 0 2px #000000;
+}
+
+span.octicon.octicon-clippy.noTransition {
+    background-color: inherit;
 }
 
 span.octicon.octicon-git-branch {
@@ -1475,6 +1724,11 @@ span.vcard-username {
     color: #000966;
 }
 
+strong.branch-name.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
+
 table {
     border-radius: 5px;
 }
@@ -1538,6 +1792,10 @@ u2500.highlight .c, .highlight.cm, .highlight.c1 {
     color: #666677;
 }
 
+ul.boxed-group-inner {
+    background-color: #000000;
+}
+
 ul.boxed-group-inner.list-group.notifications {
     border-color: #000396;
 }
@@ -1568,6 +1826,10 @@ ul.menu {
     border-style: none;
 }
 
+ul.table-list.table-list-bordered {
+    border-color: #000966;
+}
+
 ul.task-list li code {
     background-color: #575757;
 }
@@ -1576,191 +1838,35 @@ ul.vcard-details {
     border-color: #000966;
 }
 
-div.ul div.table-list-cell .navigation-focus,li.issue,li.issue {
-    background-color: #000000;
-    background: #000000;
+ul li pre {
+    background-color: #000966;
 }
 
-.selectable.table-list-item.js-navigation-item.js-issue-row, table.files td, td, table.files td span a, table.files td span {
-    /* Viktor - this makes tables black! */
-    background-color: #000000;
-    transition: background 1s;
-}
-
-.selectable.table-list-item.js-navigation-item.js-issue-row:hover {
-    background-color: #000633;
-    transition: background .2s;
-}
-
-li.issue {
-}
-
-div.ul div.table-list-cell:hover div {
-    background-color: #000633;
-}
-
-label.table-list-cell.table-list-cell-checkbox {
-    border-color: #000966;
-}
-
-ul.table-list.table-list-bordered {
-    border-color: #000966;
-}
-
-a.label.tooltipped.tooltipped-n,span.state {
-    color: #000000;
-    border-radius: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 1.2em;
-    width: auto;
-}
-
-.stars {
-    color: #00aaff;
-}
-
-code.noTransition {
-    color: #000000;
-    background-color: #00aaff;
-}
-
-label.js-chromeless-input-container.form-control.noTransition {
-    background-color: #000000;
-    border-style: none;
-}
-
-a.js-selected-navigation-item.subnav-item {
-    border-color: #000396;
-}
-
-a.selected.js-selected-navigation-item.subnav-item.noTransition {
-    background-color: #00aaff;
-    color: #000000;
-}
-
-a.js-selected-navigation-item.subnav-item.noTransition:hover,a.tabnav-tab.noTransition:hover {
-    /* Viktor - Tab Navigation */
-    background-color: #000633;
-    transition: background .2s;
-}
-
-a.js-selected-navigation-item.subnav-item.noTransition,,a.tabnav-tab.noTransition {
-    transition: background 1.2s;
-}
-
-a.btn-link.selected.noTransition {
-    color: #000000;
-}
-
-a.btn-link.noTransition {
-    color: #000000;
-}
-
-a.selected.js-selected-navigation-item.sunken-menu-item.noTransition,a.tabnav-tab.selected {
-    background-color: #00aaff;
-    color: #000000
-;
-}
-
-a.btn.btn-primary.right.noTransition {
-    color: #000000;
-    border-style: none;
-    margin-top: 4px;
-}
-
-a.social-count.noTransition {
-    border-style: solid;
-    border-color: #000966;
-}
-
-div.column div.boxed-group.flush.noTransition,div.column div.boxed-group.flush.noTransition h3 {
-    background-color: #000000;
-    background: #000000;
-}
-
-ul.boxed-group-inner {
-    background-color: #000000;
-}
-
-a.btn.btn-sm {
-    background-color: #000000;
-    border-color: #000966;
-}
-
-a.btn.btn-primary.new-repo {
-    color: #000000;
-}
-
-a.btn.btn-primary {
-    color: #000000;
-    border-style: none;
-}
-
-a.btn.btn-primary .octicon {
-    color: #000000;
-}
-
-div.file-wrap h3.noTransition {
-    background-color: #000000;
-}
-
-.boxed-group.flush h3.noTransition {
-    background-color: #00aaff;
-    color: #000000;
-}
-
-.boxed-group.flush a.btn-link {
-    background-color: #00aaff;
-    color: #000000;
-}
-
-div.table-list-header a.btn-link {
-    color: #000000;
-}
-
-span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
-    border-style: none;
-}
-
-a.message.noTransition {
-    background-color: inherit;
-}
-
-span.language-color.noTransition {
-    border-style: solid;
-}
-
-span.octicon.octicon-clippy.noTransition {
-    background-color: inherit;
-}
-
-strong.branch-name.noTransition {
-    background-color: #00aaff;
-    color: #000000;
-}
-
-a.btn.btn-danger.noTransition {
-    background-color: inherit;
-}
-
-a.selected.js-selected-navigation-item.sunken-menu-item.noTransition .octicon {
-    color: #000000;
-}
-
-div.header.header-logged-in.true {
-    background-color: #000;
-}
-
-label.js-chromeless-input-container.form-control {
-    background-color: #000;
-}
-
-a.js-selected-navigation-item.sunken-menu-item.selected {
-    background-color: #00aaff;
-}
-
-a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
+span.octicon.octicon-book {
     color: #000;
+}
+
+span.author-name span {
+    color: #000966;
+    font-weight: bold;
+}
+
+div.authorship {
+    color: #000966;
+}
+
+div.clone-options {
+    color: #000966;
+}
+
+button.btn-link.js-clone-selector {
+    background-color: inherit;
+    color: #000966;
+    text-decoration: underline;
+}
+
+strong.branch-name {
+    color: #000000;
+    background-color: #000966;
 }
 
