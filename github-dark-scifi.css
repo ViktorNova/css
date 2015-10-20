@@ -123,7 +123,7 @@
 
 .js-code-editor,.container-preview,.show-code {
     background: #000000;
-    border-color: #000966;
+    border-color: #000396;
 }
 
 .js-current-repository {
@@ -286,17 +286,6 @@ a.btn-link.selected.noTransition {
     color: #000000;
 }
 
-a.btn.btn-block {
-    background-color: inherit;
-    border-color: #000966;
-    border-style: solid;
-    border-width: 2px;
-}
-
-a.btn.btn-danger {
-    background-color: #000;
-}
-
 a.btn.btn-danger.noTransition {
     background-color: inherit;
 }
@@ -325,29 +314,7 @@ a.btn.btn-sm {
     border-color: #000966;
 }
 
-a.btn.btn-sm.btn-with-count {
-    background-color: #00aaff;
-    color: #000;
-}
-
-a.btn.btn-sm.btn-with-count .octicon {
-    color: #000000;
-}
-
-a.btn.btn-sm.btn-with-count.noTransition {
-    background-color: #00aaff;
-    color: #000000;
-}
-
 a.btn.btn-sm.btn-with-count.noTransition .octicon {
-    color: #000000;
-}
-
-a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
-    background-color: #00aaff;
-}
-
-a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target .octicon {
     color: #000000;
 }
 
@@ -378,10 +345,6 @@ a.filter-item.selected {
     color: #000000;
 }
 
-a.header-nav-link.tooltipped.tooltipped-s.js-menu-target .octicon {
-    color: #000;
-}
-
 a.js-details-target {
     background-color: #00aaff;
     color: #000000;
@@ -406,16 +369,7 @@ a.js-selected-navigation-item.subnav-item.noTransition:hover,a.tabnav-tab.noTran
 }
 
 a.js-selected-navigation-item.sunken-menu-item {
-    background-color: #000000;
     border-color: #000396;
-}
-
-a.js-selected-navigation-item.sunken-menu-item.selected {
-    background-color: #00aaff;
-}
-
-a.js-selected-navigation-item.sunken-menu-item.selected .octicon {
-    color: #000;
 }
 
 a.label.tooltipped.tooltipped-n,span.state {
@@ -447,6 +401,7 @@ a.message.noTransition {
 
 a.mini-repo-list-item.css-truncate {
     border-color: #000396;
+    background-color: #000966;
 }
 
 a.minibutton {
@@ -496,6 +451,8 @@ a.selected.js-selected-navigation-item.sunken-menu-item.noTransition,a.tabnav-ta
 
 a.social-count {
     border: 1px solid #00aaff;
+    border-style: solid;
+    border-color: #000000;
 }
 
 a.social-count.js-social-count {
@@ -543,10 +500,6 @@ article.markdown-body.entry-content h3 code {
 
 article.markdown-body.entry-content p code {
     background-color: #3b3b3b;
-}
-
-article.markdown-body.entry-content pre {
-    background-color: #000324;
 }
 
 article.markdown-body.js-file {
@@ -637,10 +590,6 @@ button.octicon-btn.tooltipped.tooltipped-n span {
     color: #000000;
 }
 
-button.octicon-btn.tooltipped.tooltipped-nw .octicon {
-    color: #000;
-}
-
 button.web-edit-button {
     background: #000000;
 }
@@ -662,10 +611,50 @@ code.noTransition {
     color: #000000;
 }
 
+/* FILE EDITING BUTTONS */
+
+/* Line devider for social count buttons */
+
+/* Line devider for social count buttons */
+
+/* --------------------------- */
+
+/* RANDOM STUFF */
+
+/* SCROLLBARS */
+
 /* SCI-FI DARK GITHUB
    By Viktor Nova 
    https://github.com/ViktorNova/css
 */
+
+/* /END SCROLLBARS */
+
+/* SIDEBAR NAVIGATION */
+
+/* Line devider for social count buttons */
+
+/* Line devider for social count buttons */
+
+/* SCI-FI DARK GITHUB
+   By Viktor Nova 
+   https://github.com/ViktorNova/css
+*/
+
+/*   EDITED 2-17 --- */
+
+/*   EDITED 2-17 --- */
+
+/*   EDITED 2-17 --- */
+
+/* CODE EDITOR */
+
+/* COMMENTS, COMMIT MESSAGES, ETC */
+
+div p code.noTransition {
+    background-color: #00aaff;
+    color: #000000;
+}
 
 div.ace_content {
     border-color: #000396;
@@ -730,17 +719,15 @@ div.alert.fork.simple {
 
 div.alert.issues_closed {
     border-color: #000396;
+    background-color: inherit;
 }
 
 div.alert.issues_comment {
     border-color: #000396;
+    background-color: inherit;
 }
 
 div.alert.issues_opened {
-    border-color: #000396;
-}
-
-div.alert.push {
     border-color: #000396;
 }
 
@@ -808,17 +795,13 @@ div.boxed-group-inner.noTransition label.noTransition {
 
 div.boxed-group.flush h3 {
     border-color: #000396;
-}
-
-div.boxed-group.flush.clearfix.announce.instapaper_body h3 {
-    background-color: #000000;
+    background-color: #000966;
 }
 
 div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
-    border-color: #000396;
-    background-color: #000966;
-    color: #000;
-    padding-left: .5em;
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000000;
 }
 
 div.boxed-group.flush.js-notifications-browser h3 {
@@ -894,6 +877,10 @@ div.comment-form-head.tabnav {
 
 div.comment.timeline-comment.js-comment.js-task-list-container.owner-comment {
     border-color: #000396;
+}
+
+div.commit {
+    background-color: #000000;
 }
 
 div.commit-form {
@@ -985,7 +972,8 @@ div.discussion-timeline-actions {
 }
 
 div.divider-vertical {
-    border-color: #000396;
+    border-color: #000966;
+    background-color: #000966;
 }
 
 div.editor-gitignore-template.js-gitignore-template.is-visible {
@@ -1016,7 +1004,6 @@ div.file-header {
 }
 
 div.file-history-tease-header {
-    background-color: #000;
     border-color: #000396;
 }
 
@@ -1046,7 +1033,8 @@ div.flex-table.gh-header-meta {
 }
 
 div.form-actions {
-    background-color: #000000;
+    background-color: #000966;
+    border-color: #000966;
 }
 
 div.gist-description div {
@@ -1057,16 +1045,18 @@ div.gollum-editor-help.noTransition div.gollum-editor-help-wrapper.noTransition,
     background: #000000;
 }
 
-div.header.gist-header.header-logged-in {
-    background-color: inherit;
-}
-
 div.header.header-logged-in {
     border-color: #000396;
+    background-color: #000000;
 }
 
-div.header.header-logged-in.true {
-    background-color: #000;
+div.highlight.highlight-python pre, article.markdown-body.entry-content pre, pre.noTransition {
+    background-color: #00aaff;
+    border-color: #000966;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 10px;
+    box-shadow: 0 0 8px #00aaff;
 }
 
 div.inner {
@@ -1106,7 +1096,8 @@ div.markdown-body {
 }
 
 div.message.markdown-body blockquote {
-    background-color: #000396;
+    background-color: inherit;
+    color: #00aaff;
 }
 
 div.meta {
@@ -1144,12 +1135,7 @@ div.pagination a {
 }
 
 div.participation {
-    background-color: #000;
     border-color: #000396;
-}
-
-div.plain {
-    background-color: inherit;
 }
 
 div.preview-content {
@@ -1274,7 +1260,7 @@ div.timeline-comment {
 
 div.timeline-comment-header {
     background-color: #000000;
-    border-color: #000396;
+    border-color: #000966;
 }
 
 div.timeline-comment-header-text {
@@ -1344,10 +1330,6 @@ html, body {
     color: #00a6ff;
 }
 
-html,body {
-    background-color: #000;
-}
-
 input {
     border-color: #000396;
 }
@@ -1384,11 +1366,6 @@ input.subnav-search-input.input-contrast {
     border-color: #000396;
 }
 
-label.js-chromeless-input-container.form-control {
-    background-color: #000;
-    border-style: none;
-}
-
 label.js-chromeless-input-container.form-control.noTransition {
     background-color: #000000;
     border-style: none;
@@ -1407,9 +1384,9 @@ li p code {
 }
 
 li pre code {
+    background-color: #000996;
     color: #000000;
-    padding: 6px;
-    background-color: inherit;
+    padding: 10px;
 }
 
 li.issue {
@@ -1442,8 +1419,14 @@ ol.task-list li pre {
 }
 
 p.drag-and-drop {
-    background-color: #000000;
     border-color: #000396;
+}
+
+p.drag-and-drop.noTransition {
+    background-color: #000000;
+    border-color: #000966;
+    border-style: dashed;
+    border-top-width: 3px;
 }
 
 p.reason {
@@ -1482,22 +1465,13 @@ span.btn-link.select-menu-button.js-menu-target {
     color: #000000;
 }
 
-span.btn.btn-sm.select-menu-button.icon-only.js-menu-target {
-    background: none;
-    color: #000;
-}
-
-span.btn.btn-sm.select-menu-button.icon-only.js-menu-target .octicon {
-    color: #000;
-}
-
 span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
     background: #00aaff;
     background-color: #00aaff;
     border: none
     color: #000000;
+    color: #000000;
     border-color: #000966;
-    color: #000;
 }
 
 span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
@@ -1570,6 +1544,10 @@ span.label {
     text-transform: lowercase;
 }
 
+span.label-color.noTransition {
+    color: #000000;
+}
+
 span.language {
     color: #000396;
 }
@@ -1584,10 +1562,7 @@ span.language-color.noTransition {
 
 span.mail-status.unread {
     background: #00ffff;
-    border-color: rgba(0,0,0,0);
-    border-radius: 4px;
-    border-style: none;
-    box-shadow: -2px -2px 4px #000;
+    border-color: #000396;
 }
 
 span.match-count {
@@ -1619,6 +1594,10 @@ span.octicon {
     color: #00aaff;
 }
 
+span.octicon.discussion-item-icon.noTransition {
+    background-color: #000000;
+}
+
 span.octicon.octicon-check {
     color: #00ff73;
     text-shadow: 0 0 2px #000000;
@@ -1630,6 +1609,10 @@ span.octicon.octicon-clippy.noTransition {
 
 span.octicon.octicon-git-branch {
     color: #000000;
+}
+
+span.octicon.octicon-git-commit.noTransition {
+    background-color: #000000;
 }
 
 span.octicon.octicon-git-compare {
@@ -1838,35 +1821,132 @@ ul.vcard-details {
     border-color: #000966;
 }
 
-ul li pre {
+#top_search_form {
+    border-color: #000396;
+}
+
+a.tabnav-tab.write-tab.js-write-tab.selected {
+    border-color: #000966;
+}
+
+div.sunken-menu-contents {
     background-color: #000966;
 }
 
-span.octicon.octicon-book {
-    color: #000;
+pre.noTransition {
+    background-color: #00aaff;
+    border-style: none;
+    color: #000000;
+    padding: 2em;
 }
 
-span.author-name span {
+div.comment-body.markdown-body.markdown-format.js-comment-body hr {
+    background-color: #000966;
+}
+
+label.js-chromeless-input-container.form-control {
+    background-color: inherit;
+    border-style: none;
+}
+
+a.message {
+    background-color: inherit;
+}
+
+div.message.markdown-body blockquote p {
+    color: #006191;
+}
+
+div.time time {
     color: #000966;
+}
+
+div.alert.push {
+    border-color: #000396;
+    background-color: inherit;
+}
+
+div.comment-body.markdown-body.js-preview-body p a {
+    color: #00ffff;
     font-weight: bold;
 }
 
-div.authorship {
-    color: #000966;
-}
-
-div.clone-options {
-    color: #000966;
-}
-
-button.btn-link.js-clone-selector {
-    background-color: inherit;
-    color: #000966;
-    text-decoration: underline;
-}
-
-strong.branch-name {
-    color: #000000;
+article.markdown-body.entry-content pre {
     background-color: #000966;
+}
+
+a.js-selected-navigation-item.selected.sunken-menu-item {
+    background-color: #000966;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
+    background-color: #00aaff;
+    color: #000;
+}
+
+a.btn.btn-sm.btn-with-count,a.btn.btn-sm.btn-with-count .octicon {
+    background-color: #00aaff;
+    color: #000;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target span.js-select-button {
+    color: #000;
+}
+
+span.octicon.octicon-star {
+    color: #000000;
+}
+
+div.alert.release {
+    background-color: inherit;
+}
+
+div.alert.push li code a {
+    color: #000000;
+    padding-left: 1;
+    padding-right: 1;
+}
+
+div.alert.create.simple {
+    background-color: inherit;
+}
+
+div.alert.commit_comment {
+    background-color: inherit;
+}
+
+span.btn.select-menu-button.with-gravatar.js-menu-target {
+    background: inherit;
+    border: none;
+    border-style: solid;
+    border-right-width: 1pxpx;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+div.commit-tease.js-details-container {
+    background-color: #000966;
+    border-color: #000966;
+}
+
+a.commit-tease-sha {
+    background-color: #00aaff;
+    color: #000000;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+span.right {
+    color: #00aaff;
+}
+
+div.plain {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+div.clone-options.text-small {
+    color: #000966;
 }
 
