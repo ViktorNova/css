@@ -21,6 +21,15 @@
 
 #header {
     border-color: #000966;
+    background-color: #000000;
+}
+
+#js-repo-pjax-container > div.commits-listing.commits-listing-padded.js-navigation-container.js-active-navigation-container > li.commit.commits-list-item.table-list-item.js-navigation-item.js-details-container.js-socket-channel.js-updatable-content.navigation -focus {
+    background-color: #000966;
+}
+
+#top_search_form {
+    border-color: #000396;
 }
 
 .ace-github-light {
@@ -314,8 +323,22 @@ a.btn.btn-sm {
     border-color: #000966;
 }
 
+a.btn.btn-sm.btn-with-count,a.btn.btn-sm.btn-with-count .octicon {
+    background-color: #00aaff;
+    color: #000;
+}
+
 a.btn.btn-sm.btn-with-count.noTransition .octicon {
     color: #000000;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
+    background-color: #00aaff;
+    color: #000;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target span.js-select-button {
+    color: #000;
 }
 
 a.button-link {
@@ -340,6 +363,13 @@ a.code.selected.tabnav-tab {
     color: #00aaff;
 }
 
+a.commit-tease-sha {
+    background-color: #00aaff;
+    color: #000000;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 a.filter-item.selected {
     background-color: #00aaff;
     color: #000000;
@@ -352,6 +382,10 @@ a.js-details-target {
 
 a.js-selected-navigation-item.menu-item {
     border-color: #000396;
+}
+
+a.js-selected-navigation-item.selected.sunken-menu-item {
+    background-color: #000966;
 }
 
 a.js-selected-navigation-item.subnav-item {
@@ -395,13 +429,17 @@ a.menu-item.selected span.counter {
     color: #00aaff;
 }
 
+a.message {
+    background-color: inherit;
+}
+
 a.message.noTransition {
     background-color: inherit;
 }
 
 a.mini-repo-list-item.css-truncate {
-    border-color: #000396;
     background-color: #000966;
+    border-color: #000396;
 }
 
 a.minibutton {
@@ -451,8 +489,8 @@ a.selected.js-selected-navigation-item.sunken-menu-item.noTransition,a.tabnav-ta
 
 a.social-count {
     border: 1px solid #00aaff;
-    border-style: solid;
     border-color: #000000;
+    border-style: solid;
 }
 
 a.social-count.js-social-count {
@@ -474,6 +512,10 @@ a.tabnav-tab.selected {
 
 a.tabnav-tab.selected .octicon {
     color: #000000;
+}
+
+a.tabnav-tab.write-tab.js-write-tab.selected {
+    border-color: #000966;
 }
 
 a.url.fn span {
@@ -499,7 +541,14 @@ article.markdown-body.entry-content h3 code {
 }
 
 article.markdown-body.entry-content p code {
-    background-color: #3b3b3b;
+    background-color: #000966;
+    color: #00aaff;
+    font-weight: bold;
+}
+
+article.markdown-body.entry-content pre {
+    background-color: #000966;
+    font-weight: bold;
 }
 
 article.markdown-body.js-file {
@@ -611,14 +660,6 @@ code.noTransition {
     color: #000000;
 }
 
-/* FILE EDITING BUTTONS */
-
-/* Line devider for social count buttons */
-
-/* Line devider for social count buttons */
-
-/* --------------------------- */
-
 /* RANDOM STUFF */
 
 /* SCROLLBARS */
@@ -650,6 +691,14 @@ code.noTransition {
 /* CODE EDITOR */
 
 /* COMMENTS, COMMIT MESSAGES, ETC */
+
+/* FILE EDITING BUTTONS */
+
+/* Line devider for social count buttons */
+
+/* Line devider for social count buttons */
+
+/* --------------------------- */
 
 div p code.noTransition {
     background-color: #00aaff;
@@ -713,27 +762,54 @@ div.alert pre {
     color: #00aaff;
 }
 
+div.alert.commit_comment {
+    background-color: inherit;
+}
+
+div.alert.create.simple {
+    background-color: inherit;
+}
+
+div.alert.delete.simple {
+    background-color: inherit;
+}
+
 div.alert.fork.simple {
     border-color: #000396;
 }
 
 div.alert.issues_closed {
-    border-color: #000396;
     background-color: inherit;
+    border-color: #000396;
 }
 
 div.alert.issues_comment {
-    border-color: #000396;
     background-color: inherit;
+    border-color: #000396;
 }
 
 div.alert.issues_opened {
+    background-color: inherit;
     border-color: #000396;
 }
 
-div.alert.warning {
-    background-color: #00aaff;
-    border-style: none;
+div.alert.issues_reopened {
+    background-color: inherit;
+}
+
+div.alert.push {
+    background-color: inherit;
+    border-color: #000396;
+}
+
+div.alert.push li code a {
+    color: #000000;
+    padding-left: 1;
+    padding-right: 1;
+}
+
+div.alert.release {
+    background-color: inherit;
 }
 
 div.alert.warning p {
@@ -794,8 +870,8 @@ div.boxed-group-inner.noTransition label.noTransition {
 }
 
 div.boxed-group.flush h3 {
-    border-color: #000396;
     background-color: #000966;
+    border-color: #000396;
 }
 
 div.boxed-group.flush.clearfix.announce.instapaper_body.md h3 {
@@ -828,11 +904,16 @@ div.capped-box.overall-summary.without-lang-stats {
 
 div.clearfix {
     border-color: #000966;
+    background-color: #000;
 }
 
 div.clearfix.announce.instapaper_body.md {
     background-color: transparent;
     border-width: 0;
+}
+
+div.clone-options.text-small {
+    color: #000966;
 }
 
 div.code-list-item.code-list-item-public {
@@ -848,6 +929,10 @@ div.column.one-fourth hr {
     border-color: #000396;
 }
 
+div.comment-body.markdown-body pre {
+    background-color: #000966;
+}
+
 div.comment-body.markdown-body.email-format.js-comment-body {
     background-color: #000000;
 }
@@ -860,14 +945,32 @@ div.comment-body.markdown-body.js-comment-body p code {
     background-color: #5e5e5e;
 }
 
+div.comment-body.markdown-body.js-preview-body p a {
+    color: #00ffff;
+    font-weight: bold;
+}
+
 div.comment-body.markdown-body.markdown-format.js-comment-body {
     background-color: #000000;
     border-color: #000396;
 }
 
+div.comment-body.markdown-body.markdown-format.js-comment-body hr {
+    background-color: #000966;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body p a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
 div.comment-body.markdown-body.markdown-format.js-comment-body p code {
     background-color: #00aadd;
     color: #000000;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body pre {
+    background-color: #000966;
 }
 
 div.comment-form-head.tabnav {
@@ -894,6 +997,21 @@ div.commit-form:before, div.commit-form:after, div.timeline-comment:before, div.
 div.commit-meta {
     background-color: #000000;
     border-color: #000396;
+}
+
+div.commit-tease {
+    background-color: #000000;
+    border-color: #000966;
+}
+
+div.commit-tease-contributors {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+div.commit-tease.js-details-container {
+    background-color: #000966;
+    border-color: #000966;
 }
 
 div.commit.commit-tease.js-details-container {
@@ -972,8 +1090,8 @@ div.discussion-timeline-actions {
 }
 
 div.divider-vertical {
-    border-color: #000966;
     background-color: #000966;
+    border-color: #000966;
 }
 
 div.editor-gitignore-template.js-gitignore-template.is-visible {
@@ -1046,17 +1164,24 @@ div.gollum-editor-help.noTransition div.gollum-editor-help-wrapper.noTransition,
 }
 
 div.header.header-logged-in {
-    border-color: #000396;
     background-color: #000000;
+    border-color: #000396;
+}
+
+div.highlight pre {
+    background-color: #000966;
 }
 
 div.highlight.highlight-python pre, article.markdown-body.entry-content pre, pre.noTransition {
-    background-color: #00aaff;
     border-color: #000966;
     border-radius: 1em;
     border-style: solid;
     border-width: 10px;
     box-shadow: 0 0 8px #00aaff;
+}
+
+div.highlight.highlight-source-js pre {
+    font-weight: bold;
 }
 
 div.inner {
@@ -1100,6 +1225,10 @@ div.message.markdown-body blockquote {
     color: #00aaff;
 }
 
+div.message.markdown-body blockquote p {
+    color: #006191;
+}
+
 div.meta {
     border-color: #000396;
 }
@@ -1136,6 +1265,11 @@ div.pagination a {
 
 div.participation {
     border-color: #000396;
+}
+
+div.plain {
+    background-color: inherit;
+    border-color: #000966;
 }
 
 div.preview-content {
@@ -1207,6 +1341,10 @@ div.sub-nav {
     border-color: #000966;
 }
 
+div.sunken-menu-contents {
+    background-color: #000966;
+}
+
 div.sunken-menu-separator {
     background: none;
     border-color: #000396;
@@ -1254,6 +1392,10 @@ div.thread-subscription-status.js-thread-subscription-status.js-socket-channel.j
     border-color: #000996;
 }
 
+div.time time {
+    color: #000966;
+}
+
 div.timeline-comment {
     border-color: #000396;
 }
@@ -1265,6 +1407,7 @@ div.timeline-comment-header {
 
 div.timeline-comment-header-text {
     background-color: #000000;
+    color: #000966;
 }
 
 div.timeline-comment-wrapper.js-comment-container {
@@ -1366,6 +1509,11 @@ input.subnav-search-input.input-contrast {
     border-color: #000396;
 }
 
+label.js-chromeless-input-container.form-control {
+    background-color: inherit;
+    border-style: none;
+}
+
 label.js-chromeless-input-container.form-control.noTransition {
     background-color: #000000;
     border-style: none;
@@ -1381,6 +1529,7 @@ li {
 
 li p code {
     background-color: #000669;
+    color: #00aaff;
 }
 
 li pre code {
@@ -1433,6 +1582,13 @@ p.reason {
     border-color: #000396;
 }
 
+pre.noTransition {
+    background-color: #00aaff;
+    border-style: none;
+    color: #000000;
+    padding: 2em;
+}
+
 select.js-code-indent-mode {
     background-color: #00aaff;
     border-color: #000396;
@@ -1470,12 +1626,22 @@ span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
     background-color: #00aaff;
     border: none
     color: #000000;
-    color: #000000;
     border-color: #000966;
+    color: #000000;
 }
 
 span.btn.btn-sm.select-menu-button.js-menu-target.css-truncate.noTransition {
     border-style: none;
+}
+
+span.btn.select-menu-button.with-gravatar.js-menu-target {
+    background: inherit;
+    border: none;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 1pxpx;
+    border-style: solid;
+    border-top-width: 0;
 }
 
 span.button-link.select-menu-button.js-menu-target {
@@ -1636,6 +1802,10 @@ span.octicon.octicon-link {
     color: #00aaff;
 }
 
+span.octicon.octicon-star {
+    color: #000000;
+}
+
 span.octicon.octicon-x {
     background-color: #000396;
 }
@@ -1660,6 +1830,10 @@ span.previous_page.disabled {
 
 span.repo-description {
     color: #000966;
+}
+
+span.right {
+    color: #00aaff;
 }
 
 span.separator {
@@ -1693,6 +1867,10 @@ span.text-emphasized {
 
 span.text-muted {
     color: #00aaff;
+}
+
+span.timeline-comment-label {
+    color: #000966;
 }
 
 span.updated-at {
@@ -1775,6 +1953,12 @@ u2500.highlight .c, .highlight.cm, .highlight.c1 {
     color: #666677;
 }
 
+ul li code {
+    background-color: #000966;
+    color: #00aaff;
+    font-weight: bold;
+}
+
 ul.boxed-group-inner {
     background-color: #000000;
 }
@@ -1813,140 +1997,66 @@ ul.table-list.table-list-bordered {
     border-color: #000966;
 }
 
-ul.task-list li code {
-    background-color: #575757;
-}
-
 ul.vcard-details {
     border-color: #000966;
 }
 
-#top_search_form {
-    border-color: #000396;
-}
-
-a.tabnav-tab.write-tab.js-write-tab.selected {
-    border-color: #000966;
-}
-
-div.sunken-menu-contents {
+.markdown-body .highlight pre, .markdown-body pre {
+    background: #000966;
     background-color: #000966;
 }
 
-pre.noTransition {
-    background-color: #00aaff;
-    border-style: none;
-    color: #000000;
-    padding: 2em;
-}
-
-div.comment-body.markdown-body.markdown-format.js-comment-body hr {
-    background-color: #000966;
-}
-
-label.js-chromeless-input-container.form-control {
+div.alert.tip p {
     background-color: inherit;
-    border-style: none;
-}
-
-a.message {
-    background-color: inherit;
-}
-
-div.message.markdown-body blockquote p {
-    color: #006191;
-}
-
-div.time time {
-    color: #000966;
-}
-
-div.alert.push {
-    border-color: #000396;
-    background-color: inherit;
-}
-
-div.comment-body.markdown-body.js-preview-body p a {
-    color: #00ffff;
-    font-weight: bold;
-}
-
-article.markdown-body.entry-content pre {
-    background-color: #000966;
-}
-
-a.js-selected-navigation-item.selected.sunken-menu-item {
-    background-color: #000966;
-}
-
-a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
-    background-color: #00aaff;
-    color: #000;
-}
-
-a.btn.btn-sm.btn-with-count,a.btn.btn-sm.btn-with-count .octicon {
-    background-color: #00aaff;
-    color: #000;
-}
-
-a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target span.js-select-button {
-    color: #000;
-}
-
-span.octicon.octicon-star {
-    color: #000000;
-}
-
-div.alert.release {
-    background-color: inherit;
-}
-
-div.alert.push li code a {
-    color: #000000;
-    padding-left: 1;
-    padding-right: 1;
-}
-
-div.alert.create.simple {
-    background-color: inherit;
-}
-
-div.alert.commit_comment {
-    background-color: inherit;
-}
-
-span.btn.select-menu-button.with-gravatar.js-menu-target {
     background: inherit;
-    border: none;
-    border-style: solid;
-    border-right-width: 1pxpx;
-    border-top-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
 }
 
-div.commit-tease.js-details-container {
+div.alert.tip,div.alert.tip a,div.alert.tip p a {
+    background: #00aaff;
+    color: #000;
+}
+
+pre.command-line {
     background-color: #000966;
+    border-color: #000966;
+    border-style: none;
+}
+
+div.alert.tip p a {
+    color: #000000;
+}
+
+div.alert.tip p strong {
+    color: #000000;
+}
+
+#footer {
+    background-color: inherit;
     border-color: #000966;
 }
 
-a.commit-tease-sha {
-    background-color: #00aaff;
-    color: #000000;
+div.alert.warning {
+    border-style: none;
+    background: #ff6600;
+    background-color: #ff6600;
+}
+
+div.alert.warning p strong {
+    color: #a80000;
+    text-transform: uppercase;
+}
+
+ul.top-nav li a {
     padding-right: 1em;
     padding-left: 1em;
 }
 
-span.right {
-    color: #00aaff;
+button.js-dropdown-button.dropdown-button {
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
-div.plain {
-    background-color: inherit;
-    border-color: #000966;
-}
-
-div.clone-options.text-small {
-    color: #000966;
+div.search-form.small.right span.octicon.octicon-search {
+    color: #000000;
 }
 
