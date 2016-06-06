@@ -2060,3 +2060,72 @@ div.search-form.small.right span.octicon.octicon-search {
     color: #000000;
 }
 
+div.pagehead.repohead.instapaper_ignore.readability-menu.experiment-repo-nav {
+    background-color: inherit;
+    border-style: none;
+}
+
+svg.octicon.octicon-repo path {
+    color: #000966;
+}
+
+svg.octicon.octicon-issue-opened path {
+    color: #000966;
+}
+
+svg.octicon.octicon-git-pull-request path {
+    color: #000966;
+}
+
+svg.octicon.octicon-book {
+    color: #000966;
+}
+
+svg.octicon.octicon-pulse path {
+    color: #000966;
+}
+
+svg.octicon.octicon-graph {
+    color: #000966;
+}
+
+svg.octicon.octicon-mark-github {
+    color: #000966;
+}
+
+a.js-selected-navigation-item.reponav-item.selected {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+div.readme.boxed-group.clearfix.announce.instapaper_body.rst h3 {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+div.header-search-scope {
+    color: #000966;
+}
+
+span.repository-meta-content span {
+    color: #00aaff;
+}
+
+span.repository-meta-content span a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+div.readme.boxed-group.clearfix.announce.instapaper_body.md h3 {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+span.edit-link {
+    color: #000966;
+}
+
+button.btn-link.muted-link.js-details-target {
+    color: #000;
+}
+
