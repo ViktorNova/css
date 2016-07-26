@@ -1569,6 +1569,7 @@ ol.task-list li pre {
 
 p.drag-and-drop {
     border-color: #000396;
+    background-color: inherit;
 }
 
 p.drag-and-drop.noTransition {
@@ -1871,6 +1872,7 @@ span.text-muted {
 
 span.timeline-comment-label {
     color: #000966;
+    border-style: none;
 }
 
 span.updated-at {
@@ -2105,6 +2107,7 @@ div.readme.boxed-group.clearfix.announce.instapaper_body.rst h3 {
 
 div.header-search-scope {
     color: #000966;
+    border-style: none;
 }
 
 span.repository-meta-content span {
@@ -2117,7 +2120,7 @@ span.repository-meta-content span a {
 }
 
 div.readme.boxed-group.clearfix.announce.instapaper_body.md h3 {
-    background-color: inherit;
+    background-color: #000966;
     border-color: #000966;
 }
 
@@ -2127,5 +2130,136 @@ span.edit-link {
 
 button.btn-link.muted-link.js-details-target {
     color: #000;
+}
+
+div.overall-summary {
+    border-color: #000966;
+}
+
+div.clone-options.https-clone-options {
+    background-color: inherit;
+}
+
+div.get-repo-modal.dropdown-menu.dropdown-menu-sw.pb-0.js-toggler-container {
+    background-color: rgba(0,0,0,0.7);
+    border-color: #000966;
+    border-width: 6px;
+    box-shadow: 0 0 12px #000;
+    border-radius: 12px;
+}
+
+a.btn.btn-outline.get-repo-btn {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+div.dropdown-divider {
+    display: none;
+}
+
+div.dropdown-menu.dropdown-menu-sw {
+    background-color: rgba(0,0,0,0.8);
+    border-color: #000966;
+    border-width: 6px;
+    box-shadow: 0 0 12px #000;
+    border-radius: 12px;
+}
+
+svg.octicon.octicon-organization {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-tag path {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-history path {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-git-branch path {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-gear {
+    color: #00aaff;
+}
+
+div.readme.boxed-group.clearfix.announce.instapaper_body.md svg.octicon.octicon-book path {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-git-commit {
+    background-color: inherit;
+    color: #00aaff;
+}
+
+div.commit-group-title {
+    color: #000966;
+}
+
+span.blob-code-inner {
+    color: #00e1ff;
+}
+
+div.flex-table-item.flex-table-item-primary {
+    color: #000966;
+}
+
+span.gh-header-number {
+    color: #00ffff;
+}
+
+button.btn-link.muted-link.js-issue-assign-self {
+    color: #000000;
+}
+
+a.css-truncate.css-truncate-target.notifications-repo-link {
+    color: #000000;
+}
+
+p.text-success {
+    width: 20em;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+svg.octicon.octicon-issue-closed.type-icon.type-icon-state-closed path {
+    color: #00ff09;
+}
+
+p.reason.text-small.text-muted {
+    color: #000966;
+}
+
+div.closed-banner {
+    background-color: #000966;
+    border-color: #000966;
+}
+
+form.js-issue-sidebar-form {
+    color: #000966;
+}
+
+div.discussion-sidebar-item {
+    border-color: #000966;
+}
+
+span.email-hidden-toggle a {
+    background-color: inherit;
+}
+
+div.comment-body.markdown-body.markdown-format.js-comment-body blockquote {
+    border-color: #000966;
+}
+
+div.discussion-item-header {
+    color: #000966;
+}
+
+div.js-socket-channel.js-updatable-content.comment-reactions.has-reactions.js-reactions-container {
+    background-color: #000000;
+    border-style: none;
 }
 
