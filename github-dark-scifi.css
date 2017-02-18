@@ -297,6 +297,10 @@ a.btn {
     border-color: #000966;
 }
 
+a.btn-link.muted-link.float-right.mt-1.pinned-repos-setting-link {
+    color: #000966;
+}
+
 a.btn-link.noTransition {
     color: #000000;
 }
@@ -353,6 +357,11 @@ a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
 }
 
 a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target span.js-select-button {
+    color: #000;
+}
+
+a.btn.site-header-actions-btn.mr-1 {
+    background-color: #00aaff;
     color: #000;
 }
 
@@ -430,6 +439,10 @@ a.js-selected-navigation-item.sunken-menu-item {
     border-color: #000396;
 }
 
+a.js-year-link.filter-item.px-3.mb-2.py-2.selected {
+    background-color: inherit;
+}
+
 a.label.tooltipped.tooltipped-n,span.state {
     border-radius: 1em;
     color: #000000;
@@ -481,6 +494,14 @@ a.minibutton.select-menu-button.with-count.js-menu-target:hover {
 a.minibutton.with-count.js-toggler-target.tooltipped-n {
     background-color: #00aaff;
     color: #000000;
+}
+
+a.muted-link {
+    color: #00aaff;
+}
+
+a.pinned-repo-meta.muted-link {
+    color: #00aaff;
 }
 
 a.preview.tabnav-tab {
@@ -613,6 +634,10 @@ button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container 
     text-shadow: none;
 }
 
+button.ajax-pagination-btn.btn.btn-outline.border-gray-dark.width-full.f6.mt-0.py-2.contribution-activity-show-more {
+    border-style: none;
+}
+
 button.btn-link.muted-link.js-details-target {
     color: #000;
 }
@@ -622,6 +647,10 @@ button.btn-link.muted-link.js-issue-assign-self {
 }
 
 button.btn.btn-sm.btn-with-count.js-toggler-target.noTransition .octicon {
+    color: #000000;
+}
+
+button.btn.btn-sm.select-menu-button.js-menu-target.css-truncate i {
     color: #000000;
 }
 
@@ -900,6 +929,13 @@ div.article-body.content-body.wikistyle.markdown-format p code {
 
 div.article.js-hide-during-search {
     border-color: #000966;
+}
+
+div.auth-form-body.mt-3 {
+    background-color: inherit;
+    border-color: #000966;
+    border-radius: 6px;
+    border-width: 6px;
 }
 
 div.blankslate {
@@ -1201,6 +1237,14 @@ div.editor-gitignore-template.js-gitignore-template.is-visible {
     color: #00aaff;
 }
 
+div.f6.text-gray.mt-2 {
+    color: #000966;
+}
+
+div.featurette.pb-0.pt-6.shade-gray.border-top {
+    background-color: inherit;
+}
+
 div.file {
     border-color: #000396;
 }
@@ -1345,6 +1389,10 @@ div.markdown-body {
     background-color: #000000;
 }
 
+div.mb-5.border.border-gray-dark.rounded-1.py-2 {
+    border-color: #00aaff;
+}
+
 div.message.markdown-body blockquote {
     background-color: inherit;
     color: #00aaff;
@@ -1410,9 +1458,23 @@ div.preview-content {
     background-color: #000000;
 }
 
+div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
+    border-color: #000966;
+}
+
+div.profile-timeline-year-list.bg-white.col-2.float-right.pl-5.js-profile-timeline-year-list.js-sticky {
+    background-color: inherit;
+}
+
 div.protip.protip-callout {
     border-color: #000396;
     color: #000396;
+}
+
+div.readme.boxed-group.clearfix.announce.instapaper_body h3 {
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000;
 }
 
 div.readme.boxed-group.clearfix.announce.instapaper_body.md h3 {
@@ -1575,6 +1637,10 @@ div.ul div.table-list-cell:hover div {
     background-color: #000633;
 }
 
+div.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck {
+    background-color: #000;
+}
+
 div.vcard-stats {
     border-color: #000396;
 }
@@ -1621,6 +1687,14 @@ h3.conversation-list-heading {
 
 h3.noTransition {
     border-color: #000966;
+}
+
+h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 {
+    background-color: inherit;
+}
+
+header.site-header.js-details-container {
+    background-color: inherit;
 }
 
 html, body {
@@ -1694,6 +1768,14 @@ li pre code {
     padding: 10px;
 }
 
+li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
+    border-color: #000966;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.source {
+    border-color: #000966;
+}
+
 li.issue {
 }
 
@@ -1703,6 +1785,14 @@ li.js-topic,li.js-topic h3, div.js-toggle-list.sidebar-module.expandable {
 
 li.list-group-item.js-notification.js-navigation-item.unread.pull-request-notification.navigation-focus {
     border-color: #000396;
+}
+
+li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.public.fork {
+    border-color: #00aaff;
+}
+
+li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.public.source {
+    border-color: #00aaff;
 }
 
 li.repo-list-item.public.source {
@@ -1719,8 +1809,21 @@ nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loader
     border-color: #000396;
 }
 
+nav.underline-nav {
+    background-color: #000;
+    border-style: none;
+}
+
 ol.task-list li pre {
     background-color: #000996;
+}
+
+p.col-9.d-inline-block.text-gray.m-0.pr-4 {
+    color: #00aaff;
+}
+
+p.create-account-callout.mt-3 {
+    border-style: none;
 }
 
 p.drag-and-drop {
@@ -1735,12 +1838,32 @@ p.drag-and-drop.noTransition {
     border-top-width: 3px;
 }
 
+p.mb-0.f6.text-gray {
+    color: #00aaff;
+}
+
+p.pinned-repo-desc.text-gray.text-small.d-block.mt-2.mb-3 {
+    color: #00aaff;
+}
+
 p.reason {
     border-color: #000396;
 }
 
 p.reason.text-small.text-muted {
     color: #000966;
+}
+
+p.text-gray.f6.mt-4 {
+    color: #000966;
+}
+
+p.text-gray.text-small.mb-2 {
+    color: #000966;
+}
+
+p.text-gray.text-small.mb-2 a {
+    font-weight: bold;
 }
 
 p.text-success {
@@ -1846,6 +1969,11 @@ span.current {
 
 span.datetime {
     color: #000996;
+}
+
+span.discussion-item-icon {
+    background-color: inherit;
+    color: #000966;
 }
 
 span.edit-link {
@@ -2064,6 +2192,10 @@ span.text-emphasized {
     color: #000396;
 }
 
+span.text-gray {
+    color: #00aaff;
+}
+
 span.text-muted {
     color: #00aaff;
 }
@@ -2092,6 +2224,10 @@ strong.branch-name.noTransition {
 
 svg.octicon.octicon-book {
     color: #000966;
+}
+
+svg.octicon.octicon-clock path {
+    color: #00aaff;
 }
 
 svg.octicon.octicon-gear {
@@ -2125,6 +2261,14 @@ svg.octicon.octicon-issue-closed.type-icon.type-icon-state-closed path {
 
 svg.octicon.octicon-issue-opened path {
     color: #000966;
+}
+
+svg.octicon.octicon-link {
+    color: #00aaff;
+}
+
+svg.octicon.octicon-location {
+    color: #00aaff;
 }
 
 svg.octicon.octicon-mark-github {
@@ -2263,143 +2407,59 @@ ul.vcard-details {
     border-color: #000966;
 }
 
-header.site-header.js-details-container {
-    background-color: inherit;
+div.user-profile-repo-filter.border-bottom.border-gray-dark.py-3 {
+    border-color: #000966;
 }
 
-a.btn.site-header-actions-btn.mr-1 {
+a.underline-nav-item {
+    border-color: #000966;
+}
+
+div.branch-summary.js-branch-row {
+    border-color: #000966;
+}
+
+div.branch-group-heading {
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000;
+}
+
+a.subnav-item.js-subnav-item {
+    border-color: #000966;
+}
+
+a.subnav-item.js-subnav-item.selected {
     background-color: #00aaff;
     color: #000;
 }
 
-div.auth-form-body.mt-3 {
-    background-color: inherit;
-    border-color: #000966;
-    border-width: 6px;
-    border-radius: 6px;
+span.branch-group-name.text-shadow-light {
+    color: #000;
 }
 
-p.create-account-callout.mt-3 {
-    border-style: none;
-}
-
-div.readme.boxed-group.clearfix.announce.instapaper_body h3 {
+a.branch-name.css-truncate-target {
     background-color: #00aaff;
     color: #000;
-    border-color: #000966;
 }
 
-button.btn.btn-sm.select-menu-button.js-menu-target.css-truncate i {
-    color: #000000;
-}
-
-li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.public.source {
-    border-color: #00aaff;
-}
-
-li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.public.fork {
-    border-color: #00aaff;
-}
-
-div.mb-5.border.border-gray-dark.rounded-1.py-2 {
-    border-color: #00aaff;
-}
-
-svg.octicon.octicon-location {
-    color: #00aaff;
-}
-
-svg.octicon.octicon-link {
-    color: #00aaff;
-}
-
-svg.octicon.octicon-clock path {
-    color: #00aaff;
-}
-
-nav.underline-nav {
-    background-color: #000;
-    border-style: none;
-}
-
-p.pinned-repo-desc.text-gray.text-small.d-block.mt-2.mb-3 {
-    color: #00aaff;
-}
-
-p.mb-0.f6.text-gray {
-    color: #00aaff;
-}
-
-a.pinned-repo-meta.muted-link {
-    color: #00aaff;
-}
-
-a.btn-link.muted-link.float-right.mt-1.pinned-repos-setting-link {
+span.branch-meta.css-truncate-target {
     color: #000966;
 }
 
-p.text-gray.text-small.mb-2 a {
-    font-weight: bold;
-}
-
-p.text-gray.text-small.mb-2 {
-    color: #000966;
-}
-
-h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 {
+div.header {
     background-color: inherit;
 }
 
-div.profile-timeline-year-list.bg-white.col-2.float-right.pl-5.js-profile-timeline-year-list.js-sticky {
-    background-color: inherit;
-}
-
-a.js-year-link.filter-item.px-3.mb-2.py-2.selected {
-    background-color: inherit;
-}
-
-span.text-gray {
-    color: #00aaff;
-}
-
-div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
-    border-color: #000966;
-}
-
-button.ajax-pagination-btn.btn.btn-outline.border-gray-dark.width-full.f6.mt-0.py-2.contribution-activity-show-more {
-    border-style: none;
-}
-
-p.text-gray.f6.mt-4 {
+svg.octicon.octicon-project {
     color: #000966;
 }
 
-div.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck {
-    background-color: #000;
+button.btn-link.muted-link {
+    color: #000;
 }
 
-span.discussion-item-icon {
-    background-color: inherit;
-    color: #000966;
-}
-
-li.col-12.d-block.width-full.py-4.border-bottom.public.source {
-    border-color: #000966;
-}
-
-li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
-    border-color: #000966;
-}
-
-p.col-9.d-inline-block.text-gray.m-0.pr-4 {
+span.float-right {
     color: #00aaff;
-}
-
-a.muted-link {
-    color: #00aaff;
-}
-
-div.f6.text-gray.mt-2 {
-    color: #000966;
 }
 
