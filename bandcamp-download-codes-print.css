@@ -2,9 +2,9 @@
 
 div.card {
     background-color: #000000;
-    color: #fff;
-    border-style: solid;
     border-color: #aaa;
+    border-style: solid;
+    color: #fff;
 }
 
 div.hgroup h1 {
@@ -15,26 +15,27 @@ div.hgroup h2 {
     color: #000000;
 }
 
+p.code:before {
+    color: #ffffff;
+    content: "download code";
+    display: block;
+    font-family: "IM Fell DW Pica SC";
+    font-size: .7em;
+    line-height: 3em;
+    margin-top: -2.3em;
+    margin-left: .75em;
+}
+
 p.yum {
     font-family: "IM Fell DW Pica";
     font-size: 1.2em;
     line-height: 1em;
-    margin-left: .8em;
+    margin-left: .3em;
 }
 
 p.code {
-    font-family: "IM Fell DW Pica";
-    padding-left: 1em;
     font-weight: normal;
-}
-
-p.code:before {
-    content: "download code";
-    color: #ffffff;
-    font-family: "IM Fell DW Pica SC";
-    font-size: .7em;
-    display: block;
-    line-height: 3em;
-    margin-top: -2.3em;
+    padding-left: 1em;
+    font-family: monospace;
 }
 
