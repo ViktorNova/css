@@ -2501,3 +2501,11 @@ a.btn.btn-danger {
     background-color: #000;
 }
 
+a.link-gray-dark {
+    color: #00aaff;
+}
+
+div.d-table.table-fixed.width-full.Box-row--drag-hide {
+    border-color: #000966;
+}
+
