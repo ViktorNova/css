@@ -2463,3 +2463,41 @@ span.float-right {
     color: #00aaff;
 }
 
+button.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
+    border-style: none;
+}
+
+button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
+    border-style: none;
+}
+
+button.btn.btn-sm.btn-with-count.js-toggler-target {
+    border-radius: 0;
+}
+
+button.btn.btn-sm.BtnGroup-item {
+    border-radius: 0;
+}
+
+span.commit-author-section {
+    color: #000;
+}
+
+span.text-gray-dark {
+    color: #00aaff;
+}
+
+div.repository-meta-content.col-11.mb-1 span a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+strong.branch-name {
+    color: #000;
+    background-color: #00aaff;
+}
+
+a.btn.btn-danger {
+    background-color: #000;
+}
+
