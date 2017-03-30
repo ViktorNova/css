@@ -840,10 +840,6 @@ div.alert.delete.simple {
     background-color: inherit;
 }
 
-div.alert.fork.simple {
-    border-color: #000396;
-}
-
 div.alert.issues_closed {
     background-color: inherit;
     border-color: #000396;
@@ -1301,11 +1297,6 @@ div.flex-table.gh-header-meta {
     border-color: #000396;
 }
 
-div.form-actions {
-    background-color: #000966;
-    border-color: #000966;
-}
-
 div.get-repo-modal.dropdown-menu.dropdown-menu-sw.pb-0.js-toggler-container {
     background-color: rgba(0,0,0,0.7);
     border-color: #000966;
@@ -1639,6 +1630,7 @@ div.ul div.table-list-cell:hover div {
 
 div.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck {
     background-color: #000;
+    border-color: #000966;
 }
 
 div.vcard-stats {
@@ -1812,6 +1804,7 @@ nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loader
 nav.underline-nav {
     background-color: #000;
     border-style: none;
+    border-color: #000;
 }
 
 ol.task-list li pre {
@@ -1974,6 +1967,7 @@ span.datetime {
 span.discussion-item-icon {
     background-color: inherit;
     color: #000966;
+    border-style: none;
 }
 
 span.edit-link {
@@ -2411,10 +2405,6 @@ div.user-profile-repo-filter.border-bottom.border-gray-dark.py-3 {
     border-color: #000966;
 }
 
-a.underline-nav-item {
-    border-color: #000966;
-}
-
 div.branch-summary.js-branch-row {
     border-color: #000966;
 }
@@ -2507,5 +2497,240 @@ a.link-gray-dark {
 
 div.d-table.table-fixed.width-full.Box-row--drag-hide {
     border-color: #000966;
+}
+
+div.range-editor.text-gray.js-range-editor {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+div.compare-pr-placeholder {
+    background-color: inherit;
+    border-color: #000966;
+}
+
+button.btn.btn-sm.select-menu-button.js-menu-target.branch {
+    border-style: none;
+}
+
+div.gh-header-meta {
+    color: #00aaff;
+}
+
+button.btn-link.js-toggle-range-editor-cross-repo {
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+li.title {
+    background-color: #000;
+    border-color: #000966;
+}
+
+ul.comparison-list li {
+    background-color: #000;
+    border-color: #000966;
+}
+
+ul.comparison-list {
+    border-color: #000966;
+}
+
+ul.comparison-list li em {
+    color: #000966;
+}
+
+div.branch-action-item.js-details-container {
+    background-color: #000;
+}
+
+div.branch-action-item {
+    background-color: #000;
+    border-color: #000966;
+}
+
+div.merge-status-item.d-flex.flex-items-baseline {
+    background-color: #000;
+    border-color: #000966;
+}
+
+span.status-meta {
+    color: #000966;
+}
+
+span.commit-ref.css-truncate.user-select-contain.expandable.head-ref {
+    color: #000;
+    background-color: #00aaff;
+}
+
+span.commit-ref.css-truncate.user-select-contain.expandable.base-ref {
+    background-color: #00aaff;
+}
+
+p.reason.text-small.text-gray {
+    color: #000966;
+}
+
+span.js-collab-option label {
+    color: #000966;
+}
+
+span.state.state-open.float-right {
+    color: #000;
+}
+
+div.discussion-item.discussion-item-ref {
+    border-color: #000966;
+}
+
+div.TableObject.gh-header-meta {
+    border-color: #000966;
+}
+
+.user-profile-sticky-bar::after {
+    background-color: #000;
+    border-color: #000966;
+}
+
+div.user-profile-nav {
+    border-style: none;
+}
+
+span.f4.link-gray-dark {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+span.link-gray.pl-1 {
+    color: #00aaff;
+    font-style: italic;
+}
+
+span.mr-3 {
+    color: #000966;
+}
+
+p.text-gray.text-small.mb-0 {
+    color: #000966;
+}
+
+div.d-table.col-12.width-full.py-4.border-bottom.border-gray-light {
+    border-color: #000966;
+}
+
+p.text-gray.text-small {
+    color: #000966;
+}
+
+div.user-profile-nav.js-sticky.top-0 {
+    background-color: #000;
+}
+
+div.col-12.d-block.width-full.py-4.border-bottom {
+    border-color: #000966;
+}
+
+p.d-inline-block.col-9.text-gray.pr-4 {
+    color: #000966;
+}
+
+.text-gray {
+    color: #00aaff;
+}
+
+div.discussion-topic-header {
+    background-color: #000966;
+    border-radius: 0;
+}
+
+div.form-actions {
+    background-color: #000966;
+    border-color: #000966;
+    margin-top: -8px;
+}
+
+p a img {
+    background-color: inherit;
+}
+
+ul.js-navigation-container {
+    border-color: #000966;
+}
+
+div.d-table {
+    border-color: #000966;
+}
+
+div.merge-message {
+    background-color: #000000;
+    border-color: #000966;
+}
+
+.text-gray-light path {
+    color: #00aaff;
+}
+
+span.css-truncate-target.text-bold.v-align-middle {
+    color: #000;
+}
+
+p.text-gray-light {
+    color: #000966;
+}
+
+span.commit-ref.css-truncate.user-select-contain.expandable {
+    background-color: #00aaff;
+}
+
+span.commit-ref.user-select-contain {
+    background-color: #00aaff;
+}
+
+div.discussion-item.discussion-item-merged.js-details-container.Details {
+    border-color: #000966;
+}
+
+div.discussion-item.discussion-item-integrations-callout.js-details-container.Details.js-notice {
+    border-color: #000966;
+}
+
+div.alert.fork.simple {
+    background-color: inherit;
+    border-color: #00aaff;
+    color: #000966;
+}
+
+div.title {
+    color: #000966;
+}
+
+a.more-repos-link.js-more-repos-link {
+    background-color: #000966;
+}
+
+button.btn-link.repo-filter.text-small.text-gray.js-repo-filter-tab {
+    background-color: inherit;
+}
+
+div.message blockquote {
+    background-color: #000;
+}
+
+div.pull-info {
+    color: #00aaff;
+}
+
+div.time relative-time {
+    color: #000966;
+}
+
+a.btn.btn-sm.btn-primary {
+    background-color: #00aaff;
+}
+
+button.btn-link.muted-link.contributors-toggle strong {
+    color: #000;
 }
 
