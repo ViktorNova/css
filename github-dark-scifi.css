@@ -293,6 +293,11 @@ a, div, span, li {
     text-shadow: none ;
 }
 
+a.branch-name.css-truncate-target {
+    background-color: #00aaff;
+    color: #000;
+}
+
 a.btn {
     border-color: #000966;
 }
@@ -313,9 +318,18 @@ a.btn.btn-danger.noTransition {
     background-color: inherit;
 }
 
+a.btn.btn-outline.BtnGroup-item {
+    background-color: #00aaff;
+    color: #000;
+}
+
 a.btn.btn-outline.get-repo-btn {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+a.btn.btn-outline.tooltipped.tooltipped-sw {
+    background-color: inherit;
 }
 
 a.btn.btn-primary {
@@ -360,6 +374,10 @@ a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target span.js-select-but
     color: #000;
 }
 
+a.btn.d-none.d-md-inline-block {
+    background-color: #000966;
+}
+
 a.btn.site-header-actions-btn.mr-1 {
     background-color: #00aaff;
     color: #000;
@@ -398,9 +416,17 @@ a.css-truncate.css-truncate-target.notifications-repo-link {
     color: #000000;
 }
 
+a.d-flex.position-relative.text-gray-dark.no-underline.overflow-hidden.p-3 {
+    background-color: #000;
+}
+
 a.filter-item.selected {
     background-color: #00aaff;
     color: #000000;
+}
+
+a.h5.text-gray-dark {
+    color: #00aaff;
 }
 
 a.js-details-target {
@@ -450,6 +476,14 @@ a.label.tooltipped.tooltipped-n,span.state {
     padding-left: 1em;
     padding-right: 1em;
     width: auto;
+}
+
+a.link-gray-dark.no-underline.h4.js-navigation-open {
+    color: #00aadd;
+}
+
+a.link-gray-dark.no-underline.text-bold.wb-break-all.d-inline-block {
+    color: #00aaff;
 }
 
 a.menu-item {
@@ -532,6 +566,14 @@ a.selected.js-selected-navigation-item.sunken-menu-item.noTransition,a.tabnav-ta
 ;
 }
 
+a.sha {
+    border-color: #000966;
+}
+
+a.sha.btn.btn-outline.BtnGroup-item {
+    background-color: inherit;
+}
+
 a.social-count {
     border: 1px solid #00aaff;
     border-color: #000000;
@@ -547,6 +589,15 @@ a.social-count.noTransition {
     border-style: solid;
 }
 
+a.subnav-item.js-subnav-item {
+    border-color: #000966;
+}
+
+a.subnav-item.js-subnav-item.selected {
+    background-color: #00aaff;
+    color: #000;
+}
+
 a.tabnav-tab {
     border-color: #000396;
 }
@@ -560,6 +611,14 @@ a.tabnav-tab.selected .octicon {
 }
 
 a.tabnav-tab.write-tab.js-write-tab.selected {
+    border-color: #000966;
+}
+
+a.text-gray-dark {
+    color: #00aaff;
+}
+
+a.underline-nav-item {
     border-color: #000966;
 }
 
@@ -636,6 +695,14 @@ button,input,.js-select-button,.select-menu, .js-select-menu,.js-menu-container 
 
 button.ajax-pagination-btn.btn.btn-outline.border-gray-dark.width-full.f6.mt-0.py-2.contribution-activity-show-more {
     border-style: none;
+}
+
+button.btn-link.lock-toggle-link strong {
+    color: #000;
+}
+
+button.btn-link.muted-link {
+    color: #000;
 }
 
 button.btn-link.muted-link.js-details-target {
@@ -717,6 +784,12 @@ button.web-edit-button span.octicon:hover {
     color: #00ffff;
 }
 
+code.commit-sha {
+    background-color: #00aaff;
+    border-style: none;
+    color: #000;
+}
+
 code.language-javascript.highlight {
     background-color: inherit;
 }
@@ -769,6 +842,50 @@ code.noTransition {
 div p code.noTransition {
     background-color: #00aaff;
     color: #000000;
+}
+
+div.Box-body {
+    background-color: #000;
+}
+
+div.Box-header.d-flex.flex-items-center.flex-justify-between.px-2 {
+    background-color: #000;
+}
+
+div.Box-header.py-2.d-flex.flex-column.flex-shrink-0.flex-md-row.flex-md-items-center {
+    background-color: #000;
+}
+
+div.Box.p-3.mt-2 {
+    background-color: #000;
+    border-color: #00aaff;
+}
+
+div.Box.p-3.wb-break-all {
+    background-color: #000966;
+    border-color: #000966;
+}
+
+div.CodeMirror-gutter.CodeMirror-linenumbers {
+    background-color: #000;
+}
+
+div.CodeMirror-linenumber.CodeMirror-gutter-elt {
+    background-color: #000;
+    border-color: #000a66;
+    color: #000966;
+}
+
+div.CodeMirror-lines {
+    background-color: #000;
+}
+
+div.CodeMirror-scroll {
+    background-color: #000;
+}
+
+div.TableObject.gh-header-meta {
+    border-color: #00aaff;
 }
 
 div.ace_content {
@@ -838,6 +955,10 @@ div.alert.create.simple {
 
 div.alert.delete.simple {
     background-color: inherit;
+}
+
+div.alert.fork.simple {
+    border-color: #000396;
 }
 
 div.alert.issues_closed {
@@ -934,6 +1055,10 @@ div.auth-form-body.mt-3 {
     border-width: 6px;
 }
 
+div.bg-gray {
+    background-color: #000;
+}
+
 div.blankslate {
     background-color: #000000;
     border-color: #000396;
@@ -950,6 +1075,10 @@ div.blankslate.spacious.large-format.capped {
 
 div.body {
     border-color: #000396;
+}
+
+div.border-bottom.py-3.mt-3.mb-4 {
+    border-color: #000966;
 }
 
 div.boxed-group-inner {
@@ -982,6 +1111,17 @@ div.boxed-group.flush.js-notifications-browser h3 {
     border-color: #000396;
 }
 
+div.branch-group-heading {
+    background-color: #00aaff;
+    border-color: #000966;
+    color: #000;
+}
+
+div.branch-infobar {
+    background-color: inherit;
+    border-color: #000966;
+}
+
 div.branch-infobar.clearfix {
     background-color: #00aaff;
     border-color: #00aaff;
@@ -990,6 +1130,10 @@ div.branch-infobar.clearfix {
 div.branch-infobar.clearfix p {
     background-color: transparent;
     color: #000000;
+}
+
+div.branch-summary.js-branch-row {
+    border-color: #000966;
 }
 
 div.capped-box.overall-summary {
@@ -1097,6 +1241,10 @@ div.commit {
     background-color: #000000;
 }
 
+div.commit-branches {
+    border-color: #000966;
+}
+
 div.commit-form {
     border-color: #000396;
 }
@@ -1179,8 +1327,29 @@ div.contrib-footer.clearfix {
     background-color: #000000;
 }
 
+div.d-flex.border-bottom.py-3 {
+    border-color: #000966;
+}
+
+div.d-flex.flex-items-baseline.border-bottom.border-gray.py-3 {
+    border-color: #000966;
+}
+
+div.d-flex.flex-items-baseline.py-3 {
+    border-color: #000966;
+}
+
 div.dashboard-notice.js-notice {
     border-color: #000396;
+}
+
+div.dashboard-sidebar.js-sticky.top-0.px-3.px-md-4.px-lg-4.overflow-auto {
+    background-color: #000;
+    border-style: none;
+}
+
+div.dashboard-sidebar.js-sticky.top-0.px-3.px-md-4.px-lg-4.overflow-auto.js-pinned-items-reorder-container {
+    background-color: #000;
 }
 
 div.discussion-item-header {
@@ -1233,6 +1402,10 @@ div.editor-gitignore-template.js-gitignore-template.is-visible {
     color: #00aaff;
 }
 
+div.f6.text-gray.mt-1 {
+    color: #000;
+}
+
 div.f6.text-gray.mt-2 {
     color: #000966;
 }
@@ -1268,6 +1441,11 @@ div.file-history-tease-header {
     border-color: #000396;
 }
 
+div.file-info a.link-gray-dark {
+    color: #00aaff;
+    font-weight: bold;
+}
+
 div.file-wrap {
     border-color: #000396;
 }
@@ -1297,6 +1475,11 @@ div.flex-table.gh-header-meta {
     border-color: #000396;
 }
 
+div.form-actions {
+    background-color: #000966;
+    border-color: #000966;
+}
+
 div.get-repo-modal.dropdown-menu.dropdown-menu-sw.pb-0.js-toggler-container {
     background-color: rgba(0,0,0,0.7);
     border-color: #000966;
@@ -1305,12 +1488,24 @@ div.get-repo-modal.dropdown-menu.dropdown-menu-sw.pb-0.js-toggler-container {
     box-shadow: 0 0 12px #000;
 }
 
+div.gh-header-shadow.box-shadow {
+    background-color: rgba(0,0,0,0.8);
+}
+
+div.gh-header.js-details-container.Details.js-socket-channel.js-updatable-content.issue {
+    background-color: inherit;
+}
+
 div.gist-description div {
     color: #00aaff;
 }
 
 div.gollum-editor-help.noTransition div.gollum-editor-help-wrapper.noTransition, div.gollum-editor-help.noTransition, div.gollum-editor-help-wrapper.noTransition {
     background: #000000;
+}
+
+div.header {
+    background-color: inherit;
 }
 
 div.header-search-scope {
@@ -1351,6 +1546,10 @@ div.js-file-header.file-header, div.js-file-header.file-header::before {
     border-color: #000000;
 }
 
+div.js-notice.bg-white {
+    background-color: #000;
+}
+
 div.js-previewable-comment-form.js-suggester-container.previewable-comment-form.preview-selected {
     background-color: #000000;
 }
@@ -1366,6 +1565,10 @@ div.js-previewable-comment-form.previewable-comment-form.write-selected {
 div.js-socket-channel.js-updatable-content.comment-reactions.has-reactions.js-reactions-container {
     background-color: #000000;
     border-style: none;
+}
+
+div.js-user-status-container.border-top-0.rounded-top-0.rounded-bottom-1.p-2.border {
+    border-color: #000966;
 }
 
 div.left.text-muted {
@@ -1460,6 +1663,10 @@ div.profile-timeline-year-list.bg-white.col-2.float-right.pl-5.js-profile-timeli
 div.protip.protip-callout {
     border-color: #000396;
     color: #000396;
+}
+
+div.py-2.my-2.border-bottom {
+    border-color: #000966;
 }
 
 div.readme.boxed-group.clearfix.announce.instapaper_body h3 {
@@ -1592,6 +1799,10 @@ div.tabnav {
     border-color: #000396;
 }
 
+div.thread-subscription-status.js-socket-channel.js-updatable-content {
+    background-color: #000;
+}
+
 div.thread-subscription-status.js-thread-subscription-status.js-socket-channel.js-updatable-content {
     background-color: #000000;
     border-color: #000996;
@@ -1628,9 +1839,12 @@ div.ul div.table-list-cell:hover div {
     background-color: #000633;
 }
 
+div.user-profile-repo-filter.border-bottom.border-gray-dark.py-3 {
+    border-color: #000966;
+}
+
 div.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck {
     background-color: #000;
-    border-color: #000966;
 }
 
 div.vcard-stats {
@@ -1685,6 +1899,10 @@ h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 {
     background-color: inherit;
 }
 
+header.Header {
+    background-color: #000;
+}
+
 header.site-header.js-details-container {
     background-color: inherit;
 }
@@ -1693,6 +1911,10 @@ html, body {
     background: #000000;
     background-color: #000000;
     color: #00a6ff;
+}
+
+img.avatar.width-full.height-full.avatar-before-user-status {
+    border-color: #000966;
 }
 
 input {
@@ -1757,7 +1979,13 @@ li p code {
 li pre code {
     background-color: #000996;
     color: #000000;
+    line-height: 1.7em;
     padding: 10px;
+}
+
+li.Box-row.d-flex.p-2 {
+    background-color: #000;
+    border-color: #000966;
 }
 
 li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
@@ -1765,6 +1993,14 @@ li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
 }
 
 li.col-12.d-block.width-full.py-4.border-bottom.public.source {
+    border-color: #000966;
+}
+
+li.col-12.d-flex.width-full.py-4.border-bottom.public.fork {
+    border-color: #000966;
+}
+
+li.col-12.d-flex.width-full.py-4.border-bottom.public.source {
     border-color: #000966;
 }
 
@@ -1791,6 +2027,11 @@ li.repo-list-item.public.source {
     border-color: #000396;
 }
 
+nav.UnderlineNav-body {
+    background-color: #000;
+    border-color: #000966;
+}
+
 nav.menu {
     background: none;
     border: none;
@@ -1804,7 +2045,6 @@ nav.sunken-menu.repo-nav.js-repo-nav.js-sidenav-container-pjax.js-octicon-loader
 nav.underline-nav {
     background-color: #000;
     border-style: none;
-    border-color: #000;
 }
 
 ol.task-list li pre {
@@ -1843,6 +2083,10 @@ p.reason {
     border-color: #000396;
 }
 
+p.reason.text-small.text-gray {
+    color: #00aaff;
+}
+
 p.reason.text-small.text-muted {
     color: #000966;
 }
@@ -1864,6 +2108,11 @@ p.text-success {
     font-size: 1em;
     font-weight: bold;
     width: 20em;
+}
+
+pre.CodeMirror-line {
+    background-color: #000;
+    border-color: #000a66;
 }
 
 pre.command-line {
@@ -1907,8 +2156,20 @@ span a span {
     color: #00ffff;
 }
 
+span.IssueLabel.d-inline-block {
+    background-color: #ff008c;
+}
+
 span.blob-code-inner {
     color: #00e1ff;
+}
+
+span.branch-group-name.text-shadow-light {
+    color: #000;
+}
+
+span.branch-meta.css-truncate-target {
+    color: #000966;
 }
 
 span.btn-link.select-menu-button.js-menu-target {
@@ -1942,6 +2203,10 @@ span.button-link.select-menu-button.js-menu-target {
     color: #000000;
 }
 
+span.commit-author-section {
+    color: #000966;
+}
+
 span.contrib-number {
     color: #00aaff;
     font-weight: bold;
@@ -1967,7 +2232,6 @@ span.datetime {
 span.discussion-item-icon {
     background-color: inherit;
     color: #000966;
-    border-style: none;
 }
 
 span.edit-link {
@@ -1982,8 +2246,16 @@ span.email-hidden-toggle a {
     background-color: inherit;
 }
 
+span.f4.text-gray-light.ml-1 {
+    color: #000;
+}
+
 span.file-info-divider {
     color: #000996;
+}
+
+span.float-right {
+    color: #00aaff;
 }
 
 span.gap {
@@ -2130,6 +2402,10 @@ span.path-divider {
     color: #000396;
 }
 
+span.pl-s {
+    color: #b694ff;
+}
+
 span.pl-vo {
     color: #00ffff;
 }
@@ -2187,6 +2463,14 @@ span.text-emphasized {
 }
 
 span.text-gray {
+    color: #00aaff;
+}
+
+span.text-gray-dark.mr-2 {
+    color: #00aaff;
+}
+
+span.text-gray-dark.no-underline {
     color: #00aaff;
 }
 
@@ -2273,11 +2557,23 @@ svg.octicon.octicon-organization {
     color: #00aaff;
 }
 
+svg.octicon.octicon-project {
+    color: #000966;
+}
+
 svg.octicon.octicon-pulse path {
     color: #000966;
 }
 
+svg.octicon.octicon-radio-tower path {
+    color: #00aaff;
+}
+
 svg.octicon.octicon-repo path {
+    color: #000966;
+}
+
+svg.octicon.octicon-repo-forked {
     color: #000966;
 }
 
@@ -2399,338 +2695,5 @@ ul.top-nav li a {
 
 ul.vcard-details {
     border-color: #000966;
-}
-
-div.user-profile-repo-filter.border-bottom.border-gray-dark.py-3 {
-    border-color: #000966;
-}
-
-div.branch-summary.js-branch-row {
-    border-color: #000966;
-}
-
-div.branch-group-heading {
-    background-color: #00aaff;
-    border-color: #000966;
-    color: #000;
-}
-
-a.subnav-item.js-subnav-item {
-    border-color: #000966;
-}
-
-a.subnav-item.js-subnav-item.selected {
-    background-color: #00aaff;
-    color: #000;
-}
-
-span.branch-group-name.text-shadow-light {
-    color: #000;
-}
-
-a.branch-name.css-truncate-target {
-    background-color: #00aaff;
-    color: #000;
-}
-
-span.branch-meta.css-truncate-target {
-    color: #000966;
-}
-
-div.header {
-    background-color: inherit;
-}
-
-svg.octicon.octicon-project {
-    color: #000966;
-}
-
-button.btn-link.muted-link {
-    color: #000;
-}
-
-span.float-right {
-    color: #00aaff;
-}
-
-button.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
-    border-style: none;
-}
-
-button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
-    border-style: none;
-}
-
-button.btn.btn-sm.btn-with-count.js-toggler-target {
-    border-radius: 0;
-}
-
-button.btn.btn-sm.BtnGroup-item {
-    border-radius: 0;
-}
-
-span.commit-author-section {
-    color: #000;
-}
-
-span.text-gray-dark {
-    color: #00aaff;
-}
-
-div.repository-meta-content.col-11.mb-1 span a {
-    font-style: italic;
-    text-decoration: underline;
-}
-
-strong.branch-name {
-    color: #000;
-    background-color: #00aaff;
-}
-
-a.btn.btn-danger {
-    background-color: #000;
-}
-
-a.link-gray-dark {
-    color: #00aaff;
-}
-
-div.d-table.table-fixed.width-full.Box-row--drag-hide {
-    border-color: #000966;
-}
-
-div.range-editor.text-gray.js-range-editor {
-    background-color: inherit;
-    border-color: #000966;
-}
-
-div.compare-pr-placeholder {
-    background-color: inherit;
-    border-color: #000966;
-}
-
-button.btn.btn-sm.select-menu-button.js-menu-target.branch {
-    border-style: none;
-}
-
-div.gh-header-meta {
-    color: #00aaff;
-}
-
-button.btn-link.js-toggle-range-editor-cross-repo {
-    padding-left: .5em;
-    padding-right: .5em;
-    margin-left: .2em;
-    margin-right: .2em;
-}
-
-li.title {
-    background-color: #000;
-    border-color: #000966;
-}
-
-ul.comparison-list li {
-    background-color: #000;
-    border-color: #000966;
-}
-
-ul.comparison-list {
-    border-color: #000966;
-}
-
-ul.comparison-list li em {
-    color: #000966;
-}
-
-div.branch-action-item.js-details-container {
-    background-color: #000;
-}
-
-div.branch-action-item {
-    background-color: #000;
-    border-color: #000966;
-}
-
-div.merge-status-item.d-flex.flex-items-baseline {
-    background-color: #000;
-    border-color: #000966;
-}
-
-span.status-meta {
-    color: #000966;
-}
-
-span.commit-ref.css-truncate.user-select-contain.expandable.head-ref {
-    color: #000;
-    background-color: #00aaff;
-}
-
-span.commit-ref.css-truncate.user-select-contain.expandable.base-ref {
-    background-color: #00aaff;
-}
-
-p.reason.text-small.text-gray {
-    color: #000966;
-}
-
-span.js-collab-option label {
-    color: #000966;
-}
-
-span.state.state-open.float-right {
-    color: #000;
-}
-
-div.discussion-item.discussion-item-ref {
-    border-color: #000966;
-}
-
-div.TableObject.gh-header-meta {
-    border-color: #000966;
-}
-
-.user-profile-sticky-bar::after {
-    background-color: #000;
-    border-color: #000966;
-}
-
-div.user-profile-nav {
-    border-style: none;
-}
-
-span.f4.link-gray-dark {
-    color: #00aaff;
-    font-weight: bold;
-}
-
-span.link-gray.pl-1 {
-    color: #00aaff;
-    font-style: italic;
-}
-
-span.mr-3 {
-    color: #000966;
-}
-
-p.text-gray.text-small.mb-0 {
-    color: #000966;
-}
-
-div.d-table.col-12.width-full.py-4.border-bottom.border-gray-light {
-    border-color: #000966;
-}
-
-p.text-gray.text-small {
-    color: #000966;
-}
-
-div.user-profile-nav.js-sticky.top-0 {
-    background-color: #000;
-}
-
-div.col-12.d-block.width-full.py-4.border-bottom {
-    border-color: #000966;
-}
-
-p.d-inline-block.col-9.text-gray.pr-4 {
-    color: #000966;
-}
-
-.text-gray {
-    color: #00aaff;
-}
-
-div.discussion-topic-header {
-    background-color: #000966;
-    border-radius: 0;
-}
-
-div.form-actions {
-    background-color: #000966;
-    border-color: #000966;
-    margin-top: -8px;
-}
-
-p a img {
-    background-color: inherit;
-}
-
-ul.js-navigation-container {
-    border-color: #000966;
-}
-
-div.d-table {
-    border-color: #000966;
-}
-
-div.merge-message {
-    background-color: #000000;
-    border-color: #000966;
-}
-
-.text-gray-light path {
-    color: #00aaff;
-}
-
-span.css-truncate-target.text-bold.v-align-middle {
-    color: #000;
-}
-
-p.text-gray-light {
-    color: #000966;
-}
-
-span.commit-ref.css-truncate.user-select-contain.expandable {
-    background-color: #00aaff;
-}
-
-span.commit-ref.user-select-contain {
-    background-color: #00aaff;
-}
-
-div.discussion-item.discussion-item-merged.js-details-container.Details {
-    border-color: #000966;
-}
-
-div.discussion-item.discussion-item-integrations-callout.js-details-container.Details.js-notice {
-    border-color: #000966;
-}
-
-div.alert.fork.simple {
-    background-color: inherit;
-    border-color: #00aaff;
-    color: #000966;
-}
-
-div.title {
-    color: #000966;
-}
-
-a.more-repos-link.js-more-repos-link {
-    background-color: #000966;
-}
-
-button.btn-link.repo-filter.text-small.text-gray.js-repo-filter-tab {
-    background-color: inherit;
-}
-
-div.message blockquote {
-    background-color: #000;
-}
-
-div.pull-info {
-    color: #00aaff;
-}
-
-div.time relative-time {
-    color: #000966;
-}
-
-a.btn.btn-sm.btn-primary {
-    background-color: #00aaff;
-}
-
-button.btn-link.muted-link.contributors-toggle strong {
-    color: #000;
 }
 
