@@ -1,0 +1,33 @@
+/* 
+This makes Gmail look the way I want it to
+Note - this is meant to be used in conjunction with the Dark Reader Chrome extension
+https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+(other color inversion plugins should work but who knows)
+*/
+.yO, .zA, body, div,.yO>.xW {
+    viktor: "This is most text, including email body text, read email senders/titles in list view";
+    color: #8373ff;
+}
+
+.zF, .bq3, .bqe, [role=listitem] {
+    font-size: 1.1em;
+    color: #00aaff;
+}
+
+.y2 {
+    color: #d0d3fa;
+}
+
+.av {
+    color: #fff;
+}
+
+::selection {
+    background-color: #0900ff;
+    color: #ffffff;
+}
+
+a {
+    color: #ff3bc1;
+}
+
