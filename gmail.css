@@ -10,11 +10,13 @@ https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkh
 }
 
 .zF, .bq3, .bqe, [role=listitem] {
+    viktor: "Unread messages";
     font-size: 1.1em;
     color: #00aaff;
 }
 
 .y2 {
+    viktor: "Message preview text";
     color: #d0d3fa;
 }
 
@@ -29,5 +31,15 @@ https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkh
 
 a {
     color: #ff3bc1;
+}
+
+.pj .KRQuhe {
+    viktor: "Chat - sent messages";
+    background-color: #dfd9ff;
+}
+
+.Ik {
+    viktor: "Chat - window bar";
+    background-color: ##01004a;
 }
 
